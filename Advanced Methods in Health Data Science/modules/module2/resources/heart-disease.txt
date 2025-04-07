@@ -1,0 +1,15 @@
+
+Description
+
+Current research shows that long-term, low-level inflammation can be a cause and predictor of heart disease, which is the leading cause of premature death in the Western world. One measure of long-term, low-level inflammation that can be used to assess the risk of heart disease is called C-Reactive Protein (CRP). It can be measured in the blood and research shows that higher levels of CRP are associated with a higher risk of heart disease. 
+
+A researcher wanted to know whether an exercise training program could reduce long-term, low-level inflammation as measured by CRP. The study recruited 20 participants who underwent a 6-month exercise training program. In order to determine whether inflammation had been reduced, the study measured the inflammatory marker CRP at pre-training, 2 weeks into training and after 6 months of training.
+
+
+Variables:
+
+id - subject identifier
+time -  1: pre-training measurement
+        2: two weeks afer beginning exercise training
+        3: six months after beginning exercise training
+crp - the C-Reactive Protein measurement

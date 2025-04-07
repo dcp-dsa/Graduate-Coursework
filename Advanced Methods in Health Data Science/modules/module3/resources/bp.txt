@@ -1,0 +1,22 @@
+The National Health and Nutritional Examination Survey (NHANES) is a set of surveys of various topics that has been ongoing since the 1960's.  More information can be found at https://www.cdc.gov/nchs/nhanes/about_nhanes.htm.
+
+This file joins data from the following NHANES data files:
+DEMO_G.XPT
+BPX_G.XPT
+BMX_G.XPT
+
+The contents of this file include information about bloodpressure, gender, age, and bmi of the survey respondents from a single year of the NHANES survey.
+
+The datafile contains the fields described below.
+
+The follwing fields are repeated up to 4 times for each bp_type:
+
+    seq: The sequence number from the NHANES source, unique identifier for a subject
+    age: The age of the subject in years
+    male: 1 if male, 0 if female (as identified by the survey respondents)
+    bmi: the Body Mass Index of the subject
+
+These fields represent one of four possible blood pressure readings associated with the above demographic data:
+    bp_type: S - Systolic BP or D - Diastolic BP
+    bp_seq: number 1 through 4.  for each seq value (subject), each bp_type should have a matched bp_seq comprising a pair of Systolic and Diastolic values
+    bp_value: the reading for the bloodpressure

@@ -1,0 +1,25 @@
+Data from this file was sourced from https://gis.cdc.gov/grasp/fluview/flu_by_age_virus.html
+
+This represents all positive influenza specimens reported by public health laboratories in the years 1998 to 2019.  The data are grouped by year, month, and age group.
+
+The age groups are:
+
+  * 0-4 yr
+  * 5-24 yr
+  * 25-64 yr
+  * 65+ yr
+  
+The fields are:
+
+  * Year - the four digit year
+  * Week - the week number of the year, starting at 1
+  * Age Group - see above
+  * A (H1) - number of positive specimens for this virus classification in this month and year for this age group
+  * A (Unable to Subtype) - number of positive specimens for this virus classification in this month and year for this age group
+  * A (H3) - number of positive specimens for this virus classification in this month and year for this age group
+  * A (H1N1)pdm09 - number of positive specimens for this virus classification in this month and year for this age group
+  * A (Subtyping not Performed) - number of positive specimens for this virus classification in this month and year for this age group
+  * B (Victoria Lineage) - number of positive specimens for this virus classification in this month and year for this age group
+  * B (Yamagata Lineage) - number of positive specimens for this virus classification in this month and year for this age group
+  * B (Lineage Unspecified) - number of positive specimens for this virus classification in this month and year for this age group
+  * H3N2v - number of positive specimens for this virus classification in this month and year for this age group

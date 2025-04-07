@@ -1,0 +1,123 @@
+pre_participant_id,redcap_survey_identifier,prerollout_survey_timestamp,pre_gender,pre_role,pre_yrs_experience,pre_calculator_use,pre_why_no_use___1,pre_why_no_use___2,pre_why_no_use___3,pre_why_no_use___4,pre_why_no_use___5,pre_why_no_use___6,pre_why_no_use___20,pre_mode___1,pre_mode___2,pre_mode___3,pre_mode___4,pre_mode___5,pre_commercial_pay,pre_frequency,pre_have_favorites,pre_num_used,pre_calc_type_preference___1,pre_calc_type_preference___2,pre_calc_type_preference___3,pre_use_during_visit,pre_when_used___1,pre_when_used___2,pre_when_used___3,pre_documentation_freq,pre_use_to_plan_care,pre_affects_outcomes,pre_could_affect_outcomes,pre_feeling_positive_outcome,pre_difficult_use,pre_use_if_integrated,pre_efficency_in_use,pre_efficiency_in_doc,pre_efficency_when_unavailable,pre_stay_up_to_date___1,pre_stay_up_to_date___2,pre_stay_up_to_date___3,pre_stay_up_to_date___4,pre_stay_up_to_date___5,pre_stay_up_to_date___6,pre_stay_up_to_date___7,pre_use_new_calcs,pre_likely_to_use_newer,pre_wait_time_to_use,pre_who_determines,prerollout_survey_complete,pre_barriers,barriers_coded_1,barriers_coded_2,pre_lacking_features,lack_features_coded_1,lack_features_coded_2
+1,,11/19/14 02:21 PM,1,1,8,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,1,,,4,,,,0,1,0,0,0,0,0,,,,,2,Not having it at the point of care  And not getting it to do autodata entry,integration,integration,Prognosis,specific calculator feature,specific calculator feature
+2,,11/19/14 02:31 PM,1,1,8,1,0,0,0,0,0,0,0,1,0,0,0,0,0,4,0,1,1,0,0,2,1,0,0,5,3,1,,1,5,1,3,2,3,0,0,0,0,0,0,1,1,1,5,1,2,,,,,,
+3,,11/19/14 02:24 PM,1,1,7,1,0,0,0,0,0,0,0,1,1,0,0,0,1,4,1,4,1,0,0,4,1,0,0,4,4,1,,2,3,4,2,2,3,0,0,0,1,1,1,0,3,3,4,1,2,,,,,,
+4,,11/19/14 02:25 PM,0,4,9,0,0,0,0,0,1,0,0,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,1,,,2,,,,1,0,1,0,1,1,0,,,,,2,I find that I do not need them in my practice,necessity,necessity,none,none,none
+5,,11/19/14 02:36 PM,1,3,5,1,0,0,0,0,0,0,0,1,1,0,0,0,1,4,0,2,1,0,1,3,0,0,1,3,4,1,,3,3,5,2,2,3,1,0,0,1,0,0,0,2,3,3,1,2,Phone battery,technical,technical,None,none,none
+6,,[not completed],1,1,9,1,0,0,0,0,0,0,0,0,1,0,0,0,0,,,,0,0,0,,0,0,0,,,,,,,,,,,0,0,0,0,0,0,0,,,,,0,"Use of the EMR is very user unfriendly.  Too burdensome, too many clicks, gets in the way of patient care",UI,UI,One click,UI,UI
+7,,11/19/14 02:37 PM,1,1,9,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,1,,,2,,,,0,0,0,1,0,1,0,,,,,2,,,,,,
+8,,[not completed],,,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,,,,,,,,0,0,0,0,0,0,0,,,,,0,Many conditions I treat to not have them,necessity,necessity,None,none,none
+9,,11/19/14 02:41 PM,1,1,9,1,0,0,0,0,0,0,0,0,1,0,0,0,1,3,1,2,1,0,0,3,1,0,0,4,4,1,,1,2,5,1,1,3,1,0,0,0,0,0,0,3,3,5,1,2,,,,,,
+10,,11/19/14 02:43 PM,0,1,3,1,0,0,0,0,0,0,0,1,1,0,0,0,0,3,0,5,0,0,1,2,1,0,0,3,3,1,,1,3,3,2,2,2,0,1,0,0,0,0,0,4,4,3,1,2,,,,,,
+11,,11/19/14 02:49 PM,1,1,9,1,0,0,0,0,0,0,0,1,1,0,0,0,0,3,0,2,1,0,0,3,0,1,0,4,4,1,,2,3,4,1,3,3,1,0,0,0,0,0,0,3,3,1,1,2,,,,Not connected with Powerchart,integration,integration
+12,,11/19/14 02:51 PM,1,1,7,1,0,0,0,0,0,0,0,0,1,0,0,0,0,4,1,1,0,0,1,4,0,0,1,5,4,1,,3,4,5,1,1,1,1,0,0,0,0,0,0,1,1,2,1,2,Not aware of a good melanoma calculator but would like one.,training,training,Dermatology related products.,specific calculator feature,none
+13,,11/19/14 03:09 PM,1,1,8,1,0,0,0,0,0,0,0,0,1,0,0,0,0,3,0,1,1,0,0,3,1,0,0,4,4,1,,1,3,5,1,1,3,1,0,1,1,1,1,0,4,4,2,1,2,,,,,,
+14,,11/19/14 03:00 PM,0,1,9,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,1,,,4,,,,0,0,0,1,0,0,0,,,,,2,Digging out the right data,integration,integration,,,
+15,,[not completed],1,1,7,1,0,0,0,0,0,0,0,0,1,0,0,0,0,3,0,1,1,0,0,,0,0,0,,,,,,,,,,,0,0,0,0,0,0,0,,,,,0,,,,,,
+16,,11/19/14 03:06 PM,0,1,7,1,0,0,0,0,0,0,0,0,1,0,0,0,0,3,1,2,1,0,0,2,0,0,1,4,4,1,,3,5,4,1,1,3,1,1,1,0,0,0,0,4,5,1,1,2,,,,,,
+17,,11/19/14 03:15 PM,0,1,9,1,0,0,0,0,0,0,0,1,1,0,0,0,0,4,0,2,0,1,0,3,1,0,0,4,3,1,,1,3,5,1,2,1,1,1,1,1,1,1,0,4,3,2,1,2,,,,,,
+18,,11/19/14 03:23 PM,1,1,9,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,1,,,2,,,,0,0,0,0,0,0,1,,,,,2,,,,,,
+19,,11/19/14 03:34 PM,1,1,9,1,0,0,0,0,0,0,0,1,1,0,0,0,0,3,1,3,1,0,0,3,0,0,1,4,3,1,,2,5,5,2,2,2,1,0,0,0,0,0,0,4,3,1,1,2,Lack of EMR integration and lack of accessiblity,integration,integration,Ease of incorporating clinical data,integration,integration
+20,,11/19/14 03:36 PM,1,1,8,1,0,0,0,0,0,0,0,1,1,0,1,0,0,3,0,1,1,0,0,2,0,0,1,3,2,1,,2,5,4,1,2,2,1,0,0,0,0,0,0,2,4,2,1,2,how easy they are to use within the documentation process. ,integration,integration,"full integration with the EMR, and being next to the data; so that you can do the needed calculation while looking at the raw data",integration,integration
+21,,11/19/14 03:37 PM,1,1,7,1,0,0,0,0,0,0,0,1,1,0,0,0,0,3,1,3,1,0,0,4,1,0,1,3,3,1,,3,3,5,1,1,3,1,0,0,1,0,0,0,3,3,3,1,2,,,,,,
+22,,11/19/14 03:52 PM,1,1,9,1,0,0,0,0,0,0,0,1,1,1,1,1,0,4,0,4,1,0,0,3,1,0,0,3,3,1,,2,1,5,3,2,3,0,1,1,0,1,0,0,2,3,2,1,2,,,,,,
+23,,11/19/14 03:58 PM,1,1,9,1,0,0,0,0,0,0,0,1,0,0,0,0,0,4,0,8,1,0,0,4,1,1,1,4,4,1,,1,2,5,1,3,3,0,1,1,0,0,1,0,4,4,1,1,2,,,,,,
+24,,11/19/14 03:55 PM,0,3,7,1,0,0,0,0,0,0,0,1,0,0,0,0,0,3,0,4,1,0,0,3,1,1,0,4,4,1,,2,1,4,1,1,3,1,0,0,0,0,0,0,2,4,3,1,2,none,none,none,none that I can think of,none,none
+25,,11/19/14 04:12 PM,0,4,9,0,0,0,0,0,1,0,0,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,1,,,3,,,,0,0,0,0,0,1,0,,,,,2,Not sure if any apply to my subspecialty,necessity,necessity,I don't know as I don't use them,none,none
+26,,11/19/14 04:20 PM,1,1,8,1,0,0,0,0,0,0,0,1,0,0,0,0,0,4,1,5,1,0,0,3,1,1,1,4,3,1,,3,2,4,3,3,3,0,0,1,0,0,1,0,4,4,1,1,2,"For some, there is not enough time to go through the calculations. For others, the information gained is of limted value.",workflow,workflow,Ease of use.,UI,UI
+27,,11/19/14 04:57 PM,1,1,9,1,0,0,0,0,0,0,0,1,1,0,0,0,0,4,1,2,1,1,0,3,1,0,0,3,4,1,,1,5,5,1,2,3,0,1,0,0,0,1,0,4,4,2,1,2,A lot of our orthopedic patient care does not require the use of medical calculators,necessity,necessity,none that I have encountered,none,none
+28,,[not completed],1,1,9,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,,,,,,,,0,0,0,0,0,0,0,,,,,0,"Not a major barrier, but more time consuming if I have to access a site on the web and plug in values from the EMR. Can't do that on iphone for example. ",integration,integration,Some could be configured with most common value for yes/no questions,specific calculator feature,specific calculator feature
+29,,11/19/14 05:37 PM,1,1,8,0,0,0,0,0,0,1,1,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,1,,,4,,,,0,0,0,0,0,0,1,,,,,2,,,,,,
+30,,11/19/14 05:47 PM,1,1,9,0,0,1,0,0,0,0,0,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,0,,,2,,,,1,1,1,1,1,1,1,,,,,2,finding them,UI,workflow,Bacward calculation of BMI - i.e. plug in your desired BMI for a patient and then be able to calculate the weight that would get the person to that BMI,specific calculator feature,specific calculator feature
+31,,11/19/14 05:55 PM,0,4,6,1,0,0,0,0,0,0,0,1,1,0,0,0,0,3,0,1,1,0,1,2,1,0,0,2,3,1,,1,3,4,1,1,3,1,0,0,0,0,0,0,3,4,1,1,2,Lack of smarter EMR integration (takes lots of clicking to pull it up) versus scrolling my phone.  No all in one options for peds that was well regarded and used ,integration,integration,Integration of decision trees with dosing guides (present in my Peds Stat app but limited conditions),integration,integration
+32,,11/19/14 06:04 PM,1,1,9,1,0,0,0,0,0,0,0,1,0,0,1,0,0,4,0,3,0,0,1,4,0,0,1,4,4,1,,2,3,5,2,1,3,0,0,0,1,1,0,0,4,3,3,1,2,"For the most part, medical calculators aren't necessary for what I do.  I occasionally use a BMI calculator.",necessity,necessity,N/A,none,none
+33,,11/19/14 06:40 PM,0,1,9,0,1,1,1,0,1,1,0,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,1,,,4,,,,0,0,1,1,0,1,0,,,,,2,I have no need of them forr my patient population,necessity,necessity,Don't use any,none,none
+34,,11/19/14 07:15 PM,0,1,7,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,1,,,5,,,,1,0,0,1,0,0,0,,,,,2,Time,workflow,workflow,Automatically loading patient information,integration,specific calculator feature
+35,,[not completed],0,4,9,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,,,,,,,,0,0,0,0,0,0,0,,,,,0,little clinical need,necessity,necessity,n/a,none,none
+36,,[not completed],0,1,7,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,,,,,,,,0,0,0,0,0,0,0,,,,,0,,,,I do not have sufficient experience with them to comment,none,none
+37,,[not completed],0,1,7,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,,,,,,,,0,0,0,0,0,0,0,,,,,0,Not integrated into the workflow.  Can't put the data in my note.  Not kept up to date with current evidenced based recommendations.,integration,integration,Have to link out to a separate web site .,UI,integration
+38,,11/19/14 07:55 PM,0,1,7,1,0,0,0,0,0,0,0,1,1,0,1,0,1,4,0,5,0,0,1,4,0,0,1,4,4,1,,3,2,4,1,1,3,1,0,0,0,0,0,1,4,3,1,1,2,Excess time to transcribe data from the EMR into the calculator,integration,integration,,,
+39,,[not completed],0,1,8,1,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,0,0,0,,0,0,0,,,,,,,,,,,0,0,0,0,0,0,0,,,,,0,,,,,,
+40,,11/19/14 09:07 PM,1,1,8,0,0,0,0,0,1,0,0,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,1,,,4,,,,0,0,0,1,0,0,0,,,,,2,,,,,,
+41,,11/19/14 10:18 PM,1,1,9,0,0,0,0,0,1,0,0,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,1,,,2,,,,0,0,0,0,0,0,1,,,,,2,,,,,,
+42,,11/19/14 10:20 PM,1,1,2,1,0,0,0,0,0,0,0,1,1,0,0,0,0,3,0,2,1,0,0,3,0,1,1,3,3,1,,2,4,4,2,3,3,0,1,0,1,0,0,0,2,4,3,1,2,internet access,technical,technical,cross-referencing medications,other,other
+43,,11/19/14 10:47 PM,1,1,9,1,0,0,0,0,0,0,0,0,0,0,1,0,0,2,0,0,1,0,0,1,0,0,1,1,2,0,,,1,2,2,4,2,0,0,0,1,0,0,0,1,1,4,1,2,just need to have information on what our institution provides,training,training,Interpretation of result needs other clinical information that an absolute value will not provide,other,other
+44,,11/19/14 10:59 PM,1,1,9,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,1,,,5,,,,0,0,0,0,0,0,1,,,,,2,,,,,,
+45,,11/19/14 11:13 PM,1,1,9,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,1,,,4,,,,1,0,0,0,0,0,0,,,,,2,,,,,,
+46,,11/20/14 02:28 AM,1,1,7,1,0,0,0,0,0,0,0,1,1,1,1,0,0,4,0,5,1,0,0,3,0,0,1,5,4,1,,2,2,4,1,2,1,1,1,1,1,0,0,0,4,5,2,1,2,"when the emr is portable and with us all the time (like notebooks and paper and 3x5 cards used to be), then the calculator will be very helpful in the EMR.  Meanwhile a smartphone is easier because it is right to hand.",workflow,workflow,"A calculator that AUTOMATICALLY calculates what is needed (like apache score, water deficit, acid-base results, electrolyte deficits, body surface area, dosing kinetics) - without being asked and places them in usable places in the EMR would be most useful.  Even if in the EMR and have to click-enter the values into a calculator that are already in the emr, while flipping back to screens that display those values - and then copying the results into a progress note is not different than whipping out a smartphone and doing the same thing.",integration,integration
+47,,11/20/14 03:09 AM,1,1,7,1,0,0,0,0,0,0,0,1,0,0,0,0,0,4,1,4,1,1,1,4,0,0,1,5,5,1,,3,5,5,2,2,2,0,1,0,0,0,0,0,4,3,1,1,2,,,,,,
+48,,11/20/14 03:24 AM,1,1,9,1,0,0,0,0,0,0,0,0,1,0,0,0,0,4,1,2,1,0,0,4,0,1,0,4,4,1,,2,5,5,1,1,3,1,0,0,1,0,1,0,3,3,1,1,2,none,none,none,have not thought of this,none,none
+49,,11/20/14 04:29 AM,0,4,7,1,0,0,0,0,0,0,0,1,1,0,1,0,0,5,1,2,1,0,0,4,0,0,1,4,4,1,,3,4,4,1,1,1,0,0,0,1,0,0,0,4,4,2,20,2,Availability   knowledge about their credibility   need to load data myself ,integration,integration,Positive and negative predictive value data  ,specific calculator feature,specific calculator feature
+50,,11/20/14 06:09 AM,1,1,8,1,0,0,0,0,0,0,0,1,1,0,0,0,1,5,1,4,0,0,1,4,0,1,0,4,4,1,,3,2,5,1,3,3,1,0,0,1,0,0,0,5,4,3,1,2,I am not used to using them  the only one I ever use is the BMI calculator,training,necessity,not sure,none,none
+51,,11/20/14 04:49 PM,0,1,9,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,1,,,5,,,,0,0,0,0,0,0,1,,,,,2,,,,Being able to pull in patient data from the chart rather than finding/typing it all,integration,integration
+52,,11/20/14 06:59 PM,1,1,9,0,0,0,0,0,1,0,0,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,1,,,4,,,,0,0,1,1,1,1,0,,,,,2,,,,,,
+53,,11/20/14 08:09 PM,1,1,9,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,1,,,4,,,,1,0,0,0,0,0,0,,,,,2,,,,,,
+54,,[not completed],1,4,9,1,0,0,0,0,0,0,0,0,1,0,0,0,0,,,,0,0,0,,0,0,0,,,,,,,,,,,0,0,0,0,0,0,0,,,,,0,,,,,,
+55,,11/21/14 02:15 PM,1,1,8,1,0,0,0,0,0,0,0,0,1,0,0,0,0,4,0,6,1,0,0,3,0,1,0,4,4,1,,2,3,2,1,2,3,0,0,0,1,0,0,0,4,3,1,1,2,Having to go out of powerchart to external calculator and hand-type in values is not appealing.,integration,integration,,,
+56,,11/21/14 03:52 PM,1,1,7,0,0,0,0,0,1,0,0,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,0,,,4,,,,1,1,1,1,1,1,0,,,,,2,have to flip between internet browser and powerchart  unit conversion issues,integration,integration,,,
+57,,11/21/14 10:14 PM,1,1,9,1,0,0,0,0,0,0,0,0,0,1,0,0,0,3,0,1,1,0,0,3,1,0,0,4,3,0,,,2,4,2,2,2,0,0,1,0,0,0,0,3,3,4,1,2,time,workflow,workflow,have to go to an internet website,integration,integration
+58,,11/24/14 02:22 PM,1,1,9,1,0,0,0,0,0,0,0,1,1,0,1,0,0,4,0,3,1,1,0,4,1,1,0,4,4,1,,1,2,5,2,3,3,1,0,0,1,0,1,0,5,5,4,1,2,can't always find the right calcuator when I need it,UI,UI,would prefer more integration into EMR so I don't have to collect data from EMR and then enter it into calculater,integration,integration
+59,,11/24/14 02:18 PM,0,1,8,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,1,,,2,,,,0,0,0,1,0,0,0,,,,,2,,,,,,
+60,,11/24/14 03:25 PM,0,1,4,1,0,0,0,0,0,0,0,1,1,0,0,0,0,4,0,1,1,0,1,3,1,0,1,3,4,1,,1,2,5,1,1,2,1,0,0,1,0,0,0,4,4,2,1,2,,,,,,
+61,,11/24/14 07:27 PM,1,1,8,1,0,0,0,0,0,0,0,1,1,0,1,0,0,4,0,3,1,0,0,4,1,1,0,3,4,1,,1,3,5,1,1,3,1,0,0,1,0,0,0,4,2,4,1,2,Just forget to calculate values until discussion about the case,workflow,workflow,,,
+62,,11/24/14 09:10 PM,1,1,8,1,0,0,0,0,0,0,0,1,1,0,0,0,0,4,1,1,1,0,0,3,0,0,1,2,5,1,,3,1,5,1,1,3,1,0,0,1,0,0,0,4,4,2,1,2,,,,,,
+63,,11/25/14 12:03 AM,0,1,6,1,0,0,0,0,0,0,0,1,1,0,0,0,0,3,1,2,1,0,0,3,0,1,0,2,3,1,,2,5,3,2,4,2,1,0,0,0,0,0,0,3,3,1,1,2,,,,,,
+64,,11/28/14 08:44 PM,0,1,6,1,0,0,0,0,0,0,0,1,1,0,1,0,0,3,0,2,1,0,1,3,1,1,1,3,5,1,,2,2,5,3,3,3,0,0,0,1,1,0,0,2,2,3,1,2,Not an integral part of my practice,workflow,necessity,,,
+65,,12/02/14 02:21 AM,1,1,6,1,0,0,0,0,0,0,0,1,1,0,0,0,0,3,1,1,1,1,0,3,0,0,1,4,4,1,,2,2,5,1,1,3,1,0,0,1,0,0,0,4,4,1,1,2,Time to access them and need to update daily with change in pt labs on some deter from using ,integration,integration,,,
+66,,12/02/14 01:43 PM,1,1,5,1,0,0,0,0,0,0,0,1,1,0,0,0,0,3,1,1,1,0,0,3,0,0,1,3,4,1,,3,2,4,3,2,3,1,0,0,0,1,0,0,4,4,3,1,2,It takes time to collect data from PowerChart and enter it into the medical calculator.  ,integration,integration,Not tied directly to Powerchart so numbers are pulled directly into the equations.,integration,integration
+67,,12/02/14 06:10 PM,0,1,9,1,0,0,0,0,0,0,0,1,0,0,0,0,0,3,0,9,1,0,0,3,0,0,1,3,3,1,,3,3,5,1,2,3,1,0,0,1,1,0,0,4,4,1,1,2,,,,,,
+68,382,01/13/15 12:05 AM,1,1,6,1,0,0,0,0,0,0,0,1,1,0,0,0,0,4,0,4,1,0,0,3,1,0,0,4,4,1,,1,2,5,1,1,3,1,1,1,1,0,0,0,4,5,3,1,2,,,,,,
+69,194,01/13/15 12:13 AM,1,1,8,1,0,0,0,0,0,0,0,0,1,0,0,0,0,3,1,1,1,0,0,3,0,0,1,3,3,1,,1,4,5,1,3,3,0,0,0,0,0,1,0,3,4,4,1,2,,,,,,
+70,434,01/13/15 12:18 AM,0,2,6,1,0,0,0,0,0,0,0,1,1,0,0,0,1,4,0,5,1,0,0,4,1,0,1,3,3,1,,3,3,4,3,2,2,0,0,0,1,0,0,0,4,4,1,1,2,None,none,none,Ability to easily document in cerner,integration,integration
+71,50,01/13/15 12:21 AM,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,1,,,4,,,,1,0,0,0,0,0,0,,,,,2,,,,,,
+72,289,01/13/15 12:36 AM,1,1,9,0,0,0,0,0,1,0,0,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,0,,,4,,,,0,0,0,1,0,0,0,,,,,2,-- None,none,none,-- automatic integration of data from patient's chart ,integration,integration
+73,140,01/13/15 12:39 AM,1,1,8,0,0,0,0,0,1,0,0,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,0,,,1,,,,0,0,0,1,0,0,0,,,,,2,Not user friendly ,UI,UI,Don't know,none,none
+74,69,01/13/15 01:08 AM,0,4,4,1,0,0,0,0,0,0,0,0,1,1,0,0,0,4,0,5,1,0,0,3,0,0,1,5,4,1,,3,2,5,3,2,3,1,0,0,1,0,1,0,2,3,2,1,2,Not usually necessary in outpatient clinics.,necessity,necessity,,,
+75,72,01/13/15 02:48 AM,0,1,7,1,0,0,0,0,0,0,0,1,1,1,1,0,0,4,0,7,1,1,1,4,1,1,1,4,4,1,,2,2,5,3,3,3,1,0,0,1,0,0,0,3,3,1,1,2,unavailability   inability to use existing data in record ,integration,integration,,,
+76,319,01/13/15 02:51 AM,0,1,7,1,0,0,0,0,0,0,0,0,0,1,0,0,0,4,1,1,1,0,0,3,0,1,0,4,3,0,,,2,4,2,2,3,1,0,1,0,0,0,0,4,4,1,20,2,No real barriers.  They are available if needed,none,none,"Currently, body surface area and drug dosage calculations must be manually performed in Powerchart. We are working to have the system make calculations automatically when given the information",integration,specific calculator feature
+77,275,01/13/15 04:26 AM,0,1,8,1,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,2,1,0,0,2,0,1,1,4,4,1,,2,1,5,1,1,3,1,0,0,0,1,0,0,4,3,1,4,2,Non integration with electronic medical records,integration,integration,,,
+78,360,01/13/15 04:34 AM,0,1,8,1,0,0,0,0,0,0,0,0,0,1,0,0,0,2,0,3,0,0,1,3,0,1,0,3,4,1,,2,4,4,2,3,3,0,0,0,0,0,1,0,2,3,3,4,2,n/a,none,none,n/a,none,none
+79,405,01/13/15 08:29 AM,0,4,7,1,0,0,0,0,0,0,0,0,1,0,0,0,0,3,1,4,1,0,1,4,0,1,0,4,4,1,,2,4,5,1,2,3,1,0,0,0,0,0,0,4,3,4,1,2,,,,,,
+80,215,01/13/15 09:23 AM,1,1,9,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,1,,,4,,,,1,0,0,0,0,1,0,,,,,2,time and availablity,workflow,workflow,,,
+81,71,01/13/15 12:59 PM,1,1,4,1,0,0,0,0,0,0,0,1,1,0,0,0,0,3,0,1,1,0,0,3,1,1,0,4,4,1,,2,3,4,3,3,2,1,0,0,0,0,0,0,4,4,2,1,2,None,none,none,Nothing specific,none,none
+82,445,01/13/15 01:53 PM,1,1,9,0,0,0,1,0,0,0,1,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,1,,,4,,,,0,0,0,1,0,0,0,,,,,2,,,,,,
+83,259,01/13/15 01:55 PM,1,1,9,0,0,1,0,0,0,0,0,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,1,,,3,,,,0,0,0,1,0,0,0,,,,,2,,,,,,
+84,376,[not completed],0,4,8,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,,,,,,,,0,0,0,0,0,0,0,,,,,0,,,,,,
+85,501,01/13/15 02:17 PM,1,1,9,1,0,0,0,0,0,0,0,1,1,0,1,0,0,4,0,4,1,0,0,4,0,1,0,4,4,1,,2,1,5,1,1,3,1,0,1,1,0,1,0,4,4,3,1,2,Access  Time that I have with patient ,workflow,workflow,Interface with powerchart,integration,integration
+86,290,01/13/15 03:03 PM,1,1,9,1,0,0,0,0,0,0,0,0,0,1,1,0,0,4,0,1,1,0,0,4,1,0,1,5,5,1,,3,2,5,1,1,3,1,0,0,0,0,0,0,3,1,5,3,2,,,,,,
+87,336,01/13/15 03:44 PM,0,1,8,1,0,0,0,0,0,0,0,0,1,0,0,0,0,3,0,4,1,0,0,3,1,0,0,4,4,1,,1,3,4,1,3,3,1,0,0,1,0,0,0,4,4,2,1,2,,,,,,
+88,163,01/13/15 05:12 PM,0,1,8,1,0,0,0,0,0,0,0,0,1,0,0,0,0,4,0,3,0,1,0,4,0,1,0,4,4,1,,2,4,4,2,2,2,0,0,1,0,0,0,0,4,3,1,1,2,"access to a computer, don't have the right one on my phone, don't have the information in the EMR that I need",integration,integration,,,
+89,498,01/13/15 05:11 PM,0,4,9,0,0,0,0,0,1,0,0,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,1,,,3,,,,1,0,1,1,0,0,0,,,,,2,,,,,,
+90,368,01/13/15 09:22 PM,1,1,9,1,0,0,0,0,0,0,0,0,0,1,0,0,0,4,1,5,0,1,1,3,0,0,1,4,4,1,,2,3,5,1,2,3,1,1,0,0,1,0,0,5,5,1,1,2,,,,,,
+91,308,01/14/15 05:13 AM,0,4,9,1,0,0,0,0,0,0,0,0,1,0,0,0,0,3,0,2,1,0,0,3,1,0,0,1,3,0,,,3,4,1,1,1,1,0,0,0,0,0,0,4,3,1,1,2,,,,,,
+92,175,01/14/15 06:22 AM,0,4,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,4,0,1,1,0,1,4,0,0,1,1,3,1,,3,3,5,1,4,3,1,1,0,0,0,0,0,2,3,3,1,2,,,,,,
+93,168,01/16/15 02:24 PM,1,1,7,1,0,0,0,0,0,0,0,1,0,0,0,0,0,3,0,5,1,0,0,3,0,1,1,2,4,1,,2,3,5,1,2,3,0,0,0,0,0,0,1,3,3,1,1,2,Need to access a seperate page to use the calculator,workflow,integration,Automatically integrating results from the medical chart,integration,integration
+94,353,01/21/15 05:17 PM,0,3,7,0,0,1,1,0,0,0,0,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,0,,,2,,,,1,0,0,0,0,0,0,,,,,2,,,,,,
+95,454,01/27/15 04:15 PM,0,4,7,1,0,0,0,0,0,0,0,1,0,0,0,0,0,4,0,1,0,0,1,3,0,1,0,4,5,1,,2,1,5,1,1,3,1,0,0,1,0,1,0,4,5,1,1,2,,,,,,
+96,875,01/13/15 06:05 AM,1,2,2,0,0,0,0,0,1,0,0,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,1,,,5,,,,0,0,0,1,0,0,0,,,,,2,,,,,,
+97,689,01/13/15 06:16 AM,1,2,3,1,0,0,0,0,0,0,0,1,1,0,0,0,0,3,0,3,1,0,0,2,0,0,1,3,4,1,,1,4,5,3,3,3,1,0,0,1,1,1,0,4,4,1,1,2,,,,,,
+98,671,01/13/15 10:53 AM,1,2,2,1,0,0,0,0,0,0,0,0,1,1,1,0,0,4,1,1,1,1,0,4,0,1,0,4,4,1,,2,2,3,1,2,3,0,0,0,1,0,0,1,3,3,1,1,2,Inadequate time. Calculators not integrated with Powerchart,integration,integration,Integration with Powerchart. Inadequate information on how to interpret results.,integration,integration
+99,630,01/13/15 08:45 AM,0,2,3,1,0,0,0,0,0,0,0,1,1,1,1,0,1,4,1,2,1,0,0,3,1,1,1,3,3,1,,1,3,4,1,1,2,1,0,0,0,0,0,0,3,3,1,1,2,,,,,,
+100,771,01/13/15 09:19 AM,0,2,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,4,0,2,1,1,1,4,0,1,1,4,5,1,,2,4,5,1,1,3,1,0,0,1,1,1,0,5,5,2,1,2,None.,none,none,No idea.  I just use them for the maths.,none,none
+101,680,01/13/15 11:17 AM,1,2,2,1,0,0,0,0,0,0,0,1,0,0,0,0,0,4,0,4,1,0,0,4,1,0,1,3,4,1,,1,4,4,1,3,2,1,0,0,1,0,0,0,4,4,2,1,2,,,,,,
+102,612,01/13/15 11:59 AM,0,2,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,4,1,1,1,1,0,3,0,0,1,3,4,1,,1,4,5,1,1,3,0,1,1,1,0,0,0,5,5,3,1,2,awareness of available calculators,integration,training,minimal integration with EMR,integration,integration
+103,654,01/13/15 08:56 PM,1,2,3,1,0,0,0,0,0,0,0,1,1,0,0,0,0,4,1,12,1,0,0,3,1,1,1,4,4,1,,1,3,5,3,3,3,1,1,0,1,0,1,0,4,4,2,1,2,,,,,,
+104,873,01/14/15 04:33 AM,1,2,1,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,1,,,4,,,,0,0,0,1,0,0,0,,,,,2,,,,,,
+105,633,01/14/15 04:39 PM,0,2,2,1,0,0,0,0,0,0,0,0,1,1,1,0,0,4,1,1,1,0,0,3,1,0,0,3,3,1,,2,2,4,2,2,3,0,0,0,1,0,0,0,4,4,4,2,2,Time,workflow,workflow,integration into my EMR for pulling data,integration,integration
+106,914,01/25/15 10:08 AM,1,2,6,1,0,0,0,0,0,0,0,1,1,0,0,0,0,3,0,2,1,0,0,3,0,0,1,3,4,1,,3,4,4,1,3,3,0,0,0,1,0,0,1,3,4,1,1,2,Lack of ease of access,integration,integration,To have all the calculators combined into one location or app,integration,integration
+107,855,01/29/15 05:54 PM,0,2,4,1,0,0,0,0,0,0,0,1,1,1,1,0,0,4,1,2,0,0,1,3,1,1,1,3,3,1,,1,4,5,1,1,3,1,1,0,1,0,0,0,3,3,3,1,2,,,,,,
+108,697,02/17/15 12:47 PM,1,2,3,1,0,0,0,0,0,0,0,0,1,0,0,0,0,4,0,1,1,0,0,3,0,1,1,3,3,1,,3,4,4,1,2,2,1,1,0,1,0,0,0,4,4,1,4,2,,,,,,
+109,658,[not completed],1,2,2,1,0,0,0,0,0,0,0,1,1,0,0,0,0,,,,0,0,0,,0,0,0,,,,,,,,,,,0,0,0,0,0,0,0,,,,,0,,,,,,
+110,620,[not completed],1,2,7,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,0,0,0,,0,0,0,,,,,,,,,,,0,0,0,0,0,0,0,,,,,0,,,,,,
+111,602,02/17/15 02:23 PM,1,2,7,1,0,0,0,0,0,0,0,1,1,0,1,0,0,4,0,4,1,0,0,3,1,1,0,3,3,1,,1,3,5,2,3,3,1,0,0,0,0,0,0,4,4,2,4,2,,,,,,
+112,783,02/17/15 02:36 PM,1,2,4,1,0,0,0,0,0,0,0,1,1,0,0,0,0,4,1,1,1,0,0,3,1,0,0,5,4,1,,1,4,4,1,1,2,1,0,0,0,0,0,0,3,3,1,1,2,,,,,,
+113,738,02/17/15 03:08 PM,1,3,6,1,0,0,0,0,0,0,0,1,1,0,0,0,0,4,0,5,1,0,1,5,1,0,1,5,5,1,,1,3,5,1,1,3,0,0,1,0,0,1,0,4,4,1,1,2,,,,,,
+114,746,[not completed],1,3,6,1,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,0,0,0,,0,0,0,,,,,,,,,,,0,0,0,0,0,0,0,,,,,0,,,,,,
+115,611,02/17/15 04:54 PM,1,2,3,1,0,0,0,0,0,0,0,1,1,0,0,0,0,3,0,4,1,1,0,3,1,0,0,4,3,1,,1,3,4,2,2,2,1,0,0,1,0,0,0,4,4,1,1,2,,,,,,
+116,779,02/17/15 05:06 PM,0,2,3,1,0,0,0,0,0,0,0,1,1,0,0,0,0,4,1,1,1,0,0,4,0,0,1,4,4,1,,3,5,4,2,2,2,1,0,0,0,0,0,0,3,3,3,1,2,,,,,,
+117,656,02/17/15 07:31 PM,0,2,2,1,0,0,0,0,0,0,0,1,1,1,0,0,0,4,0,5,1,1,1,4,1,0,1,3,4,1,,2,1,4,3,2,3,1,0,0,1,1,1,0,2,3,2,1,2,,,,,,
+118,791,02/17/15 08:04 PM,1,2,3,1,0,0,0,0,0,0,0,0,1,0,0,0,1,5,0,15,1,1,0,4,1,1,1,4,4,1,,2,5,5,3,2,3,1,1,0,1,1,1,0,4,3,3,20,2,,,,,,
+119,820,02/17/15 08:19 PM,0,2,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,4,1,3,1,0,0,4,0,0,1,4,4,1,,3,5,4,1,1,1,1,0,0,0,0,0,0,4,3,2,1,2,,,,,,
+120,747,02/18/15 09:36 AM,1,3,5,1,0,0,0,0,0,0,0,1,1,0,1,0,0,4,0,1,1,0,0,4,0,0,1,3,4,1,,3,3,4,1,2,2,1,0,0,0,0,0,0,3,3,1,1,2,,,,,,
+121,834,02/18/15 11:00 AM,1,2,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,3,1,2,1,1,0,3,0,0,1,3,3,1,,1,2,5,1,1,3,1,0,0,1,0,1,0,4,4,1,4,2,,,,,,
+122,816,[not completed],1,2,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,,,,0,0,0,,0,0,0,,,,,,,,,,,0,0,0,0,0,0,0,,,,,0,,,,,,

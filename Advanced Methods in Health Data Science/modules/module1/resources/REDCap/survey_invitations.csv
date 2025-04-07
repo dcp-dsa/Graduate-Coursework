@@ -1,0 +1,820 @@
+id,department
+1,Child Health
+2,Physical Medicine and Rehabilitation
+3,Orthopaedic Surgery
+4,Orthopaedic Surgery
+5,Medicine
+6,Physical Medicine and Rehabilitation
+7,Surgery
+8,Medicine
+9,Medicine
+10,Dermatology
+11,Orthopaedic Surgery
+12,Family and Community Medicine
+13,Medicine
+14,Medicine
+15,Medicine
+16,Medicine
+17,Emergency Medicine
+18,Medicine
+19,Neurology
+20,Medicine
+21,Child Health
+22,Women's Health
+23,Medicine
+24,Child Health
+25,Orthopaedic Surgery
+26,Medicine
+27,Neurology
+28,Women's Health
+29,Surgery
+30,Women's Health
+31,Orthopaedic Surgery
+32,Medicine
+33,Family and Community Medicine
+34,Emergency Medicine
+35,Medicine
+36,Medicine
+37,Emergency Medicine
+38,Family and Community Medicine
+39,Orthopaedic Surgery
+40,Family and Community Medicine
+41,Surgery
+42,Surgery
+44,Orthopaedic Surgery
+45,Child Health
+46,Neurology
+47,Child Health
+48,Child Health
+49,Orthopaedic Surgery
+50,Child Health
+51,Family and Community Medicine
+52,Family and Community Medicine
+53,Family and Community Medicine
+54,Emergency Medicine
+55,Emergency Medicine
+56,Medicine
+57,Medicine
+58,Medicine
+59,Dermatology
+60,Women's Health
+61,Orthopaedic Surgery
+62,Medicine
+63,Dermatology
+64,Child Health
+65,Orthopaedic Surgery
+66,Family and Community Medicine
+67,Family and Community Medicine
+68,Neurology
+69,Family and Community Medicine
+70,Physical Medicine and Rehabilitation
+71,Medicine
+72,Family and Community Medicine
+73,Emergency Medicine
+74,Orthopaedic Surgery
+75,Emergency Medicine
+76,Surgery
+77,Women's Health
+78,Emergency Medicine
+79,Child Health
+80,Medicine
+81,Medicine
+82,Otolaryngology
+83,Medicine
+84,Family and Community Medicine
+85,Medicine
+86,Orthopaedic Surgery
+87,Child Health
+88,Medicine
+89,Neurology
+90,Medicine
+91,Child Health
+92,Surgery
+93,Medicine
+94,Family and Community Medicine
+95,Medicine
+96,Physical Medicine and Rehabilitation
+97,Family and Community Medicine
+98,Family and Community Medicine
+99,Otolaryngology
+100,Child Health
+101,Surgery
+102,Family and Community Medicine
+103,Family and Community Medicine
+104,Family and Community Medicine
+105,Orthopaedic Surgery
+106,Family and Community Medicine
+107,Surgery
+108,Family and Community Medicine
+109,Child Health
+110,Medicine
+111,Medicine
+112,Family and Community Medicine
+113,Family and Community Medicine
+114,Family and Community Medicine
+115,Surgery
+116,Orthopaedic Surgery
+117,Emergency Medicine
+118,Medicine
+119,Medicine
+120,Surgery
+121,Emergency Medicine
+122,Emergency Medicine
+123,Medicine
+124,Medicine
+125,Medicine
+126,Women's Health
+127,Child Health
+128,Physical Medicine and Rehabilitation
+129,Dermatology
+130,Medicine
+131,Dermatology
+132,Child Health
+133,Child Health
+134,Dermatology
+135,Physical Medicine and Rehabilitation
+136,Medicine
+137,Physical Medicine and Rehabilitation
+138,Child Health
+139,Orthopaedic Surgery
+140,Physical Medicine and Rehabilitation
+141,Child Health
+142,Orthopaedic Surgery
+143,Medicine
+144,Family and Community Medicine
+145,Dermatology
+146,Child Health
+147,Orthopaedic Surgery
+148,Emergency Medicine
+149,Family and Community Medicine
+150,Medicine
+151,Medicine
+152,Medicine
+153,Orthopaedic Surgery
+154,Women's Health
+155,Medicine
+156,Child Health
+157,Women's Health
+158,Medicine
+159,Women's Health
+160,Child Health
+161,Family and Community Medicine
+162,Medicine
+163,Neurology
+164,Orthopaedic Surgery
+165,Emergency Medicine
+166,Emergency Medicine
+167,Medicine
+168,Medicine
+169,Family and Community Medicine
+170,Child Health
+171,Dermatology
+172,Orthopaedic Surgery
+173,Child Health
+174,Child Health
+175,Emergency Medicine
+176,Otolaryngology
+177,Family and Community Medicine
+178,Neurology
+179,Neurology
+180,Women's Health
+181,Family and Community Medicine
+182,Women's Health
+183,Emergency Medicine
+184,Family and Community Medicine
+185,Child Health
+186,Child Health
+187,Surgery
+189,Dermatology
+190,Medicine
+191,Orthopaedic Surgery
+192,Neurology
+193,Medicine
+194,Medicine
+196,Medicine
+197,Medicine
+198,Medicine
+199,Medicine
+200,Medicine
+201,Child Health
+202,Women's Health
+203,Medicine
+204,Surgery
+205,Medicine
+206,Emergency Medicine
+207,Family and Community Medicine
+208,Medicine
+209,Family and Community Medicine
+210,Emergency Medicine
+211,Child Health
+212,Medicine
+213,Women's Health
+214,Family and Community Medicine
+215,Child Health
+216,Family and Community Medicine
+217,Orthopaedic Surgery
+218,Medicine
+219,Emergency Medicine
+220,Dermatology
+221,Medicine
+222,Child Health
+223,Medicine
+224,Family and Community Medicine
+225,Surgery
+226,Emergency Medicine
+227,Surgery
+228,Surgery
+229,Women's Health
+230,Physical Medicine and Rehabilitation
+231,Physical Medicine and Rehabilitation
+232,Medicine
+233,Surgery
+234,Surgery
+235,Orthopaedic Surgery
+236,Medicine
+237,Medicine
+238,Medicine
+239,Medicine
+240,Orthopaedic Surgery
+241,Medicine
+242,Otolaryngology
+243,Family and Community Medicine
+244,Child Health
+245,Child Health
+246,Medicine
+247,Medicine
+248,Surgery
+249,Surgery
+250,Child Health
+251,Emergency Medicine
+252,Child Health
+253,Medicine
+254,Medicine
+255,Child Health
+256,Otolaryngology
+257,Medicine
+258,Family and Community Medicine
+259,Medicine
+260,Emergency Medicine
+261,Emergency Medicine
+262,Medicine
+263,Child Health
+264,Medicine
+265,Surgery
+266,Medicine
+267,Physical Medicine and Rehabilitation
+268,Child Health
+269,Child Health
+270,Family and Community Medicine
+271,Family and Community Medicine
+272,Medicine
+273,Medicine
+274,Medicine
+275,Medicine
+276,Medicine
+277,Neurology
+278,Child Health
+279,Medicine
+280,Child Health
+281,Child Health
+282,Family and Community Medicine
+283,Otolaryngology
+284,Child Health
+285,Child Health
+286,Family and Community Medicine
+287,Surgery
+288,Surgery
+289,Medicine
+290,Child Health
+291,Emergency Medicine
+292,Women's Health
+293,Orthopaedic Surgery
+294,Neurology
+295,Women's Health
+296,Surgery
+297,Medicine
+298,Surgery
+299,Medicine
+300,Physical Medicine and Rehabilitation
+301,Orthopaedic Surgery
+302,Family and Community Medicine
+303,Surgery
+304,Medicine
+305,Dermatology
+306,Medicine
+307,Medicine
+308,Medicine
+309,Surgery
+310,Physical Medicine and Rehabilitation
+311,Otolaryngology
+312,Medicine
+313,Orthopaedic Surgery
+314,Family and Community Medicine
+315,Medicine
+316,Surgery
+317,Medicine
+318,Child Health
+319,Women's Health
+320,Medicine
+321,Family and Community Medicine
+322,Medicine
+323,Child Health
+324,Emergency Medicine
+325,Family and Community Medicine
+326,Emergency Medicine
+327,Medicine
+328,Orthopaedic Surgery
+329,Surgery
+330,Emergency Medicine
+331,Neurology
+332,Medicine
+333,Medicine
+334,Women's Health
+335,Surgery
+336,Child Health
+337,Child Health
+338,Surgery
+339,Medicine
+340,Medicine
+341,Surgery
+342,Orthopaedic Surgery
+343,Medicine
+344,Family and Community Medicine
+345,Emergency Medicine
+346,Emergency Medicine
+347,Otolaryngology
+348,Child Health
+349,Medicine
+350,Orthopaedic Surgery
+351,Medicine
+352,Child Health
+353,Family and Community Medicine
+354,Child Health
+355,Medicine
+356,Family and Community Medicine
+357,Surgery
+358,Child Health
+359,Surgery
+360,Family and Community Medicine
+361,Surgery
+362,Medicine
+364,Surgery
+365,Surgery
+366,Medicine
+367,Child Health
+368,Surgery
+369,Child Health
+370,Surgery
+371,Medicine
+372,Orthopaedic Surgery
+373,Otolaryngology
+374,Family and Community Medicine
+375,Child Health
+376,Child Health
+377,Family and Community Medicine
+378,Otolaryngology
+379,Orthopaedic Surgery
+380,Emergency Medicine
+381,Medicine
+382,Medicine
+383,Medicine
+384,Neurology
+385,Child Health
+386,Otolaryngology
+387,Family and Community Medicine
+388,Neurology
+389,Surgery
+390,Medicine
+391,Surgery
+392,Medicine
+393,Emergency Medicine
+395,Medicine
+396,Medicine
+397,Medicine
+398,Emergency Medicine
+399,Surgery
+400,Women's Health
+401,Orthopaedic Surgery
+402,Otolaryngology
+403,Otolaryngology
+404,Surgery
+405,Emergency Medicine
+406,Child Health
+407,Child Health
+408,Medicine
+409,Child Health
+410,Child Health
+411,Neurology
+412,Child Health
+413,Orthopaedic Surgery
+414,Emergency Medicine
+415,Otolaryngology
+416,Neurology
+417,Medicine
+418,Neurology
+419,Orthopaedic Surgery
+420,Surgery
+421,Medicine
+422,Child Health
+423,Family and Community Medicine
+424,Medicine
+425,Child Health
+426,Orthopaedic Surgery
+427,Women's Health
+428,Emergency Medicine
+429,Orthopaedic Surgery
+430,Family and Community Medicine
+431,Emergency Medicine
+432,Surgery
+433,Child Health
+434,Medicine
+435,Medicine
+436,Orthopaedic Surgery
+437,Medicine
+438,Medicine
+439,Family and Community Medicine
+440,Child Health
+441,Family and Community Medicine
+442,Surgery
+443,Medicine
+444,Family and Community Medicine
+445,Surgery
+446,Women's Health
+447,Emergency Medicine
+448,Medicine
+449,Child Health
+450,Medicine
+451,Women's Health
+452,Medicine
+453,Family and Community Medicine
+454,Surgery
+455,Child Health
+456,Physical Medicine and Rehabilitation
+457,Medicine
+458,Medicine
+459,Family and Community Medicine
+460,Surgery
+461,Surgery
+462,Orthopaedic Surgery
+463,Child Health
+464,Surgery
+465,Child Health
+466,Child Health
+467,Child Health
+468,Dermatology
+469,Surgery
+470,Medicine
+471,Medicine
+472,Surgery
+473,Family and Community Medicine
+474,Family and Community Medicine
+475,Dermatology
+476,Medicine
+477,Surgery
+478,Orthopaedic Surgery
+479,Medicine
+480,Emergency Medicine
+481,Family and Community Medicine
+482,Family and Community Medicine
+483,Surgery
+484,Family and Community Medicine
+485,Women's Health
+486,Women's Health
+487,Family and Community Medicine
+488,Physical Medicine and Rehabilitation
+489,Emergency Medicine
+490,Physical Medicine and Rehabilitation
+491,Emergency Medicine
+492,Family and Community Medicine
+493,Surgery
+494,Surgery
+495,Emergency Medicine
+496,Medicine
+497,Child Health
+498,Medicine
+499,Otolaryngology
+500,Dermatology
+501,Family and Community Medicine
+601,Medicine
+602,Medicine
+603,Medicine
+604,Medicine
+605,Medicine
+606,Medicine
+607,Medicine
+608,Medicine
+609,Medicine
+610,Medicine
+611,Medicine
+612,Medicine
+613,Medicine
+614,Medicine
+615,Surgery
+616,Surgery
+617,Child Health
+618,Child Health
+619,Child Health
+620,Child Health
+621,Child Health
+622,Child Health
+623,Child Health
+624,Child Health
+625,Child Health
+626,Child Health
+627,Child Health
+628,Child Health
+629,Child Health
+630,Child Health
+631,Child Health
+632,Child Health
+633,Child Health
+634,Child Health
+635,Dermatology
+636,Dermatology
+637,Dermatology
+638,Dermatology
+639,Dermatology
+640,Dermatology
+641,Dermatology
+642,Dermatology
+643,Dermatology
+644,Dermatology
+645,Family and Community Medicine
+646,Family and Community Medicine
+647,Family and Community Medicine
+648,Family and Community Medicine
+649,Family and Community Medicine
+650,Family and Community Medicine
+651,Family and Community Medicine
+652,Family and Community Medicine
+653,Family and Community Medicine
+654,Family and Community Medicine
+655,Family and Community Medicine
+656,Family and Community Medicine
+657,Family and Community Medicine
+658,Family and Community Medicine
+659,Family and Community Medicine
+660,Family and Community Medicine
+661,Family and Community Medicine
+662,Family and Community Medicine
+663,Family and Community Medicine
+664,Family and Community Medicine
+665,Family and Community Medicine
+666,Family and Community Medicine
+667,Family and Community Medicine
+668,Family and Community Medicine
+669,Family and Community Medicine
+670,Family and Community Medicine
+671,Family and Community Medicine
+672,Family and Community Medicine
+673,Family and Community Medicine
+674,Family and Community Medicine
+675,Family and Community Medicine
+676,Family and Community Medicine
+677,Family and Community Medicine
+678,Family and Community Medicine
+679,Family and Community Medicine
+680,Family and Community Medicine
+681,Family and Community Medicine
+682,Family and Community Medicine
+683,Family and Community Medicine
+684,Family and Community Medicine
+685,Surgery
+686,Surgery
+687,Surgery
+688,Surgery
+689,Surgery
+690,Surgery
+691,Surgery
+692,Surgery
+693,Surgery
+694,Surgery
+695,Surgery
+696,Surgery
+697,Surgery
+698,Surgery
+699,Surgery
+700,Surgery
+701,Surgery
+702,Surgery
+703,Surgery
+704,Surgery
+705,Surgery
+706,Surgery
+707,Surgery
+708,Surgery
+709,Surgery
+710,Surgery
+711,Medicine
+712,Medicine
+713,Medicine
+714,Medicine
+715,Medicine
+716,Medicine
+717,Medicine
+718,Medicine
+719,Medicine
+720,Medicine
+721,Medicine
+722,Medicine
+723,Medicine
+724,Medicine
+725,Medicine
+726,Medicine
+727,Medicine
+728,Medicine
+729,Medicine
+730,Medicine
+731,Medicine
+732,Medicine
+733,Medicine
+734,Medicine
+735,Medicine
+736,Medicine
+737,Medicine
+738,Medicine
+739,Medicine
+740,Medicine
+741,Medicine
+742,Medicine
+743,Medicine
+744,Medicine
+745,Medicine
+746,Medicine
+747,Medicine
+748,Medicine
+749,Medicine
+750,Medicine
+751,Medicine
+752,Medicine
+753,Medicine
+754,Medicine
+755,Medicine
+756,Medicine
+757,Medicine
+758,Medicine
+759,Medicine
+760,Medicine
+761,Medicine
+762,Medicine
+763,Medicine
+764,Medicine
+765,Medicine
+766,Medicine
+767,Medicine
+768,Medicine
+769,Medicine
+770,Medicine
+771,Medicine
+772,Medicine
+773,Medicine
+774,Medicine
+775,Medicine
+776,Medicine
+777,Medicine
+778,Medicine
+779,Medicine
+780,Medicine
+781,Medicine
+782,Medicine
+783,Medicine
+784,Medicine
+785,Medicine
+786,Medicine
+787,Medicine
+788,Medicine
+789,Medicine
+790,Medicine
+791,Medicine
+792,Medicine
+793,Medicine
+794,Medicine
+795,Medicine
+796,Medicine
+797,Medicine
+798,Medicine
+799,Medicine
+800,Medicine
+801,Medicine
+802,Medicine
+803,Medicine
+804,Medicine
+805,Medicine
+806,Medicine
+807,Medicine
+808,Medicine
+809,Medicine
+810,Medicine
+811,Medicine
+812,Medicine
+813,Medicine
+814,Medicine
+815,Medicine
+816,Medicine
+817,Medicine
+818,Medicine
+819,Medicine
+820,Medicine
+821,Medicine
+822,Medicine
+823,Medicine
+824,Medicine
+825,Medicine
+826,Medicine
+827,Medicine
+828,Medicine
+829,Medicine
+830,Neurology
+831,Neurology
+832,Neurology
+833,Neurology
+834,Neurology
+835,Neurology
+836,Neurology
+837,Neurology
+838,Neurology
+839,Neurology
+840,Neurology
+841,Neurology
+842,Neurology
+843,Neurology
+844,Neurology
+845,Neurology
+846,Surgery
+847,Surgery
+848,Surgery
+849,Surgery
+850,Surgery
+851,Surgery
+852,Surgery
+853,Women's Health
+854,Women's Health
+855,Women's Health
+856,Women's Health
+857,Women's Health
+858,Women's Health
+859,Women's Health
+860,Women's Health
+861,Women's Health
+862,Women's Health
+863,Women's Health
+864,Women's Health
+865,Orthopedics
+866,Orthopedics
+867,Orthopedics
+868,Orthopedics
+869,Orthopedics
+870,Orthopedics
+871,Orthopedics
+872,Orthopedics
+873,Orthopedics
+874,Orthopedics
+875,Orthopedics
+876,Orthopedics
+877,Orthopedics
+878,Orthopedics
+879,Orthopedics
+880,Orthopedics
+881,Orthopedics
+882,Orthopedics
+883,Orthopedics
+884,Orthopedics
+885,Orthopedics
+886,Orthopedics
+887,Orthopedics
+888,Orthopedics
+889,Orthopedics
+890,Orthopedics
+891,Orthopedics
+892,Orthopedics
+893,Otolaryngology
+894,Otolaryngology
+895,Otolaryngology
+896,Otolaryngology
+897,Otolaryngology
+898,Otolaryngology
+899,Otolaryngology
+900,Otolaryngology
+901,Otolaryngology
+902,Otolaryngology
+903,Otolaryngology
+904,Physical Medicine and Rehabilitation
+905,Physical Medicine and Rehabilitation
+906,Physical Medicine and Rehabilitation
+907,Physical Medicine and Rehabilitation
+908,Physical Medicine and Rehabilitation
+909,Physical Medicine and Rehabilitation
+910,Physical Medicine and Rehabilitation
+911,Physical Medicine and Rehabilitation
+912,Physical Medicine and Rehabilitation
+913,Physical Medicine and Rehabilitation
+914,Physical Medicine and Rehabilitation
+915,Physical Medicine and Rehabilitation
+916,Urology
+917,Urology
+918,Urology
+919,Urology
+920,Urology
+921,Urology
+922,Urology
+923,Urology
