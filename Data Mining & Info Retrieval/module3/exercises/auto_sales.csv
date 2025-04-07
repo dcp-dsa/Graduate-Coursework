@@ -1,0 +1,1063 @@
+,antecedents,consequents,antecedent support,consequent support,support,confidence,lift,leverage,conviction
+0,frozenset({'offerType_Angebot'}),frozenset({'seller_privat'}),1.0,1.0,1.0,1.0,1.0,0.0,inf
+1,frozenset({'seller_privat'}),frozenset({'offerType_Angebot'}),1.0,1.0,1.0,1.0,1.0,0.0,inf
+2,frozenset({'abtest_control'}),frozenset({'seller_privat'}),0.4856,1.0,0.4856,1.0,1.0,0.0,inf
+3,frozenset({'abtest_test'}),frozenset({'seller_privat'}),0.5144,1.0,0.5144,1.0,1.0,0.0,inf
+4,frozenset({'gearbox_manuell'}),frozenset({'seller_privat'}),0.7394,1.0,0.7394,1.0,1.0,0.0,inf
+5,frozenset({'seller_privat'}),frozenset({'gearbox_manuell'}),1.0,0.7394,0.7394,0.7394,1.0,0.0,1.0
+6,frozenset({'seller_privat'}),frozenset({'kilometer_150000'}),1.0,0.64,0.64,0.64,1.0,0.0,1.0
+7,frozenset({'kilometer_150000'}),frozenset({'seller_privat'}),0.64,1.0,0.64,1.0,1.0,0.0,inf
+8,frozenset({'fuelType_benzin'}),frozenset({'seller_privat'}),0.5964,1.0,0.5964,1.0,1.0,0.0,inf
+9,frozenset({'notRepairedDamage_nein'}),frozenset({'seller_privat'}),0.707,1.0,0.707,1.0,1.0,0.0,inf
+10,frozenset({'seller_privat'}),frozenset({'notRepairedDamage_nein'}),1.0,0.707,0.707,0.707,1.0,0.0,1.0
+11,frozenset({'nrOfPictures_0'}),frozenset({'seller_privat'}),1.0,1.0,1.0,1.0,1.0,0.0,inf
+12,frozenset({'seller_privat'}),frozenset({'nrOfPictures_0'}),1.0,1.0,1.0,1.0,1.0,0.0,inf
+13,frozenset({'abtest_control'}),frozenset({'offerType_Angebot'}),0.4856,1.0,0.4856,1.0,1.0,0.0,inf
+14,frozenset({'abtest_test'}),frozenset({'offerType_Angebot'}),0.5144,1.0,0.5144,1.0,1.0,0.0,inf
+15,frozenset({'offerType_Angebot'}),frozenset({'gearbox_manuell'}),1.0,0.7394,0.7394,0.7394,1.0,0.0,1.0
+16,frozenset({'gearbox_manuell'}),frozenset({'offerType_Angebot'}),0.7394,1.0,0.7394,1.0,1.0,0.0,inf
+17,frozenset({'offerType_Angebot'}),frozenset({'kilometer_150000'}),1.0,0.64,0.64,0.64,1.0,0.0,1.0
+18,frozenset({'kilometer_150000'}),frozenset({'offerType_Angebot'}),0.64,1.0,0.64,1.0,1.0,0.0,inf
+19,frozenset({'fuelType_benzin'}),frozenset({'offerType_Angebot'}),0.5964,1.0,0.5964,1.0,1.0,0.0,inf
+20,frozenset({'offerType_Angebot'}),frozenset({'notRepairedDamage_nein'}),1.0,0.707,0.707,0.707,1.0,0.0,1.0
+21,frozenset({'notRepairedDamage_nein'}),frozenset({'offerType_Angebot'}),0.707,1.0,0.707,1.0,1.0,0.0,inf
+22,frozenset({'offerType_Angebot'}),frozenset({'nrOfPictures_0'}),1.0,1.0,1.0,1.0,1.0,0.0,inf
+23,frozenset({'nrOfPictures_0'}),frozenset({'offerType_Angebot'}),1.0,1.0,1.0,1.0,1.0,0.0,inf
+24,frozenset({'abtest_control'}),frozenset({'gearbox_manuell'}),0.4856,0.7394,0.3598,0.7409390444810544,1.0020814775237414,0.0007473600000000302,1.0059408585055647
+25,frozenset({'abtest_control'}),frozenset({'kilometer_150000'}),0.4856,0.64,0.3098,0.6379736408566722,0.9968338138385503,-0.0009839999999999849,0.9944027303754267
+26,frozenset({'abtest_control'}),frozenset({'notRepairedDamage_nein'}),0.4856,0.707,0.3438,0.7079901153212521,1.0014004459989423,0.00048080000000000345,1.0033906911142458
+27,frozenset({'abtest_control'}),frozenset({'nrOfPictures_0'}),0.4856,1.0,0.4856,1.0,1.0,0.0,inf
+28,frozenset({'abtest_test'}),frozenset({'gearbox_manuell'}),0.5144,0.7394,0.3796,0.7379471228615864,0.9980350593205118,-0.0007473599999999747,0.9944557863501488
+29,frozenset({'abtest_test'}),frozenset({'kilometer_150000'}),0.5144,0.64,0.3302,0.6419129082426128,1.0029889191290826,0.0009839999999999849,1.0053420195439742
+30,frozenset({'abtest_test'}),frozenset({'fuelType_benzin'}),0.5144,0.5964,0.3096,0.6018662519440124,1.0091654123809732,0.00281184000000001,1.0137296875
+31,frozenset({'abtest_test'}),frozenset({'notRepairedDamage_nein'}),0.5144,0.707,0.3632,0.7060653188180406,0.9986779615530985,-0.00048079999999994794,0.9968201058201064
+32,frozenset({'abtest_test'}),frozenset({'nrOfPictures_0'}),0.5144,1.0,0.5144,1.0,1.0,0.0,inf
+33,frozenset({'gearbox_manuell'}),frozenset({'kilometer_150000'}),0.7394,0.64,0.4796,0.6486340275899378,1.013490668109278,0.006384000000000056,1.0245727482678983
+34,frozenset({'kilometer_150000'}),frozenset({'gearbox_manuell'}),0.64,0.7394,0.4796,0.749375,1.013490668109278,0.006384000000000056,1.0398004987531175
+35,frozenset({'gearbox_manuell'}),frozenset({'fuelType_benzin'}),0.7394,0.5964,0.4756,0.6432242358669192,1.0785114618828289,0.034621840000000015,1.1312427596664143
+36,frozenset({'fuelType_benzin'}),frozenset({'gearbox_manuell'}),0.5964,0.7394,0.4756,0.7974513749161636,1.0785114618828289,0.034621840000000015,1.2866046357615892
+37,frozenset({'notRepairedDamage_nein'}),frozenset({'gearbox_manuell'}),0.707,0.7394,0.5286,0.7476661951909477,1.0111795985812115,0.005844200000000077,1.0327589686098657
+38,frozenset({'gearbox_manuell'}),frozenset({'notRepairedDamage_nein'}),0.7394,0.707,0.5286,0.7149039761969164,1.0111795985812113,0.005844200000000077,1.027723908918406
+39,frozenset({'nrOfPictures_0'}),frozenset({'gearbox_manuell'}),1.0,0.7394,0.7394,0.7394,1.0,0.0,1.0
+40,frozenset({'gearbox_manuell'}),frozenset({'nrOfPictures_0'}),0.7394,1.0,0.7394,1.0,1.0,0.0,inf
+41,frozenset({'kilometer_150000'}),frozenset({'notRepairedDamage_nein'}),0.64,0.707,0.4216,0.65875,0.9317538896746818,-0.03088000000000002,0.8586080586080586
+42,frozenset({'nrOfPictures_0'}),frozenset({'kilometer_150000'}),1.0,0.64,0.64,0.64,1.0,0.0,1.0
+43,frozenset({'kilometer_150000'}),frozenset({'nrOfPictures_0'}),0.64,1.0,0.64,1.0,1.0,0.0,inf
+44,frozenset({'notRepairedDamage_nein'}),frozenset({'fuelType_benzin'}),0.707,0.5964,0.4306,0.609052333804809,1.0212145100684256,0.008945199999999986,1.0323632416787263
+45,frozenset({'fuelType_benzin'}),frozenset({'notRepairedDamage_nein'}),0.5964,0.707,0.4306,0.7219986586183769,1.0212145100684256,0.008945199999999986,1.0539517490952954
+46,frozenset({'fuelType_benzin'}),frozenset({'nrOfPictures_0'}),0.5964,1.0,0.5964,1.0,1.0,0.0,inf
+47,frozenset({'notRepairedDamage_nein'}),frozenset({'nrOfPictures_0'}),0.707,1.0,0.707,1.0,1.0,0.0,inf
+48,frozenset({'nrOfPictures_0'}),frozenset({'notRepairedDamage_nein'}),1.0,0.707,0.707,0.707,1.0,0.0,1.0
+49,"frozenset({'offerType_Angebot', 'abtest_control'})",frozenset({'seller_privat'}),0.4856,1.0,0.4856,1.0,1.0,0.0,inf
+50,"frozenset({'abtest_control', 'seller_privat'})",frozenset({'offerType_Angebot'}),0.4856,1.0,0.4856,1.0,1.0,0.0,inf
+51,frozenset({'abtest_control'}),"frozenset({'offerType_Angebot', 'seller_privat'})",0.4856,1.0,0.4856,1.0,1.0,0.0,inf
+52,"frozenset({'offerType_Angebot', 'abtest_test'})",frozenset({'seller_privat'}),0.5144,1.0,0.5144,1.0,1.0,0.0,inf
+53,"frozenset({'abtest_test', 'seller_privat'})",frozenset({'offerType_Angebot'}),0.5144,1.0,0.5144,1.0,1.0,0.0,inf
+54,frozenset({'abtest_test'}),"frozenset({'offerType_Angebot', 'seller_privat'})",0.5144,1.0,0.5144,1.0,1.0,0.0,inf
+55,"frozenset({'offerType_Angebot', 'gearbox_manuell'})",frozenset({'seller_privat'}),0.7394,1.0,0.7394,1.0,1.0,0.0,inf
+56,"frozenset({'offerType_Angebot', 'seller_privat'})",frozenset({'gearbox_manuell'}),1.0,0.7394,0.7394,0.7394,1.0,0.0,1.0
+57,"frozenset({'seller_privat', 'gearbox_manuell'})",frozenset({'offerType_Angebot'}),0.7394,1.0,0.7394,1.0,1.0,0.0,inf
+58,frozenset({'offerType_Angebot'}),"frozenset({'seller_privat', 'gearbox_manuell'})",1.0,0.7394,0.7394,0.7394,1.0,0.0,1.0
+59,frozenset({'gearbox_manuell'}),"frozenset({'offerType_Angebot', 'seller_privat'})",0.7394,1.0,0.7394,1.0,1.0,0.0,inf
+60,frozenset({'seller_privat'}),"frozenset({'offerType_Angebot', 'gearbox_manuell'})",1.0,0.7394,0.7394,0.7394,1.0,0.0,1.0
+61,"frozenset({'offerType_Angebot', 'seller_privat'})",frozenset({'kilometer_150000'}),1.0,0.64,0.64,0.64,1.0,0.0,1.0
+62,"frozenset({'offerType_Angebot', 'kilometer_150000'})",frozenset({'seller_privat'}),0.64,1.0,0.64,1.0,1.0,0.0,inf
+63,"frozenset({'seller_privat', 'kilometer_150000'})",frozenset({'offerType_Angebot'}),0.64,1.0,0.64,1.0,1.0,0.0,inf
+64,frozenset({'offerType_Angebot'}),"frozenset({'seller_privat', 'kilometer_150000'})",1.0,0.64,0.64,0.64,1.0,0.0,1.0
+65,frozenset({'seller_privat'}),"frozenset({'offerType_Angebot', 'kilometer_150000'})",1.0,0.64,0.64,0.64,1.0,0.0,1.0
+66,frozenset({'kilometer_150000'}),"frozenset({'offerType_Angebot', 'seller_privat'})",0.64,1.0,0.64,1.0,1.0,0.0,inf
+67,"frozenset({'offerType_Angebot', 'fuelType_benzin'})",frozenset({'seller_privat'}),0.5964,1.0,0.5964,1.0,1.0,0.0,inf
+68,"frozenset({'seller_privat', 'fuelType_benzin'})",frozenset({'offerType_Angebot'}),0.5964,1.0,0.5964,1.0,1.0,0.0,inf
+69,frozenset({'fuelType_benzin'}),"frozenset({'offerType_Angebot', 'seller_privat'})",0.5964,1.0,0.5964,1.0,1.0,0.0,inf
+70,"frozenset({'offerType_Angebot', 'seller_privat'})",frozenset({'notRepairedDamage_nein'}),1.0,0.707,0.707,0.707,1.0,0.0,1.0
+71,"frozenset({'offerType_Angebot', 'notRepairedDamage_nein'})",frozenset({'seller_privat'}),0.707,1.0,0.707,1.0,1.0,0.0,inf
+72,"frozenset({'notRepairedDamage_nein', 'seller_privat'})",frozenset({'offerType_Angebot'}),0.707,1.0,0.707,1.0,1.0,0.0,inf
+73,frozenset({'offerType_Angebot'}),"frozenset({'notRepairedDamage_nein', 'seller_privat'})",1.0,0.707,0.707,0.707,1.0,0.0,1.0
+74,frozenset({'seller_privat'}),"frozenset({'offerType_Angebot', 'notRepairedDamage_nein'})",1.0,0.707,0.707,0.707,1.0,0.0,1.0
+75,frozenset({'notRepairedDamage_nein'}),"frozenset({'offerType_Angebot', 'seller_privat'})",0.707,1.0,0.707,1.0,1.0,0.0,inf
+76,"frozenset({'offerType_Angebot', 'nrOfPictures_0'})",frozenset({'seller_privat'}),1.0,1.0,1.0,1.0,1.0,0.0,inf
+77,"frozenset({'offerType_Angebot', 'seller_privat'})",frozenset({'nrOfPictures_0'}),1.0,1.0,1.0,1.0,1.0,0.0,inf
+78,"frozenset({'nrOfPictures_0', 'seller_privat'})",frozenset({'offerType_Angebot'}),1.0,1.0,1.0,1.0,1.0,0.0,inf
+79,frozenset({'offerType_Angebot'}),"frozenset({'nrOfPictures_0', 'seller_privat'})",1.0,1.0,1.0,1.0,1.0,0.0,inf
+80,frozenset({'nrOfPictures_0'}),"frozenset({'offerType_Angebot', 'seller_privat'})",1.0,1.0,1.0,1.0,1.0,0.0,inf
+81,frozenset({'seller_privat'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0'})",1.0,1.0,1.0,1.0,1.0,0.0,inf
+82,"frozenset({'abtest_control', 'gearbox_manuell'})",frozenset({'seller_privat'}),0.3598,1.0,0.3598,1.0,1.0,0.0,inf
+83,"frozenset({'abtest_control', 'seller_privat'})",frozenset({'gearbox_manuell'}),0.4856,0.7394,0.3598,0.7409390444810544,1.0020814775237414,0.0007473600000000302,1.0059408585055647
+84,frozenset({'abtest_control'}),"frozenset({'seller_privat', 'gearbox_manuell'})",0.4856,0.7394,0.3598,0.7409390444810544,1.0020814775237414,0.0007473600000000302,1.0059408585055647
+85,"frozenset({'abtest_control', 'seller_privat'})",frozenset({'kilometer_150000'}),0.4856,0.64,0.3098,0.6379736408566722,0.9968338138385503,-0.0009839999999999849,0.9944027303754267
+86,"frozenset({'abtest_control', 'kilometer_150000'})",frozenset({'seller_privat'}),0.3098,1.0,0.3098,1.0,1.0,0.0,inf
+87,frozenset({'abtest_control'}),"frozenset({'seller_privat', 'kilometer_150000'})",0.4856,0.64,0.3098,0.6379736408566722,0.9968338138385503,-0.0009839999999999849,0.9944027303754267
+88,"frozenset({'notRepairedDamage_nein', 'abtest_control'})",frozenset({'seller_privat'}),0.3438,1.0,0.3438,1.0,1.0,0.0,inf
+89,"frozenset({'abtest_control', 'seller_privat'})",frozenset({'notRepairedDamage_nein'}),0.4856,0.707,0.3438,0.7079901153212521,1.0014004459989423,0.00048080000000000345,1.0033906911142458
+90,frozenset({'abtest_control'}),"frozenset({'notRepairedDamage_nein', 'seller_privat'})",0.4856,0.707,0.3438,0.7079901153212521,1.0014004459989423,0.00048080000000000345,1.0033906911142458
+91,"frozenset({'abtest_control', 'nrOfPictures_0'})",frozenset({'seller_privat'}),0.4856,1.0,0.4856,1.0,1.0,0.0,inf
+92,"frozenset({'abtest_control', 'seller_privat'})",frozenset({'nrOfPictures_0'}),0.4856,1.0,0.4856,1.0,1.0,0.0,inf
+93,frozenset({'abtest_control'}),"frozenset({'nrOfPictures_0', 'seller_privat'})",0.4856,1.0,0.4856,1.0,1.0,0.0,inf
+94,"frozenset({'abtest_test', 'gearbox_manuell'})",frozenset({'seller_privat'}),0.3796,1.0,0.3796,1.0,1.0,0.0,inf
+95,"frozenset({'abtest_test', 'seller_privat'})",frozenset({'gearbox_manuell'}),0.5144,0.7394,0.3796,0.7379471228615864,0.9980350593205118,-0.0007473599999999747,0.9944557863501488
+96,frozenset({'abtest_test'}),"frozenset({'seller_privat', 'gearbox_manuell'})",0.5144,0.7394,0.3796,0.7379471228615864,0.9980350593205118,-0.0007473599999999747,0.9944557863501488
+97,"frozenset({'abtest_test', 'seller_privat'})",frozenset({'kilometer_150000'}),0.5144,0.64,0.3302,0.6419129082426128,1.0029889191290826,0.0009839999999999849,1.0053420195439742
+98,"frozenset({'abtest_test', 'kilometer_150000'})",frozenset({'seller_privat'}),0.3302,1.0,0.3302,1.0,1.0,0.0,inf
+99,frozenset({'abtest_test'}),"frozenset({'seller_privat', 'kilometer_150000'})",0.5144,0.64,0.3302,0.6419129082426128,1.0029889191290826,0.0009839999999999849,1.0053420195439742
+100,"frozenset({'abtest_test', 'seller_privat'})",frozenset({'fuelType_benzin'}),0.5144,0.5964,0.3096,0.6018662519440124,1.0091654123809732,0.00281184000000001,1.0137296875
+101,"frozenset({'abtest_test', 'fuelType_benzin'})",frozenset({'seller_privat'}),0.3096,1.0,0.3096,1.0,1.0,0.0,inf
+102,frozenset({'abtest_test'}),"frozenset({'seller_privat', 'fuelType_benzin'})",0.5144,0.5964,0.3096,0.6018662519440124,1.0091654123809732,0.00281184000000001,1.0137296875
+103,"frozenset({'notRepairedDamage_nein', 'abtest_test'})",frozenset({'seller_privat'}),0.3632,1.0,0.3632,1.0,1.0,0.0,inf
+104,"frozenset({'abtest_test', 'seller_privat'})",frozenset({'notRepairedDamage_nein'}),0.5144,0.707,0.3632,0.7060653188180406,0.9986779615530985,-0.00048079999999994794,0.9968201058201064
+105,frozenset({'abtest_test'}),"frozenset({'notRepairedDamage_nein', 'seller_privat'})",0.5144,0.707,0.3632,0.7060653188180406,0.9986779615530985,-0.00048079999999994794,0.9968201058201064
+106,"frozenset({'nrOfPictures_0', 'abtest_test'})",frozenset({'seller_privat'}),0.5144,1.0,0.5144,1.0,1.0,0.0,inf
+107,"frozenset({'abtest_test', 'seller_privat'})",frozenset({'nrOfPictures_0'}),0.5144,1.0,0.5144,1.0,1.0,0.0,inf
+108,frozenset({'abtest_test'}),"frozenset({'nrOfPictures_0', 'seller_privat'})",0.5144,1.0,0.5144,1.0,1.0,0.0,inf
+109,"frozenset({'seller_privat', 'gearbox_manuell'})",frozenset({'kilometer_150000'}),0.7394,0.64,0.4796,0.6486340275899378,1.013490668109278,0.006384000000000056,1.0245727482678983
+110,"frozenset({'gearbox_manuell', 'kilometer_150000'})",frozenset({'seller_privat'}),0.4796,1.0,0.4796,1.0,1.0,0.0,inf
+111,"frozenset({'seller_privat', 'kilometer_150000'})",frozenset({'gearbox_manuell'}),0.64,0.7394,0.4796,0.749375,1.013490668109278,0.006384000000000056,1.0398004987531175
+112,frozenset({'gearbox_manuell'}),"frozenset({'seller_privat', 'kilometer_150000'})",0.7394,0.64,0.4796,0.6486340275899378,1.013490668109278,0.006384000000000056,1.0245727482678983
+113,frozenset({'kilometer_150000'}),"frozenset({'seller_privat', 'gearbox_manuell'})",0.64,0.7394,0.4796,0.749375,1.013490668109278,0.006384000000000056,1.0398004987531175
+114,"frozenset({'seller_privat', 'gearbox_manuell'})",frozenset({'fuelType_benzin'}),0.7394,0.5964,0.4756,0.6432242358669192,1.0785114618828289,0.034621840000000015,1.1312427596664143
+115,"frozenset({'gearbox_manuell', 'fuelType_benzin'})",frozenset({'seller_privat'}),0.4756,1.0,0.4756,1.0,1.0,0.0,inf
+116,"frozenset({'seller_privat', 'fuelType_benzin'})",frozenset({'gearbox_manuell'}),0.5964,0.7394,0.4756,0.7974513749161636,1.0785114618828289,0.034621840000000015,1.2866046357615892
+117,frozenset({'gearbox_manuell'}),"frozenset({'seller_privat', 'fuelType_benzin'})",0.7394,0.5964,0.4756,0.6432242358669192,1.0785114618828289,0.034621840000000015,1.1312427596664143
+118,frozenset({'fuelType_benzin'}),"frozenset({'seller_privat', 'gearbox_manuell'})",0.5964,0.7394,0.4756,0.7974513749161636,1.0785114618828289,0.034621840000000015,1.2866046357615892
+119,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell'})",frozenset({'seller_privat'}),0.5286,1.0,0.5286,1.0,1.0,0.0,inf
+120,"frozenset({'notRepairedDamage_nein', 'seller_privat'})",frozenset({'gearbox_manuell'}),0.707,0.7394,0.5286,0.7476661951909477,1.0111795985812115,0.005844200000000077,1.0327589686098657
+121,"frozenset({'seller_privat', 'gearbox_manuell'})",frozenset({'notRepairedDamage_nein'}),0.7394,0.707,0.5286,0.7149039761969164,1.0111795985812113,0.005844200000000077,1.027723908918406
+122,frozenset({'notRepairedDamage_nein'}),"frozenset({'seller_privat', 'gearbox_manuell'})",0.707,0.7394,0.5286,0.7476661951909477,1.0111795985812115,0.005844200000000077,1.0327589686098657
+123,frozenset({'gearbox_manuell'}),"frozenset({'notRepairedDamage_nein', 'seller_privat'})",0.7394,0.707,0.5286,0.7149039761969164,1.0111795985812113,0.005844200000000077,1.027723908918406
+124,"frozenset({'nrOfPictures_0', 'gearbox_manuell'})",frozenset({'seller_privat'}),0.7394,1.0,0.7394,1.0,1.0,0.0,inf
+125,"frozenset({'seller_privat', 'gearbox_manuell'})",frozenset({'nrOfPictures_0'}),0.7394,1.0,0.7394,1.0,1.0,0.0,inf
+126,"frozenset({'nrOfPictures_0', 'seller_privat'})",frozenset({'gearbox_manuell'}),1.0,0.7394,0.7394,0.7394,1.0,0.0,1.0
+127,frozenset({'gearbox_manuell'}),"frozenset({'nrOfPictures_0', 'seller_privat'})",0.7394,1.0,0.7394,1.0,1.0,0.0,inf
+128,frozenset({'nrOfPictures_0'}),"frozenset({'seller_privat', 'gearbox_manuell'})",1.0,0.7394,0.7394,0.7394,1.0,0.0,1.0
+129,frozenset({'seller_privat'}),"frozenset({'nrOfPictures_0', 'gearbox_manuell'})",1.0,0.7394,0.7394,0.7394,1.0,0.0,1.0
+130,"frozenset({'fuelType_benzin', 'kilometer_150000'})",frozenset({'seller_privat'}),0.3514,1.0,0.3514,1.0,1.0,0.0,inf
+131,"frozenset({'notRepairedDamage_nein', 'kilometer_150000'})",frozenset({'seller_privat'}),0.4216,1.0,0.4216,1.0,1.0,0.0,inf
+132,"frozenset({'seller_privat', 'kilometer_150000'})",frozenset({'notRepairedDamage_nein'}),0.64,0.707,0.4216,0.65875,0.9317538896746818,-0.03088000000000002,0.8586080586080586
+133,frozenset({'kilometer_150000'}),"frozenset({'notRepairedDamage_nein', 'seller_privat'})",0.64,0.707,0.4216,0.65875,0.9317538896746818,-0.03088000000000002,0.8586080586080586
+134,"frozenset({'nrOfPictures_0', 'seller_privat'})",frozenset({'kilometer_150000'}),1.0,0.64,0.64,0.64,1.0,0.0,1.0
+135,"frozenset({'nrOfPictures_0', 'kilometer_150000'})",frozenset({'seller_privat'}),0.64,1.0,0.64,1.0,1.0,0.0,inf
+136,"frozenset({'seller_privat', 'kilometer_150000'})",frozenset({'nrOfPictures_0'}),0.64,1.0,0.64,1.0,1.0,0.0,inf
+137,frozenset({'nrOfPictures_0'}),"frozenset({'seller_privat', 'kilometer_150000'})",1.0,0.64,0.64,0.64,1.0,0.0,1.0
+138,frozenset({'seller_privat'}),"frozenset({'nrOfPictures_0', 'kilometer_150000'})",1.0,0.64,0.64,0.64,1.0,0.0,1.0
+139,frozenset({'kilometer_150000'}),"frozenset({'nrOfPictures_0', 'seller_privat'})",0.64,1.0,0.64,1.0,1.0,0.0,inf
+140,"frozenset({'notRepairedDamage_nein', 'seller_privat'})",frozenset({'fuelType_benzin'}),0.707,0.5964,0.4306,0.609052333804809,1.0212145100684256,0.008945199999999986,1.0323632416787263
+141,"frozenset({'notRepairedDamage_nein', 'fuelType_benzin'})",frozenset({'seller_privat'}),0.4306,1.0,0.4306,1.0,1.0,0.0,inf
+142,"frozenset({'seller_privat', 'fuelType_benzin'})",frozenset({'notRepairedDamage_nein'}),0.5964,0.707,0.4306,0.7219986586183769,1.0212145100684256,0.008945199999999986,1.0539517490952954
+143,frozenset({'notRepairedDamage_nein'}),"frozenset({'seller_privat', 'fuelType_benzin'})",0.707,0.5964,0.4306,0.609052333804809,1.0212145100684256,0.008945199999999986,1.0323632416787263
+144,frozenset({'fuelType_benzin'}),"frozenset({'notRepairedDamage_nein', 'seller_privat'})",0.5964,0.707,0.4306,0.7219986586183769,1.0212145100684256,0.008945199999999986,1.0539517490952954
+145,"frozenset({'nrOfPictures_0', 'fuelType_benzin'})",frozenset({'seller_privat'}),0.5964,1.0,0.5964,1.0,1.0,0.0,inf
+146,"frozenset({'seller_privat', 'fuelType_benzin'})",frozenset({'nrOfPictures_0'}),0.5964,1.0,0.5964,1.0,1.0,0.0,inf
+147,frozenset({'fuelType_benzin'}),"frozenset({'nrOfPictures_0', 'seller_privat'})",0.5964,1.0,0.5964,1.0,1.0,0.0,inf
+148,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",frozenset({'seller_privat'}),0.707,1.0,0.707,1.0,1.0,0.0,inf
+149,"frozenset({'notRepairedDamage_nein', 'seller_privat'})",frozenset({'nrOfPictures_0'}),0.707,1.0,0.707,1.0,1.0,0.0,inf
+150,"frozenset({'nrOfPictures_0', 'seller_privat'})",frozenset({'notRepairedDamage_nein'}),1.0,0.707,0.707,0.707,1.0,0.0,1.0
+151,frozenset({'notRepairedDamage_nein'}),"frozenset({'nrOfPictures_0', 'seller_privat'})",0.707,1.0,0.707,1.0,1.0,0.0,inf
+152,frozenset({'nrOfPictures_0'}),"frozenset({'notRepairedDamage_nein', 'seller_privat'})",1.0,0.707,0.707,0.707,1.0,0.0,1.0
+153,frozenset({'seller_privat'}),"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",1.0,0.707,0.707,0.707,1.0,0.0,1.0
+154,"frozenset({'offerType_Angebot', 'abtest_control'})",frozenset({'gearbox_manuell'}),0.4856,0.7394,0.3598,0.7409390444810544,1.0020814775237414,0.0007473600000000302,1.0059408585055647
+155,"frozenset({'abtest_control', 'gearbox_manuell'})",frozenset({'offerType_Angebot'}),0.3598,1.0,0.3598,1.0,1.0,0.0,inf
+156,frozenset({'abtest_control'}),"frozenset({'offerType_Angebot', 'gearbox_manuell'})",0.4856,0.7394,0.3598,0.7409390444810544,1.0020814775237414,0.0007473600000000302,1.0059408585055647
+157,"frozenset({'offerType_Angebot', 'abtest_control'})",frozenset({'kilometer_150000'}),0.4856,0.64,0.3098,0.6379736408566722,0.9968338138385503,-0.0009839999999999849,0.9944027303754267
+158,"frozenset({'abtest_control', 'kilometer_150000'})",frozenset({'offerType_Angebot'}),0.3098,1.0,0.3098,1.0,1.0,0.0,inf
+159,frozenset({'abtest_control'}),"frozenset({'offerType_Angebot', 'kilometer_150000'})",0.4856,0.64,0.3098,0.6379736408566722,0.9968338138385503,-0.0009839999999999849,0.9944027303754267
+160,"frozenset({'offerType_Angebot', 'abtest_control'})",frozenset({'notRepairedDamage_nein'}),0.4856,0.707,0.3438,0.7079901153212521,1.0014004459989423,0.00048080000000000345,1.0033906911142458
+161,"frozenset({'notRepairedDamage_nein', 'abtest_control'})",frozenset({'offerType_Angebot'}),0.3438,1.0,0.3438,1.0,1.0,0.0,inf
+162,frozenset({'abtest_control'}),"frozenset({'offerType_Angebot', 'notRepairedDamage_nein'})",0.4856,0.707,0.3438,0.7079901153212521,1.0014004459989423,0.00048080000000000345,1.0033906911142458
+163,"frozenset({'offerType_Angebot', 'abtest_control'})",frozenset({'nrOfPictures_0'}),0.4856,1.0,0.4856,1.0,1.0,0.0,inf
+164,"frozenset({'abtest_control', 'nrOfPictures_0'})",frozenset({'offerType_Angebot'}),0.4856,1.0,0.4856,1.0,1.0,0.0,inf
+165,frozenset({'abtest_control'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.4856,1.0,0.4856,1.0,1.0,0.0,inf
+166,"frozenset({'offerType_Angebot', 'abtest_test'})",frozenset({'gearbox_manuell'}),0.5144,0.7394,0.3796,0.7379471228615864,0.9980350593205118,-0.0007473599999999747,0.9944557863501488
+167,"frozenset({'abtest_test', 'gearbox_manuell'})",frozenset({'offerType_Angebot'}),0.3796,1.0,0.3796,1.0,1.0,0.0,inf
+168,frozenset({'abtest_test'}),"frozenset({'offerType_Angebot', 'gearbox_manuell'})",0.5144,0.7394,0.3796,0.7379471228615864,0.9980350593205118,-0.0007473599999999747,0.9944557863501488
+169,"frozenset({'offerType_Angebot', 'abtest_test'})",frozenset({'kilometer_150000'}),0.5144,0.64,0.3302,0.6419129082426128,1.0029889191290826,0.0009839999999999849,1.0053420195439742
+170,"frozenset({'abtest_test', 'kilometer_150000'})",frozenset({'offerType_Angebot'}),0.3302,1.0,0.3302,1.0,1.0,0.0,inf
+171,frozenset({'abtest_test'}),"frozenset({'offerType_Angebot', 'kilometer_150000'})",0.5144,0.64,0.3302,0.6419129082426128,1.0029889191290826,0.0009839999999999849,1.0053420195439742
+172,"frozenset({'offerType_Angebot', 'abtest_test'})",frozenset({'fuelType_benzin'}),0.5144,0.5964,0.3096,0.6018662519440124,1.0091654123809732,0.00281184000000001,1.0137296875
+173,"frozenset({'abtest_test', 'fuelType_benzin'})",frozenset({'offerType_Angebot'}),0.3096,1.0,0.3096,1.0,1.0,0.0,inf
+174,frozenset({'abtest_test'}),"frozenset({'offerType_Angebot', 'fuelType_benzin'})",0.5144,0.5964,0.3096,0.6018662519440124,1.0091654123809732,0.00281184000000001,1.0137296875
+175,"frozenset({'offerType_Angebot', 'abtest_test'})",frozenset({'notRepairedDamage_nein'}),0.5144,0.707,0.3632,0.7060653188180406,0.9986779615530985,-0.00048079999999994794,0.9968201058201064
+176,"frozenset({'notRepairedDamage_nein', 'abtest_test'})",frozenset({'offerType_Angebot'}),0.3632,1.0,0.3632,1.0,1.0,0.0,inf
+177,frozenset({'abtest_test'}),"frozenset({'offerType_Angebot', 'notRepairedDamage_nein'})",0.5144,0.707,0.3632,0.7060653188180406,0.9986779615530985,-0.00048079999999994794,0.9968201058201064
+178,"frozenset({'offerType_Angebot', 'abtest_test'})",frozenset({'nrOfPictures_0'}),0.5144,1.0,0.5144,1.0,1.0,0.0,inf
+179,"frozenset({'nrOfPictures_0', 'abtest_test'})",frozenset({'offerType_Angebot'}),0.5144,1.0,0.5144,1.0,1.0,0.0,inf
+180,frozenset({'abtest_test'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.5144,1.0,0.5144,1.0,1.0,0.0,inf
+181,"frozenset({'offerType_Angebot', 'gearbox_manuell'})",frozenset({'kilometer_150000'}),0.7394,0.64,0.4796,0.6486340275899378,1.013490668109278,0.006384000000000056,1.0245727482678983
+182,"frozenset({'offerType_Angebot', 'kilometer_150000'})",frozenset({'gearbox_manuell'}),0.64,0.7394,0.4796,0.749375,1.013490668109278,0.006384000000000056,1.0398004987531175
+183,"frozenset({'gearbox_manuell', 'kilometer_150000'})",frozenset({'offerType_Angebot'}),0.4796,1.0,0.4796,1.0,1.0,0.0,inf
+184,frozenset({'gearbox_manuell'}),"frozenset({'offerType_Angebot', 'kilometer_150000'})",0.7394,0.64,0.4796,0.6486340275899378,1.013490668109278,0.006384000000000056,1.0245727482678983
+185,frozenset({'kilometer_150000'}),"frozenset({'offerType_Angebot', 'gearbox_manuell'})",0.64,0.7394,0.4796,0.749375,1.013490668109278,0.006384000000000056,1.0398004987531175
+186,"frozenset({'offerType_Angebot', 'gearbox_manuell'})",frozenset({'fuelType_benzin'}),0.7394,0.5964,0.4756,0.6432242358669192,1.0785114618828289,0.034621840000000015,1.1312427596664143
+187,"frozenset({'offerType_Angebot', 'fuelType_benzin'})",frozenset({'gearbox_manuell'}),0.5964,0.7394,0.4756,0.7974513749161636,1.0785114618828289,0.034621840000000015,1.2866046357615892
+188,"frozenset({'gearbox_manuell', 'fuelType_benzin'})",frozenset({'offerType_Angebot'}),0.4756,1.0,0.4756,1.0,1.0,0.0,inf
+189,frozenset({'gearbox_manuell'}),"frozenset({'offerType_Angebot', 'fuelType_benzin'})",0.7394,0.5964,0.4756,0.6432242358669192,1.0785114618828289,0.034621840000000015,1.1312427596664143
+190,frozenset({'fuelType_benzin'}),"frozenset({'offerType_Angebot', 'gearbox_manuell'})",0.5964,0.7394,0.4756,0.7974513749161636,1.0785114618828289,0.034621840000000015,1.2866046357615892
+191,"frozenset({'offerType_Angebot', 'gearbox_manuell'})",frozenset({'notRepairedDamage_nein'}),0.7394,0.707,0.5286,0.7149039761969164,1.0111795985812113,0.005844200000000077,1.027723908918406
+192,"frozenset({'offerType_Angebot', 'notRepairedDamage_nein'})",frozenset({'gearbox_manuell'}),0.707,0.7394,0.5286,0.7476661951909477,1.0111795985812115,0.005844200000000077,1.0327589686098657
+193,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell'})",frozenset({'offerType_Angebot'}),0.5286,1.0,0.5286,1.0,1.0,0.0,inf
+194,frozenset({'gearbox_manuell'}),"frozenset({'offerType_Angebot', 'notRepairedDamage_nein'})",0.7394,0.707,0.5286,0.7149039761969164,1.0111795985812113,0.005844200000000077,1.027723908918406
+195,frozenset({'notRepairedDamage_nein'}),"frozenset({'offerType_Angebot', 'gearbox_manuell'})",0.707,0.7394,0.5286,0.7476661951909477,1.0111795985812115,0.005844200000000077,1.0327589686098657
+196,"frozenset({'offerType_Angebot', 'nrOfPictures_0'})",frozenset({'gearbox_manuell'}),1.0,0.7394,0.7394,0.7394,1.0,0.0,1.0
+197,"frozenset({'offerType_Angebot', 'gearbox_manuell'})",frozenset({'nrOfPictures_0'}),0.7394,1.0,0.7394,1.0,1.0,0.0,inf
+198,"frozenset({'nrOfPictures_0', 'gearbox_manuell'})",frozenset({'offerType_Angebot'}),0.7394,1.0,0.7394,1.0,1.0,0.0,inf
+199,frozenset({'offerType_Angebot'}),"frozenset({'nrOfPictures_0', 'gearbox_manuell'})",1.0,0.7394,0.7394,0.7394,1.0,0.0,1.0
+200,frozenset({'nrOfPictures_0'}),"frozenset({'offerType_Angebot', 'gearbox_manuell'})",1.0,0.7394,0.7394,0.7394,1.0,0.0,1.0
+201,frozenset({'gearbox_manuell'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.7394,1.0,0.7394,1.0,1.0,0.0,inf
+202,"frozenset({'kilometer_150000', 'fuelType_benzin'})",frozenset({'offerType_Angebot'}),0.3514,1.0,0.3514,1.0,1.0,0.0,inf
+203,"frozenset({'offerType_Angebot', 'kilometer_150000'})",frozenset({'notRepairedDamage_nein'}),0.64,0.707,0.4216,0.65875,0.9317538896746818,-0.03088000000000002,0.8586080586080586
+204,"frozenset({'notRepairedDamage_nein', 'kilometer_150000'})",frozenset({'offerType_Angebot'}),0.4216,1.0,0.4216,1.0,1.0,0.0,inf
+205,frozenset({'kilometer_150000'}),"frozenset({'offerType_Angebot', 'notRepairedDamage_nein'})",0.64,0.707,0.4216,0.65875,0.9317538896746818,-0.03088000000000002,0.8586080586080586
+206,"frozenset({'offerType_Angebot', 'nrOfPictures_0'})",frozenset({'kilometer_150000'}),1.0,0.64,0.64,0.64,1.0,0.0,1.0
+207,"frozenset({'offerType_Angebot', 'kilometer_150000'})",frozenset({'nrOfPictures_0'}),0.64,1.0,0.64,1.0,1.0,0.0,inf
+208,"frozenset({'nrOfPictures_0', 'kilometer_150000'})",frozenset({'offerType_Angebot'}),0.64,1.0,0.64,1.0,1.0,0.0,inf
+209,frozenset({'offerType_Angebot'}),"frozenset({'nrOfPictures_0', 'kilometer_150000'})",1.0,0.64,0.64,0.64,1.0,0.0,1.0
+210,frozenset({'nrOfPictures_0'}),"frozenset({'offerType_Angebot', 'kilometer_150000'})",1.0,0.64,0.64,0.64,1.0,0.0,1.0
+211,frozenset({'kilometer_150000'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.64,1.0,0.64,1.0,1.0,0.0,inf
+212,"frozenset({'offerType_Angebot', 'notRepairedDamage_nein'})",frozenset({'fuelType_benzin'}),0.707,0.5964,0.4306,0.609052333804809,1.0212145100684256,0.008945199999999986,1.0323632416787263
+213,"frozenset({'offerType_Angebot', 'fuelType_benzin'})",frozenset({'notRepairedDamage_nein'}),0.5964,0.707,0.4306,0.7219986586183769,1.0212145100684256,0.008945199999999986,1.0539517490952954
+214,"frozenset({'notRepairedDamage_nein', 'fuelType_benzin'})",frozenset({'offerType_Angebot'}),0.4306,1.0,0.4306,1.0,1.0,0.0,inf
+215,frozenset({'notRepairedDamage_nein'}),"frozenset({'offerType_Angebot', 'fuelType_benzin'})",0.707,0.5964,0.4306,0.609052333804809,1.0212145100684256,0.008945199999999986,1.0323632416787263
+216,frozenset({'fuelType_benzin'}),"frozenset({'offerType_Angebot', 'notRepairedDamage_nein'})",0.5964,0.707,0.4306,0.7219986586183769,1.0212145100684256,0.008945199999999986,1.0539517490952954
+217,"frozenset({'offerType_Angebot', 'fuelType_benzin'})",frozenset({'nrOfPictures_0'}),0.5964,1.0,0.5964,1.0,1.0,0.0,inf
+218,"frozenset({'nrOfPictures_0', 'fuelType_benzin'})",frozenset({'offerType_Angebot'}),0.5964,1.0,0.5964,1.0,1.0,0.0,inf
+219,frozenset({'fuelType_benzin'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.5964,1.0,0.5964,1.0,1.0,0.0,inf
+220,"frozenset({'offerType_Angebot', 'nrOfPictures_0'})",frozenset({'notRepairedDamage_nein'}),1.0,0.707,0.707,0.707,1.0,0.0,1.0
+221,"frozenset({'offerType_Angebot', 'notRepairedDamage_nein'})",frozenset({'nrOfPictures_0'}),0.707,1.0,0.707,1.0,1.0,0.0,inf
+222,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",frozenset({'offerType_Angebot'}),0.707,1.0,0.707,1.0,1.0,0.0,inf
+223,frozenset({'offerType_Angebot'}),"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",1.0,0.707,0.707,0.707,1.0,0.0,1.0
+224,frozenset({'nrOfPictures_0'}),"frozenset({'offerType_Angebot', 'notRepairedDamage_nein'})",1.0,0.707,0.707,0.707,1.0,0.0,1.0
+225,frozenset({'notRepairedDamage_nein'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.707,1.0,0.707,1.0,1.0,0.0,inf
+226,"frozenset({'abtest_control', 'nrOfPictures_0'})",frozenset({'gearbox_manuell'}),0.4856,0.7394,0.3598,0.7409390444810544,1.0020814775237414,0.0007473600000000302,1.0059408585055647
+227,"frozenset({'abtest_control', 'gearbox_manuell'})",frozenset({'nrOfPictures_0'}),0.3598,1.0,0.3598,1.0,1.0,0.0,inf
+228,frozenset({'abtest_control'}),"frozenset({'nrOfPictures_0', 'gearbox_manuell'})",0.4856,0.7394,0.3598,0.7409390444810544,1.0020814775237414,0.0007473600000000302,1.0059408585055647
+229,"frozenset({'abtest_control', 'nrOfPictures_0'})",frozenset({'kilometer_150000'}),0.4856,0.64,0.3098,0.6379736408566722,0.9968338138385503,-0.0009839999999999849,0.9944027303754267
+230,"frozenset({'abtest_control', 'kilometer_150000'})",frozenset({'nrOfPictures_0'}),0.3098,1.0,0.3098,1.0,1.0,0.0,inf
+231,frozenset({'abtest_control'}),"frozenset({'nrOfPictures_0', 'kilometer_150000'})",0.4856,0.64,0.3098,0.6379736408566722,0.9968338138385503,-0.0009839999999999849,0.9944027303754267
+232,"frozenset({'notRepairedDamage_nein', 'abtest_control'})",frozenset({'nrOfPictures_0'}),0.3438,1.0,0.3438,1.0,1.0,0.0,inf
+233,"frozenset({'abtest_control', 'nrOfPictures_0'})",frozenset({'notRepairedDamage_nein'}),0.4856,0.707,0.3438,0.7079901153212521,1.0014004459989423,0.00048080000000000345,1.0033906911142458
+234,frozenset({'abtest_control'}),"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",0.4856,0.707,0.3438,0.7079901153212521,1.0014004459989423,0.00048080000000000345,1.0033906911142458
+235,"frozenset({'nrOfPictures_0', 'abtest_test'})",frozenset({'gearbox_manuell'}),0.5144,0.7394,0.3796,0.7379471228615864,0.9980350593205118,-0.0007473599999999747,0.9944557863501488
+236,"frozenset({'abtest_test', 'gearbox_manuell'})",frozenset({'nrOfPictures_0'}),0.3796,1.0,0.3796,1.0,1.0,0.0,inf
+237,frozenset({'abtest_test'}),"frozenset({'nrOfPictures_0', 'gearbox_manuell'})",0.5144,0.7394,0.3796,0.7379471228615864,0.9980350593205118,-0.0007473599999999747,0.9944557863501488
+238,"frozenset({'nrOfPictures_0', 'abtest_test'})",frozenset({'kilometer_150000'}),0.5144,0.64,0.3302,0.6419129082426128,1.0029889191290826,0.0009839999999999849,1.0053420195439742
+239,"frozenset({'abtest_test', 'kilometer_150000'})",frozenset({'nrOfPictures_0'}),0.3302,1.0,0.3302,1.0,1.0,0.0,inf
+240,frozenset({'abtest_test'}),"frozenset({'nrOfPictures_0', 'kilometer_150000'})",0.5144,0.64,0.3302,0.6419129082426128,1.0029889191290826,0.0009839999999999849,1.0053420195439742
+241,"frozenset({'nrOfPictures_0', 'abtest_test'})",frozenset({'fuelType_benzin'}),0.5144,0.5964,0.3096,0.6018662519440124,1.0091654123809732,0.00281184000000001,1.0137296875
+242,"frozenset({'abtest_test', 'fuelType_benzin'})",frozenset({'nrOfPictures_0'}),0.3096,1.0,0.3096,1.0,1.0,0.0,inf
+243,frozenset({'abtest_test'}),"frozenset({'nrOfPictures_0', 'fuelType_benzin'})",0.5144,0.5964,0.3096,0.6018662519440124,1.0091654123809732,0.00281184000000001,1.0137296875
+244,"frozenset({'notRepairedDamage_nein', 'abtest_test'})",frozenset({'nrOfPictures_0'}),0.3632,1.0,0.3632,1.0,1.0,0.0,inf
+245,"frozenset({'nrOfPictures_0', 'abtest_test'})",frozenset({'notRepairedDamage_nein'}),0.5144,0.707,0.3632,0.7060653188180406,0.9986779615530985,-0.00048079999999994794,0.9968201058201064
+246,frozenset({'abtest_test'}),"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",0.5144,0.707,0.3632,0.7060653188180406,0.9986779615530985,-0.00048079999999994794,0.9968201058201064
+247,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell'})",frozenset({'kilometer_150000'}),0.5286,0.64,0.3172,0.6000756715853197,0.937618236852062,-0.02110400000000001,0.900170293282876
+248,"frozenset({'notRepairedDamage_nein', 'kilometer_150000'})",frozenset({'gearbox_manuell'}),0.4216,0.7394,0.3172,0.7523719165085389,1.0175438416398956,0.005468960000000023,1.052384674329502
+249,"frozenset({'gearbox_manuell', 'kilometer_150000'})",frozenset({'notRepairedDamage_nein'}),0.4796,0.707,0.3172,0.6613844870725604,0.9354801797348803,-0.02187720000000004,0.8652881773399014
+250,"frozenset({'nrOfPictures_0', 'gearbox_manuell'})",frozenset({'kilometer_150000'}),0.7394,0.64,0.4796,0.6486340275899378,1.013490668109278,0.006384000000000056,1.0245727482678983
+251,"frozenset({'nrOfPictures_0', 'kilometer_150000'})",frozenset({'gearbox_manuell'}),0.64,0.7394,0.4796,0.749375,1.013490668109278,0.006384000000000056,1.0398004987531175
+252,"frozenset({'gearbox_manuell', 'kilometer_150000'})",frozenset({'nrOfPictures_0'}),0.4796,1.0,0.4796,1.0,1.0,0.0,inf
+253,frozenset({'gearbox_manuell'}),"frozenset({'nrOfPictures_0', 'kilometer_150000'})",0.7394,0.64,0.4796,0.6486340275899378,1.013490668109278,0.006384000000000056,1.0245727482678983
+254,frozenset({'kilometer_150000'}),"frozenset({'nrOfPictures_0', 'gearbox_manuell'})",0.64,0.7394,0.4796,0.749375,1.013490668109278,0.006384000000000056,1.0398004987531175
+255,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell'})",frozenset({'fuelType_benzin'}),0.5286,0.5964,0.3458,0.6541808550889141,1.0968827214770525,0.030542960000000008,1.1670840262582056
+256,"frozenset({'notRepairedDamage_nein', 'fuelType_benzin'})",frozenset({'gearbox_manuell'}),0.4306,0.7394,0.3458,0.803065490013934,1.086104260229827,0.027414360000000026,1.3232825471698113
+257,"frozenset({'gearbox_manuell', 'fuelType_benzin'})",frozenset({'notRepairedDamage_nein'}),0.4756,0.707,0.3458,0.7270815811606391,1.028403933749136,0.009550800000000026,1.0735808936825886
+258,"frozenset({'nrOfPictures_0', 'gearbox_manuell'})",frozenset({'fuelType_benzin'}),0.7394,0.5964,0.4756,0.6432242358669192,1.0785114618828289,0.034621840000000015,1.1312427596664143
+259,"frozenset({'nrOfPictures_0', 'fuelType_benzin'})",frozenset({'gearbox_manuell'}),0.5964,0.7394,0.4756,0.7974513749161636,1.0785114618828289,0.034621840000000015,1.2866046357615892
+260,"frozenset({'gearbox_manuell', 'fuelType_benzin'})",frozenset({'nrOfPictures_0'}),0.4756,1.0,0.4756,1.0,1.0,0.0,inf
+261,frozenset({'gearbox_manuell'}),"frozenset({'nrOfPictures_0', 'fuelType_benzin'})",0.7394,0.5964,0.4756,0.6432242358669192,1.0785114618828289,0.034621840000000015,1.1312427596664143
+262,frozenset({'fuelType_benzin'}),"frozenset({'nrOfPictures_0', 'gearbox_manuell'})",0.5964,0.7394,0.4756,0.7974513749161636,1.0785114618828289,0.034621840000000015,1.2866046357615892
+263,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",frozenset({'gearbox_manuell'}),0.707,0.7394,0.5286,0.7476661951909477,1.0111795985812115,0.005844200000000077,1.0327589686098657
+264,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell'})",frozenset({'nrOfPictures_0'}),0.5286,1.0,0.5286,1.0,1.0,0.0,inf
+265,"frozenset({'nrOfPictures_0', 'gearbox_manuell'})",frozenset({'notRepairedDamage_nein'}),0.7394,0.707,0.5286,0.7149039761969164,1.0111795985812113,0.005844200000000077,1.027723908918406
+266,frozenset({'notRepairedDamage_nein'}),"frozenset({'nrOfPictures_0', 'gearbox_manuell'})",0.707,0.7394,0.5286,0.7476661951909477,1.0111795985812115,0.005844200000000077,1.0327589686098657
+267,frozenset({'gearbox_manuell'}),"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",0.7394,0.707,0.5286,0.7149039761969164,1.0111795985812113,0.005844200000000077,1.027723908918406
+268,"frozenset({'kilometer_150000', 'fuelType_benzin'})",frozenset({'nrOfPictures_0'}),0.3514,1.0,0.3514,1.0,1.0,0.0,inf
+269,"frozenset({'notRepairedDamage_nein', 'kilometer_150000'})",frozenset({'nrOfPictures_0'}),0.4216,1.0,0.4216,1.0,1.0,0.0,inf
+270,"frozenset({'nrOfPictures_0', 'kilometer_150000'})",frozenset({'notRepairedDamage_nein'}),0.64,0.707,0.4216,0.65875,0.9317538896746818,-0.03088000000000002,0.8586080586080586
+271,frozenset({'kilometer_150000'}),"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",0.64,0.707,0.4216,0.65875,0.9317538896746818,-0.03088000000000002,0.8586080586080586
+272,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",frozenset({'fuelType_benzin'}),0.707,0.5964,0.4306,0.609052333804809,1.0212145100684256,0.008945199999999986,1.0323632416787263
+273,"frozenset({'notRepairedDamage_nein', 'fuelType_benzin'})",frozenset({'nrOfPictures_0'}),0.4306,1.0,0.4306,1.0,1.0,0.0,inf
+274,"frozenset({'nrOfPictures_0', 'fuelType_benzin'})",frozenset({'notRepairedDamage_nein'}),0.5964,0.707,0.4306,0.7219986586183769,1.0212145100684256,0.008945199999999986,1.0539517490952954
+275,frozenset({'notRepairedDamage_nein'}),"frozenset({'nrOfPictures_0', 'fuelType_benzin'})",0.707,0.5964,0.4306,0.609052333804809,1.0212145100684256,0.008945199999999986,1.0323632416787263
+276,frozenset({'fuelType_benzin'}),"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",0.5964,0.707,0.4306,0.7219986586183769,1.0212145100684256,0.008945199999999986,1.0539517490952954
+277,"frozenset({'offerType_Angebot', 'abtest_control', 'gearbox_manuell'})",frozenset({'seller_privat'}),0.3598,1.0,0.3598,1.0,1.0,0.0,inf
+278,"frozenset({'offerType_Angebot', 'abtest_control', 'seller_privat'})",frozenset({'gearbox_manuell'}),0.4856,0.7394,0.3598,0.7409390444810544,1.0020814775237414,0.0007473600000000302,1.0059408585055647
+279,"frozenset({'seller_privat', 'abtest_control', 'gearbox_manuell'})",frozenset({'offerType_Angebot'}),0.3598,1.0,0.3598,1.0,1.0,0.0,inf
+280,"frozenset({'offerType_Angebot', 'abtest_control'})","frozenset({'seller_privat', 'gearbox_manuell'})",0.4856,0.7394,0.3598,0.7409390444810544,1.0020814775237414,0.0007473600000000302,1.0059408585055647
+281,"frozenset({'abtest_control', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.3598,1.0,0.3598,1.0,1.0,0.0,inf
+282,"frozenset({'abtest_control', 'seller_privat'})","frozenset({'offerType_Angebot', 'gearbox_manuell'})",0.4856,0.7394,0.3598,0.7409390444810544,1.0020814775237414,0.0007473600000000302,1.0059408585055647
+283,frozenset({'abtest_control'}),"frozenset({'offerType_Angebot', 'seller_privat', 'gearbox_manuell'})",0.4856,0.7394,0.3598,0.7409390444810544,1.0020814775237414,0.0007473600000000302,1.0059408585055647
+284,"frozenset({'offerType_Angebot', 'abtest_control', 'seller_privat'})",frozenset({'kilometer_150000'}),0.4856,0.64,0.3098,0.6379736408566722,0.9968338138385503,-0.0009839999999999849,0.9944027303754267
+285,"frozenset({'offerType_Angebot', 'abtest_control', 'kilometer_150000'})",frozenset({'seller_privat'}),0.3098,1.0,0.3098,1.0,1.0,0.0,inf
+286,"frozenset({'abtest_control', 'seller_privat', 'kilometer_150000'})",frozenset({'offerType_Angebot'}),0.3098,1.0,0.3098,1.0,1.0,0.0,inf
+287,"frozenset({'offerType_Angebot', 'abtest_control'})","frozenset({'seller_privat', 'kilometer_150000'})",0.4856,0.64,0.3098,0.6379736408566722,0.9968338138385503,-0.0009839999999999849,0.9944027303754267
+288,"frozenset({'abtest_control', 'seller_privat'})","frozenset({'offerType_Angebot', 'kilometer_150000'})",0.4856,0.64,0.3098,0.6379736408566722,0.9968338138385503,-0.0009839999999999849,0.9944027303754267
+289,"frozenset({'abtest_control', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.3098,1.0,0.3098,1.0,1.0,0.0,inf
+290,frozenset({'abtest_control'}),"frozenset({'offerType_Angebot', 'seller_privat', 'kilometer_150000'})",0.4856,0.64,0.3098,0.6379736408566722,0.9968338138385503,-0.0009839999999999849,0.9944027303754267
+291,"frozenset({'offerType_Angebot', 'abtest_control', 'seller_privat'})",frozenset({'notRepairedDamage_nein'}),0.4856,0.707,0.3438,0.7079901153212521,1.0014004459989423,0.00048080000000000345,1.0033906911142458
+292,"frozenset({'offerType_Angebot', 'abtest_control', 'notRepairedDamage_nein'})",frozenset({'seller_privat'}),0.3438,1.0,0.3438,1.0,1.0,0.0,inf
+293,"frozenset({'notRepairedDamage_nein', 'abtest_control', 'seller_privat'})",frozenset({'offerType_Angebot'}),0.3438,1.0,0.3438,1.0,1.0,0.0,inf
+294,"frozenset({'offerType_Angebot', 'abtest_control'})","frozenset({'notRepairedDamage_nein', 'seller_privat'})",0.4856,0.707,0.3438,0.7079901153212521,1.0014004459989423,0.00048080000000000345,1.0033906911142458
+295,"frozenset({'abtest_control', 'seller_privat'})","frozenset({'offerType_Angebot', 'notRepairedDamage_nein'})",0.4856,0.707,0.3438,0.7079901153212521,1.0014004459989423,0.00048080000000000345,1.0033906911142458
+296,"frozenset({'notRepairedDamage_nein', 'abtest_control'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.3438,1.0,0.3438,1.0,1.0,0.0,inf
+297,frozenset({'abtest_control'}),"frozenset({'offerType_Angebot', 'seller_privat', 'notRepairedDamage_nein'})",0.4856,0.707,0.3438,0.7079901153212521,1.0014004459989423,0.00048080000000000345,1.0033906911142458
+298,"frozenset({'offerType_Angebot', 'abtest_control', 'nrOfPictures_0'})",frozenset({'seller_privat'}),0.4856,1.0,0.4856,1.0,1.0,0.0,inf
+299,"frozenset({'offerType_Angebot', 'abtest_control', 'seller_privat'})",frozenset({'nrOfPictures_0'}),0.4856,1.0,0.4856,1.0,1.0,0.0,inf
+300,"frozenset({'abtest_control', 'nrOfPictures_0', 'seller_privat'})",frozenset({'offerType_Angebot'}),0.4856,1.0,0.4856,1.0,1.0,0.0,inf
+301,"frozenset({'offerType_Angebot', 'abtest_control'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.4856,1.0,0.4856,1.0,1.0,0.0,inf
+302,"frozenset({'abtest_control', 'nrOfPictures_0'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.4856,1.0,0.4856,1.0,1.0,0.0,inf
+303,"frozenset({'abtest_control', 'seller_privat'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.4856,1.0,0.4856,1.0,1.0,0.0,inf
+304,frozenset({'abtest_control'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat'})",0.4856,1.0,0.4856,1.0,1.0,0.0,inf
+305,"frozenset({'offerType_Angebot', 'abtest_test', 'gearbox_manuell'})",frozenset({'seller_privat'}),0.3796,1.0,0.3796,1.0,1.0,0.0,inf
+306,"frozenset({'offerType_Angebot', 'abtest_test', 'seller_privat'})",frozenset({'gearbox_manuell'}),0.5144,0.7394,0.3796,0.7379471228615864,0.9980350593205118,-0.0007473599999999747,0.9944557863501488
+307,"frozenset({'seller_privat', 'abtest_test', 'gearbox_manuell'})",frozenset({'offerType_Angebot'}),0.3796,1.0,0.3796,1.0,1.0,0.0,inf
+308,"frozenset({'offerType_Angebot', 'abtest_test'})","frozenset({'seller_privat', 'gearbox_manuell'})",0.5144,0.7394,0.3796,0.7379471228615864,0.9980350593205118,-0.0007473599999999747,0.9944557863501488
+309,"frozenset({'abtest_test', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.3796,1.0,0.3796,1.0,1.0,0.0,inf
+310,"frozenset({'abtest_test', 'seller_privat'})","frozenset({'offerType_Angebot', 'gearbox_manuell'})",0.5144,0.7394,0.3796,0.7379471228615864,0.9980350593205118,-0.0007473599999999747,0.9944557863501488
+311,frozenset({'abtest_test'}),"frozenset({'offerType_Angebot', 'seller_privat', 'gearbox_manuell'})",0.5144,0.7394,0.3796,0.7379471228615864,0.9980350593205118,-0.0007473599999999747,0.9944557863501488
+312,"frozenset({'offerType_Angebot', 'abtest_test', 'seller_privat'})",frozenset({'kilometer_150000'}),0.5144,0.64,0.3302,0.6419129082426128,1.0029889191290826,0.0009839999999999849,1.0053420195439742
+313,"frozenset({'offerType_Angebot', 'abtest_test', 'kilometer_150000'})",frozenset({'seller_privat'}),0.3302,1.0,0.3302,1.0,1.0,0.0,inf
+314,"frozenset({'abtest_test', 'seller_privat', 'kilometer_150000'})",frozenset({'offerType_Angebot'}),0.3302,1.0,0.3302,1.0,1.0,0.0,inf
+315,"frozenset({'offerType_Angebot', 'abtest_test'})","frozenset({'seller_privat', 'kilometer_150000'})",0.5144,0.64,0.3302,0.6419129082426128,1.0029889191290826,0.0009839999999999849,1.0053420195439742
+316,"frozenset({'abtest_test', 'seller_privat'})","frozenset({'offerType_Angebot', 'kilometer_150000'})",0.5144,0.64,0.3302,0.6419129082426128,1.0029889191290826,0.0009839999999999849,1.0053420195439742
+317,"frozenset({'abtest_test', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.3302,1.0,0.3302,1.0,1.0,0.0,inf
+318,frozenset({'abtest_test'}),"frozenset({'offerType_Angebot', 'seller_privat', 'kilometer_150000'})",0.5144,0.64,0.3302,0.6419129082426128,1.0029889191290826,0.0009839999999999849,1.0053420195439742
+319,"frozenset({'offerType_Angebot', 'abtest_test', 'seller_privat'})",frozenset({'fuelType_benzin'}),0.5144,0.5964,0.3096,0.6018662519440124,1.0091654123809732,0.00281184000000001,1.0137296875
+320,"frozenset({'offerType_Angebot', 'abtest_test', 'fuelType_benzin'})",frozenset({'seller_privat'}),0.3096,1.0,0.3096,1.0,1.0,0.0,inf
+321,"frozenset({'abtest_test', 'seller_privat', 'fuelType_benzin'})",frozenset({'offerType_Angebot'}),0.3096,1.0,0.3096,1.0,1.0,0.0,inf
+322,"frozenset({'offerType_Angebot', 'abtest_test'})","frozenset({'seller_privat', 'fuelType_benzin'})",0.5144,0.5964,0.3096,0.6018662519440124,1.0091654123809732,0.00281184000000001,1.0137296875
+323,"frozenset({'abtest_test', 'seller_privat'})","frozenset({'offerType_Angebot', 'fuelType_benzin'})",0.5144,0.5964,0.3096,0.6018662519440124,1.0091654123809732,0.00281184000000001,1.0137296875
+324,"frozenset({'abtest_test', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.3096,1.0,0.3096,1.0,1.0,0.0,inf
+325,frozenset({'abtest_test'}),"frozenset({'offerType_Angebot', 'seller_privat', 'fuelType_benzin'})",0.5144,0.5964,0.3096,0.6018662519440124,1.0091654123809732,0.00281184000000001,1.0137296875
+326,"frozenset({'offerType_Angebot', 'abtest_test', 'seller_privat'})",frozenset({'notRepairedDamage_nein'}),0.5144,0.707,0.3632,0.7060653188180406,0.9986779615530985,-0.00048079999999994794,0.9968201058201064
+327,"frozenset({'offerType_Angebot', 'abtest_test', 'notRepairedDamage_nein'})",frozenset({'seller_privat'}),0.3632,1.0,0.3632,1.0,1.0,0.0,inf
+328,"frozenset({'notRepairedDamage_nein', 'abtest_test', 'seller_privat'})",frozenset({'offerType_Angebot'}),0.3632,1.0,0.3632,1.0,1.0,0.0,inf
+329,"frozenset({'offerType_Angebot', 'abtest_test'})","frozenset({'notRepairedDamage_nein', 'seller_privat'})",0.5144,0.707,0.3632,0.7060653188180406,0.9986779615530985,-0.00048079999999994794,0.9968201058201064
+330,"frozenset({'abtest_test', 'seller_privat'})","frozenset({'offerType_Angebot', 'notRepairedDamage_nein'})",0.5144,0.707,0.3632,0.7060653188180406,0.9986779615530985,-0.00048079999999994794,0.9968201058201064
+331,"frozenset({'notRepairedDamage_nein', 'abtest_test'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.3632,1.0,0.3632,1.0,1.0,0.0,inf
+332,frozenset({'abtest_test'}),"frozenset({'offerType_Angebot', 'seller_privat', 'notRepairedDamage_nein'})",0.5144,0.707,0.3632,0.7060653188180406,0.9986779615530985,-0.00048079999999994794,0.9968201058201064
+333,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'abtest_test'})",frozenset({'seller_privat'}),0.5144,1.0,0.5144,1.0,1.0,0.0,inf
+334,"frozenset({'offerType_Angebot', 'abtest_test', 'seller_privat'})",frozenset({'nrOfPictures_0'}),0.5144,1.0,0.5144,1.0,1.0,0.0,inf
+335,"frozenset({'nrOfPictures_0', 'abtest_test', 'seller_privat'})",frozenset({'offerType_Angebot'}),0.5144,1.0,0.5144,1.0,1.0,0.0,inf
+336,"frozenset({'offerType_Angebot', 'abtest_test'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.5144,1.0,0.5144,1.0,1.0,0.0,inf
+337,"frozenset({'nrOfPictures_0', 'abtest_test'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.5144,1.0,0.5144,1.0,1.0,0.0,inf
+338,"frozenset({'abtest_test', 'seller_privat'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.5144,1.0,0.5144,1.0,1.0,0.0,inf
+339,frozenset({'abtest_test'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat'})",0.5144,1.0,0.5144,1.0,1.0,0.0,inf
+340,"frozenset({'offerType_Angebot', 'seller_privat', 'gearbox_manuell'})",frozenset({'kilometer_150000'}),0.7394,0.64,0.4796,0.6486340275899378,1.013490668109278,0.006384000000000056,1.0245727482678983
+341,"frozenset({'offerType_Angebot', 'gearbox_manuell', 'kilometer_150000'})",frozenset({'seller_privat'}),0.4796,1.0,0.4796,1.0,1.0,0.0,inf
+342,"frozenset({'offerType_Angebot', 'seller_privat', 'kilometer_150000'})",frozenset({'gearbox_manuell'}),0.64,0.7394,0.4796,0.749375,1.013490668109278,0.006384000000000056,1.0398004987531175
+343,"frozenset({'seller_privat', 'gearbox_manuell', 'kilometer_150000'})",frozenset({'offerType_Angebot'}),0.4796,1.0,0.4796,1.0,1.0,0.0,inf
+344,"frozenset({'offerType_Angebot', 'gearbox_manuell'})","frozenset({'seller_privat', 'kilometer_150000'})",0.7394,0.64,0.4796,0.6486340275899378,1.013490668109278,0.006384000000000056,1.0245727482678983
+345,"frozenset({'offerType_Angebot', 'kilometer_150000'})","frozenset({'seller_privat', 'gearbox_manuell'})",0.64,0.7394,0.4796,0.749375,1.013490668109278,0.006384000000000056,1.0398004987531175
+346,"frozenset({'seller_privat', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'kilometer_150000'})",0.7394,0.64,0.4796,0.6486340275899378,1.013490668109278,0.006384000000000056,1.0245727482678983
+347,"frozenset({'gearbox_manuell', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.4796,1.0,0.4796,1.0,1.0,0.0,inf
+348,"frozenset({'seller_privat', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'gearbox_manuell'})",0.64,0.7394,0.4796,0.749375,1.013490668109278,0.006384000000000056,1.0398004987531175
+349,frozenset({'gearbox_manuell'}),"frozenset({'offerType_Angebot', 'seller_privat', 'kilometer_150000'})",0.7394,0.64,0.4796,0.6486340275899378,1.013490668109278,0.006384000000000056,1.0245727482678983
+350,frozenset({'kilometer_150000'}),"frozenset({'offerType_Angebot', 'seller_privat', 'gearbox_manuell'})",0.64,0.7394,0.4796,0.749375,1.013490668109278,0.006384000000000056,1.0398004987531175
+351,"frozenset({'offerType_Angebot', 'seller_privat', 'gearbox_manuell'})",frozenset({'fuelType_benzin'}),0.7394,0.5964,0.4756,0.6432242358669192,1.0785114618828289,0.034621840000000015,1.1312427596664143
+352,"frozenset({'offerType_Angebot', 'gearbox_manuell', 'fuelType_benzin'})",frozenset({'seller_privat'}),0.4756,1.0,0.4756,1.0,1.0,0.0,inf
+353,"frozenset({'offerType_Angebot', 'seller_privat', 'fuelType_benzin'})",frozenset({'gearbox_manuell'}),0.5964,0.7394,0.4756,0.7974513749161636,1.0785114618828289,0.034621840000000015,1.2866046357615892
+354,"frozenset({'seller_privat', 'gearbox_manuell', 'fuelType_benzin'})",frozenset({'offerType_Angebot'}),0.4756,1.0,0.4756,1.0,1.0,0.0,inf
+355,"frozenset({'offerType_Angebot', 'gearbox_manuell'})","frozenset({'seller_privat', 'fuelType_benzin'})",0.7394,0.5964,0.4756,0.6432242358669192,1.0785114618828289,0.034621840000000015,1.1312427596664143
+356,"frozenset({'offerType_Angebot', 'fuelType_benzin'})","frozenset({'seller_privat', 'gearbox_manuell'})",0.5964,0.7394,0.4756,0.7974513749161636,1.0785114618828289,0.034621840000000015,1.2866046357615892
+357,"frozenset({'seller_privat', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'fuelType_benzin'})",0.7394,0.5964,0.4756,0.6432242358669192,1.0785114618828289,0.034621840000000015,1.1312427596664143
+358,"frozenset({'gearbox_manuell', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.4756,1.0,0.4756,1.0,1.0,0.0,inf
+359,"frozenset({'seller_privat', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'gearbox_manuell'})",0.5964,0.7394,0.4756,0.7974513749161636,1.0785114618828289,0.034621840000000015,1.2866046357615892
+360,frozenset({'gearbox_manuell'}),"frozenset({'offerType_Angebot', 'seller_privat', 'fuelType_benzin'})",0.7394,0.5964,0.4756,0.6432242358669192,1.0785114618828289,0.034621840000000015,1.1312427596664143
+361,frozenset({'fuelType_benzin'}),"frozenset({'offerType_Angebot', 'seller_privat', 'gearbox_manuell'})",0.5964,0.7394,0.4756,0.7974513749161636,1.0785114618828289,0.034621840000000015,1.2866046357615892
+362,"frozenset({'offerType_Angebot', 'seller_privat', 'gearbox_manuell'})",frozenset({'notRepairedDamage_nein'}),0.7394,0.707,0.5286,0.7149039761969164,1.0111795985812113,0.005844200000000077,1.027723908918406
+363,"frozenset({'offerType_Angebot', 'gearbox_manuell', 'notRepairedDamage_nein'})",frozenset({'seller_privat'}),0.5286,1.0,0.5286,1.0,1.0,0.0,inf
+364,"frozenset({'offerType_Angebot', 'seller_privat', 'notRepairedDamage_nein'})",frozenset({'gearbox_manuell'}),0.707,0.7394,0.5286,0.7476661951909477,1.0111795985812115,0.005844200000000077,1.0327589686098657
+365,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'gearbox_manuell'})",frozenset({'offerType_Angebot'}),0.5286,1.0,0.5286,1.0,1.0,0.0,inf
+366,"frozenset({'offerType_Angebot', 'gearbox_manuell'})","frozenset({'notRepairedDamage_nein', 'seller_privat'})",0.7394,0.707,0.5286,0.7149039761969164,1.0111795985812113,0.005844200000000077,1.027723908918406
+367,"frozenset({'offerType_Angebot', 'notRepairedDamage_nein'})","frozenset({'seller_privat', 'gearbox_manuell'})",0.707,0.7394,0.5286,0.7476661951909477,1.0111795985812115,0.005844200000000077,1.0327589686098657
+368,"frozenset({'seller_privat', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'notRepairedDamage_nein'})",0.7394,0.707,0.5286,0.7149039761969164,1.0111795985812113,0.005844200000000077,1.027723908918406
+369,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.5286,1.0,0.5286,1.0,1.0,0.0,inf
+370,"frozenset({'notRepairedDamage_nein', 'seller_privat'})","frozenset({'offerType_Angebot', 'gearbox_manuell'})",0.707,0.7394,0.5286,0.7476661951909477,1.0111795985812115,0.005844200000000077,1.0327589686098657
+371,frozenset({'gearbox_manuell'}),"frozenset({'offerType_Angebot', 'seller_privat', 'notRepairedDamage_nein'})",0.7394,0.707,0.5286,0.7149039761969164,1.0111795985812113,0.005844200000000077,1.027723908918406
+372,frozenset({'notRepairedDamage_nein'}),"frozenset({'offerType_Angebot', 'seller_privat', 'gearbox_manuell'})",0.707,0.7394,0.5286,0.7476661951909477,1.0111795985812115,0.005844200000000077,1.0327589686098657
+373,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'gearbox_manuell'})",frozenset({'seller_privat'}),0.7394,1.0,0.7394,1.0,1.0,0.0,inf
+374,"frozenset({'offerType_Angebot', 'seller_privat', 'gearbox_manuell'})",frozenset({'nrOfPictures_0'}),0.7394,1.0,0.7394,1.0,1.0,0.0,inf
+375,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat'})",frozenset({'gearbox_manuell'}),1.0,0.7394,0.7394,0.7394,1.0,0.0,1.0
+376,"frozenset({'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",frozenset({'offerType_Angebot'}),0.7394,1.0,0.7394,1.0,1.0,0.0,inf
+377,"frozenset({'offerType_Angebot', 'gearbox_manuell'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.7394,1.0,0.7394,1.0,1.0,0.0,inf
+378,"frozenset({'offerType_Angebot', 'nrOfPictures_0'})","frozenset({'seller_privat', 'gearbox_manuell'})",1.0,0.7394,0.7394,0.7394,1.0,0.0,1.0
+379,"frozenset({'offerType_Angebot', 'seller_privat'})","frozenset({'nrOfPictures_0', 'gearbox_manuell'})",1.0,0.7394,0.7394,0.7394,1.0,0.0,1.0
+380,"frozenset({'nrOfPictures_0', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.7394,1.0,0.7394,1.0,1.0,0.0,inf
+381,"frozenset({'seller_privat', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.7394,1.0,0.7394,1.0,1.0,0.0,inf
+382,"frozenset({'nrOfPictures_0', 'seller_privat'})","frozenset({'offerType_Angebot', 'gearbox_manuell'})",1.0,0.7394,0.7394,0.7394,1.0,0.0,1.0
+383,frozenset({'offerType_Angebot'}),"frozenset({'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",1.0,0.7394,0.7394,0.7394,1.0,0.0,1.0
+384,frozenset({'gearbox_manuell'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat'})",0.7394,1.0,0.7394,1.0,1.0,0.0,inf
+385,frozenset({'nrOfPictures_0'}),"frozenset({'offerType_Angebot', 'seller_privat', 'gearbox_manuell'})",1.0,0.7394,0.7394,0.7394,1.0,0.0,1.0
+386,frozenset({'seller_privat'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'gearbox_manuell'})",1.0,0.7394,0.7394,0.7394,1.0,0.0,1.0
+387,"frozenset({'offerType_Angebot', 'fuelType_benzin', 'kilometer_150000'})",frozenset({'seller_privat'}),0.3514,1.0,0.3514,1.0,1.0,0.0,inf
+388,"frozenset({'fuelType_benzin', 'seller_privat', 'kilometer_150000'})",frozenset({'offerType_Angebot'}),0.3514,1.0,0.3514,1.0,1.0,0.0,inf
+389,"frozenset({'fuelType_benzin', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.3514,1.0,0.3514,1.0,1.0,0.0,inf
+390,"frozenset({'offerType_Angebot', 'seller_privat', 'kilometer_150000'})",frozenset({'notRepairedDamage_nein'}),0.64,0.707,0.4216,0.65875,0.9317538896746818,-0.03088000000000002,0.8586080586080586
+391,"frozenset({'offerType_Angebot', 'notRepairedDamage_nein', 'kilometer_150000'})",frozenset({'seller_privat'}),0.4216,1.0,0.4216,1.0,1.0,0.0,inf
+392,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'kilometer_150000'})",frozenset({'offerType_Angebot'}),0.4216,1.0,0.4216,1.0,1.0,0.0,inf
+393,"frozenset({'offerType_Angebot', 'kilometer_150000'})","frozenset({'notRepairedDamage_nein', 'seller_privat'})",0.64,0.707,0.4216,0.65875,0.9317538896746818,-0.03088000000000002,0.8586080586080586
+394,"frozenset({'seller_privat', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'notRepairedDamage_nein'})",0.64,0.707,0.4216,0.65875,0.9317538896746818,-0.03088000000000002,0.8586080586080586
+395,"frozenset({'notRepairedDamage_nein', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.4216,1.0,0.4216,1.0,1.0,0.0,inf
+396,frozenset({'kilometer_150000'}),"frozenset({'offerType_Angebot', 'seller_privat', 'notRepairedDamage_nein'})",0.64,0.707,0.4216,0.65875,0.9317538896746818,-0.03088000000000002,0.8586080586080586
+397,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat'})",frozenset({'kilometer_150000'}),1.0,0.64,0.64,0.64,1.0,0.0,1.0
+398,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'kilometer_150000'})",frozenset({'seller_privat'}),0.64,1.0,0.64,1.0,1.0,0.0,inf
+399,"frozenset({'offerType_Angebot', 'seller_privat', 'kilometer_150000'})",frozenset({'nrOfPictures_0'}),0.64,1.0,0.64,1.0,1.0,0.0,inf
+400,"frozenset({'nrOfPictures_0', 'seller_privat', 'kilometer_150000'})",frozenset({'offerType_Angebot'}),0.64,1.0,0.64,1.0,1.0,0.0,inf
+401,"frozenset({'offerType_Angebot', 'nrOfPictures_0'})","frozenset({'seller_privat', 'kilometer_150000'})",1.0,0.64,0.64,0.64,1.0,0.0,1.0
+402,"frozenset({'offerType_Angebot', 'seller_privat'})","frozenset({'nrOfPictures_0', 'kilometer_150000'})",1.0,0.64,0.64,0.64,1.0,0.0,1.0
+403,"frozenset({'offerType_Angebot', 'kilometer_150000'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.64,1.0,0.64,1.0,1.0,0.0,inf
+404,"frozenset({'nrOfPictures_0', 'seller_privat'})","frozenset({'offerType_Angebot', 'kilometer_150000'})",1.0,0.64,0.64,0.64,1.0,0.0,1.0
+405,"frozenset({'nrOfPictures_0', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.64,1.0,0.64,1.0,1.0,0.0,inf
+406,"frozenset({'seller_privat', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.64,1.0,0.64,1.0,1.0,0.0,inf
+407,frozenset({'offerType_Angebot'}),"frozenset({'nrOfPictures_0', 'seller_privat', 'kilometer_150000'})",1.0,0.64,0.64,0.64,1.0,0.0,1.0
+408,frozenset({'nrOfPictures_0'}),"frozenset({'offerType_Angebot', 'seller_privat', 'kilometer_150000'})",1.0,0.64,0.64,0.64,1.0,0.0,1.0
+409,frozenset({'seller_privat'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'kilometer_150000'})",1.0,0.64,0.64,0.64,1.0,0.0,1.0
+410,frozenset({'kilometer_150000'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat'})",0.64,1.0,0.64,1.0,1.0,0.0,inf
+411,"frozenset({'offerType_Angebot', 'seller_privat', 'fuelType_benzin'})",frozenset({'notRepairedDamage_nein'}),0.5964,0.707,0.4306,0.7219986586183769,1.0212145100684256,0.008945199999999986,1.0539517490952954
+412,"frozenset({'offerType_Angebot', 'notRepairedDamage_nein', 'fuelType_benzin'})",frozenset({'seller_privat'}),0.4306,1.0,0.4306,1.0,1.0,0.0,inf
+413,"frozenset({'offerType_Angebot', 'seller_privat', 'notRepairedDamage_nein'})",frozenset({'fuelType_benzin'}),0.707,0.5964,0.4306,0.609052333804809,1.0212145100684256,0.008945199999999986,1.0323632416787263
+414,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'fuelType_benzin'})",frozenset({'offerType_Angebot'}),0.4306,1.0,0.4306,1.0,1.0,0.0,inf
+415,"frozenset({'offerType_Angebot', 'fuelType_benzin'})","frozenset({'notRepairedDamage_nein', 'seller_privat'})",0.5964,0.707,0.4306,0.7219986586183769,1.0212145100684256,0.008945199999999986,1.0539517490952954
+416,"frozenset({'offerType_Angebot', 'notRepairedDamage_nein'})","frozenset({'seller_privat', 'fuelType_benzin'})",0.707,0.5964,0.4306,0.609052333804809,1.0212145100684256,0.008945199999999986,1.0323632416787263
+417,"frozenset({'seller_privat', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'notRepairedDamage_nein'})",0.5964,0.707,0.4306,0.7219986586183769,1.0212145100684256,0.008945199999999986,1.0539517490952954
+418,"frozenset({'notRepairedDamage_nein', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.4306,1.0,0.4306,1.0,1.0,0.0,inf
+419,"frozenset({'notRepairedDamage_nein', 'seller_privat'})","frozenset({'offerType_Angebot', 'fuelType_benzin'})",0.707,0.5964,0.4306,0.609052333804809,1.0212145100684256,0.008945199999999986,1.0323632416787263
+420,frozenset({'fuelType_benzin'}),"frozenset({'offerType_Angebot', 'seller_privat', 'notRepairedDamage_nein'})",0.5964,0.707,0.4306,0.7219986586183769,1.0212145100684256,0.008945199999999986,1.0539517490952954
+421,frozenset({'notRepairedDamage_nein'}),"frozenset({'offerType_Angebot', 'seller_privat', 'fuelType_benzin'})",0.707,0.5964,0.4306,0.609052333804809,1.0212145100684256,0.008945199999999986,1.0323632416787263
+422,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'fuelType_benzin'})",frozenset({'seller_privat'}),0.5964,1.0,0.5964,1.0,1.0,0.0,inf
+423,"frozenset({'offerType_Angebot', 'seller_privat', 'fuelType_benzin'})",frozenset({'nrOfPictures_0'}),0.5964,1.0,0.5964,1.0,1.0,0.0,inf
+424,"frozenset({'nrOfPictures_0', 'seller_privat', 'fuelType_benzin'})",frozenset({'offerType_Angebot'}),0.5964,1.0,0.5964,1.0,1.0,0.0,inf
+425,"frozenset({'offerType_Angebot', 'fuelType_benzin'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.5964,1.0,0.5964,1.0,1.0,0.0,inf
+426,"frozenset({'nrOfPictures_0', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.5964,1.0,0.5964,1.0,1.0,0.0,inf
+427,"frozenset({'seller_privat', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.5964,1.0,0.5964,1.0,1.0,0.0,inf
+428,frozenset({'fuelType_benzin'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat'})",0.5964,1.0,0.5964,1.0,1.0,0.0,inf
+429,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat'})",frozenset({'notRepairedDamage_nein'}),1.0,0.707,0.707,0.707,1.0,0.0,1.0
+430,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'notRepairedDamage_nein'})",frozenset({'seller_privat'}),0.707,1.0,0.707,1.0,1.0,0.0,inf
+431,"frozenset({'offerType_Angebot', 'seller_privat', 'notRepairedDamage_nein'})",frozenset({'nrOfPictures_0'}),0.707,1.0,0.707,1.0,1.0,0.0,inf
+432,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'seller_privat'})",frozenset({'offerType_Angebot'}),0.707,1.0,0.707,1.0,1.0,0.0,inf
+433,"frozenset({'offerType_Angebot', 'nrOfPictures_0'})","frozenset({'notRepairedDamage_nein', 'seller_privat'})",1.0,0.707,0.707,0.707,1.0,0.0,1.0
+434,"frozenset({'offerType_Angebot', 'seller_privat'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",1.0,0.707,0.707,0.707,1.0,0.0,1.0
+435,"frozenset({'offerType_Angebot', 'notRepairedDamage_nein'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.707,1.0,0.707,1.0,1.0,0.0,inf
+436,"frozenset({'nrOfPictures_0', 'seller_privat'})","frozenset({'offerType_Angebot', 'notRepairedDamage_nein'})",1.0,0.707,0.707,0.707,1.0,0.0,1.0
+437,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.707,1.0,0.707,1.0,1.0,0.0,inf
+438,"frozenset({'notRepairedDamage_nein', 'seller_privat'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.707,1.0,0.707,1.0,1.0,0.0,inf
+439,frozenset({'offerType_Angebot'}),"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'seller_privat'})",1.0,0.707,0.707,0.707,1.0,0.0,1.0
+440,frozenset({'nrOfPictures_0'}),"frozenset({'offerType_Angebot', 'seller_privat', 'notRepairedDamage_nein'})",1.0,0.707,0.707,0.707,1.0,0.0,1.0
+441,frozenset({'seller_privat'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'notRepairedDamage_nein'})",1.0,0.707,0.707,0.707,1.0,0.0,1.0
+442,frozenset({'notRepairedDamage_nein'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat'})",0.707,1.0,0.707,1.0,1.0,0.0,inf
+443,"frozenset({'abtest_control', 'nrOfPictures_0', 'gearbox_manuell'})",frozenset({'seller_privat'}),0.3598,1.0,0.3598,1.0,1.0,0.0,inf
+444,"frozenset({'seller_privat', 'abtest_control', 'gearbox_manuell'})",frozenset({'nrOfPictures_0'}),0.3598,1.0,0.3598,1.0,1.0,0.0,inf
+445,"frozenset({'abtest_control', 'nrOfPictures_0', 'seller_privat'})",frozenset({'gearbox_manuell'}),0.4856,0.7394,0.3598,0.7409390444810544,1.0020814775237414,0.0007473600000000302,1.0059408585055647
+446,"frozenset({'abtest_control', 'gearbox_manuell'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.3598,1.0,0.3598,1.0,1.0,0.0,inf
+447,"frozenset({'abtest_control', 'nrOfPictures_0'})","frozenset({'seller_privat', 'gearbox_manuell'})",0.4856,0.7394,0.3598,0.7409390444810544,1.0020814775237414,0.0007473600000000302,1.0059408585055647
+448,"frozenset({'abtest_control', 'seller_privat'})","frozenset({'nrOfPictures_0', 'gearbox_manuell'})",0.4856,0.7394,0.3598,0.7409390444810544,1.0020814775237414,0.0007473600000000302,1.0059408585055647
+449,frozenset({'abtest_control'}),"frozenset({'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",0.4856,0.7394,0.3598,0.7409390444810544,1.0020814775237414,0.0007473600000000302,1.0059408585055647
+450,"frozenset({'abtest_control', 'nrOfPictures_0', 'seller_privat'})",frozenset({'kilometer_150000'}),0.4856,0.64,0.3098,0.6379736408566722,0.9968338138385503,-0.0009839999999999849,0.9944027303754267
+451,"frozenset({'abtest_control', 'nrOfPictures_0', 'kilometer_150000'})",frozenset({'seller_privat'}),0.3098,1.0,0.3098,1.0,1.0,0.0,inf
+452,"frozenset({'abtest_control', 'seller_privat', 'kilometer_150000'})",frozenset({'nrOfPictures_0'}),0.3098,1.0,0.3098,1.0,1.0,0.0,inf
+453,"frozenset({'abtest_control', 'nrOfPictures_0'})","frozenset({'seller_privat', 'kilometer_150000'})",0.4856,0.64,0.3098,0.6379736408566722,0.9968338138385503,-0.0009839999999999849,0.9944027303754267
+454,"frozenset({'abtest_control', 'seller_privat'})","frozenset({'nrOfPictures_0', 'kilometer_150000'})",0.4856,0.64,0.3098,0.6379736408566722,0.9968338138385503,-0.0009839999999999849,0.9944027303754267
+455,"frozenset({'abtest_control', 'kilometer_150000'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.3098,1.0,0.3098,1.0,1.0,0.0,inf
+456,frozenset({'abtest_control'}),"frozenset({'nrOfPictures_0', 'seller_privat', 'kilometer_150000'})",0.4856,0.64,0.3098,0.6379736408566722,0.9968338138385503,-0.0009839999999999849,0.9944027303754267
+457,"frozenset({'notRepairedDamage_nein', 'abtest_control', 'nrOfPictures_0'})",frozenset({'seller_privat'}),0.3438,1.0,0.3438,1.0,1.0,0.0,inf
+458,"frozenset({'notRepairedDamage_nein', 'abtest_control', 'seller_privat'})",frozenset({'nrOfPictures_0'}),0.3438,1.0,0.3438,1.0,1.0,0.0,inf
+459,"frozenset({'abtest_control', 'nrOfPictures_0', 'seller_privat'})",frozenset({'notRepairedDamage_nein'}),0.4856,0.707,0.3438,0.7079901153212521,1.0014004459989423,0.00048080000000000345,1.0033906911142458
+460,"frozenset({'notRepairedDamage_nein', 'abtest_control'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.3438,1.0,0.3438,1.0,1.0,0.0,inf
+461,"frozenset({'abtest_control', 'nrOfPictures_0'})","frozenset({'notRepairedDamage_nein', 'seller_privat'})",0.4856,0.707,0.3438,0.7079901153212521,1.0014004459989423,0.00048080000000000345,1.0033906911142458
+462,"frozenset({'abtest_control', 'seller_privat'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",0.4856,0.707,0.3438,0.7079901153212521,1.0014004459989423,0.00048080000000000345,1.0033906911142458
+463,frozenset({'abtest_control'}),"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'seller_privat'})",0.4856,0.707,0.3438,0.7079901153212521,1.0014004459989423,0.00048080000000000345,1.0033906911142458
+464,"frozenset({'nrOfPictures_0', 'abtest_test', 'gearbox_manuell'})",frozenset({'seller_privat'}),0.3796,1.0,0.3796,1.0,1.0,0.0,inf
+465,"frozenset({'seller_privat', 'abtest_test', 'gearbox_manuell'})",frozenset({'nrOfPictures_0'}),0.3796,1.0,0.3796,1.0,1.0,0.0,inf
+466,"frozenset({'nrOfPictures_0', 'abtest_test', 'seller_privat'})",frozenset({'gearbox_manuell'}),0.5144,0.7394,0.3796,0.7379471228615864,0.9980350593205118,-0.0007473599999999747,0.9944557863501488
+467,"frozenset({'abtest_test', 'gearbox_manuell'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.3796,1.0,0.3796,1.0,1.0,0.0,inf
+468,"frozenset({'nrOfPictures_0', 'abtest_test'})","frozenset({'seller_privat', 'gearbox_manuell'})",0.5144,0.7394,0.3796,0.7379471228615864,0.9980350593205118,-0.0007473599999999747,0.9944557863501488
+469,"frozenset({'abtest_test', 'seller_privat'})","frozenset({'nrOfPictures_0', 'gearbox_manuell'})",0.5144,0.7394,0.3796,0.7379471228615864,0.9980350593205118,-0.0007473599999999747,0.9944557863501488
+470,frozenset({'abtest_test'}),"frozenset({'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",0.5144,0.7394,0.3796,0.7379471228615864,0.9980350593205118,-0.0007473599999999747,0.9944557863501488
+471,"frozenset({'nrOfPictures_0', 'abtest_test', 'seller_privat'})",frozenset({'kilometer_150000'}),0.5144,0.64,0.3302,0.6419129082426128,1.0029889191290826,0.0009839999999999849,1.0053420195439742
+472,"frozenset({'nrOfPictures_0', 'abtest_test', 'kilometer_150000'})",frozenset({'seller_privat'}),0.3302,1.0,0.3302,1.0,1.0,0.0,inf
+473,"frozenset({'abtest_test', 'seller_privat', 'kilometer_150000'})",frozenset({'nrOfPictures_0'}),0.3302,1.0,0.3302,1.0,1.0,0.0,inf
+474,"frozenset({'nrOfPictures_0', 'abtest_test'})","frozenset({'seller_privat', 'kilometer_150000'})",0.5144,0.64,0.3302,0.6419129082426128,1.0029889191290826,0.0009839999999999849,1.0053420195439742
+475,"frozenset({'abtest_test', 'seller_privat'})","frozenset({'nrOfPictures_0', 'kilometer_150000'})",0.5144,0.64,0.3302,0.6419129082426128,1.0029889191290826,0.0009839999999999849,1.0053420195439742
+476,"frozenset({'abtest_test', 'kilometer_150000'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.3302,1.0,0.3302,1.0,1.0,0.0,inf
+477,frozenset({'abtest_test'}),"frozenset({'nrOfPictures_0', 'seller_privat', 'kilometer_150000'})",0.5144,0.64,0.3302,0.6419129082426128,1.0029889191290826,0.0009839999999999849,1.0053420195439742
+478,"frozenset({'nrOfPictures_0', 'abtest_test', 'seller_privat'})",frozenset({'fuelType_benzin'}),0.5144,0.5964,0.3096,0.6018662519440124,1.0091654123809732,0.00281184000000001,1.0137296875
+479,"frozenset({'nrOfPictures_0', 'abtest_test', 'fuelType_benzin'})",frozenset({'seller_privat'}),0.3096,1.0,0.3096,1.0,1.0,0.0,inf
+480,"frozenset({'abtest_test', 'seller_privat', 'fuelType_benzin'})",frozenset({'nrOfPictures_0'}),0.3096,1.0,0.3096,1.0,1.0,0.0,inf
+481,"frozenset({'nrOfPictures_0', 'abtest_test'})","frozenset({'seller_privat', 'fuelType_benzin'})",0.5144,0.5964,0.3096,0.6018662519440124,1.0091654123809732,0.00281184000000001,1.0137296875
+482,"frozenset({'abtest_test', 'seller_privat'})","frozenset({'nrOfPictures_0', 'fuelType_benzin'})",0.5144,0.5964,0.3096,0.6018662519440124,1.0091654123809732,0.00281184000000001,1.0137296875
+483,"frozenset({'abtest_test', 'fuelType_benzin'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.3096,1.0,0.3096,1.0,1.0,0.0,inf
+484,frozenset({'abtest_test'}),"frozenset({'nrOfPictures_0', 'seller_privat', 'fuelType_benzin'})",0.5144,0.5964,0.3096,0.6018662519440124,1.0091654123809732,0.00281184000000001,1.0137296875
+485,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'abtest_test'})",frozenset({'seller_privat'}),0.3632,1.0,0.3632,1.0,1.0,0.0,inf
+486,"frozenset({'notRepairedDamage_nein', 'abtest_test', 'seller_privat'})",frozenset({'nrOfPictures_0'}),0.3632,1.0,0.3632,1.0,1.0,0.0,inf
+487,"frozenset({'nrOfPictures_0', 'abtest_test', 'seller_privat'})",frozenset({'notRepairedDamage_nein'}),0.5144,0.707,0.3632,0.7060653188180406,0.9986779615530985,-0.00048079999999994794,0.9968201058201064
+488,"frozenset({'notRepairedDamage_nein', 'abtest_test'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.3632,1.0,0.3632,1.0,1.0,0.0,inf
+489,"frozenset({'nrOfPictures_0', 'abtest_test'})","frozenset({'notRepairedDamage_nein', 'seller_privat'})",0.5144,0.707,0.3632,0.7060653188180406,0.9986779615530985,-0.00048079999999994794,0.9968201058201064
+490,"frozenset({'abtest_test', 'seller_privat'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",0.5144,0.707,0.3632,0.7060653188180406,0.9986779615530985,-0.00048079999999994794,0.9968201058201064
+491,frozenset({'abtest_test'}),"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'seller_privat'})",0.5144,0.707,0.3632,0.7060653188180406,0.9986779615530985,-0.00048079999999994794,0.9968201058201064
+492,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'gearbox_manuell'})",frozenset({'kilometer_150000'}),0.5286,0.64,0.3172,0.6000756715853197,0.937618236852062,-0.02110400000000001,0.900170293282876
+493,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell', 'kilometer_150000'})",frozenset({'seller_privat'}),0.3172,1.0,0.3172,1.0,1.0,0.0,inf
+494,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'kilometer_150000'})",frozenset({'gearbox_manuell'}),0.4216,0.7394,0.3172,0.7523719165085389,1.0175438416398956,0.005468960000000023,1.052384674329502
+495,"frozenset({'seller_privat', 'gearbox_manuell', 'kilometer_150000'})",frozenset({'notRepairedDamage_nein'}),0.4796,0.707,0.3172,0.6613844870725604,0.9354801797348803,-0.02187720000000004,0.8652881773399014
+496,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell'})","frozenset({'seller_privat', 'kilometer_150000'})",0.5286,0.64,0.3172,0.6000756715853197,0.937618236852062,-0.02110400000000001,0.900170293282876
+497,"frozenset({'notRepairedDamage_nein', 'kilometer_150000'})","frozenset({'seller_privat', 'gearbox_manuell'})",0.4216,0.7394,0.3172,0.7523719165085389,1.0175438416398956,0.005468960000000023,1.052384674329502
+498,"frozenset({'gearbox_manuell', 'kilometer_150000'})","frozenset({'notRepairedDamage_nein', 'seller_privat'})",0.4796,0.707,0.3172,0.6613844870725604,0.9354801797348803,-0.02187720000000004,0.8652881773399014
+499,"frozenset({'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",frozenset({'kilometer_150000'}),0.7394,0.64,0.4796,0.6486340275899378,1.013490668109278,0.006384000000000056,1.0245727482678983
+500,"frozenset({'nrOfPictures_0', 'gearbox_manuell', 'kilometer_150000'})",frozenset({'seller_privat'}),0.4796,1.0,0.4796,1.0,1.0,0.0,inf
+501,"frozenset({'seller_privat', 'gearbox_manuell', 'kilometer_150000'})",frozenset({'nrOfPictures_0'}),0.4796,1.0,0.4796,1.0,1.0,0.0,inf
+502,"frozenset({'nrOfPictures_0', 'seller_privat', 'kilometer_150000'})",frozenset({'gearbox_manuell'}),0.64,0.7394,0.4796,0.749375,1.013490668109278,0.006384000000000056,1.0398004987531175
+503,"frozenset({'nrOfPictures_0', 'gearbox_manuell'})","frozenset({'seller_privat', 'kilometer_150000'})",0.7394,0.64,0.4796,0.6486340275899378,1.013490668109278,0.006384000000000056,1.0245727482678983
+504,"frozenset({'seller_privat', 'gearbox_manuell'})","frozenset({'nrOfPictures_0', 'kilometer_150000'})",0.7394,0.64,0.4796,0.6486340275899378,1.013490668109278,0.006384000000000056,1.0245727482678983
+505,"frozenset({'gearbox_manuell', 'kilometer_150000'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.4796,1.0,0.4796,1.0,1.0,0.0,inf
+506,"frozenset({'nrOfPictures_0', 'kilometer_150000'})","frozenset({'seller_privat', 'gearbox_manuell'})",0.64,0.7394,0.4796,0.749375,1.013490668109278,0.006384000000000056,1.0398004987531175
+507,"frozenset({'seller_privat', 'kilometer_150000'})","frozenset({'nrOfPictures_0', 'gearbox_manuell'})",0.64,0.7394,0.4796,0.749375,1.013490668109278,0.006384000000000056,1.0398004987531175
+508,frozenset({'gearbox_manuell'}),"frozenset({'nrOfPictures_0', 'seller_privat', 'kilometer_150000'})",0.7394,0.64,0.4796,0.6486340275899378,1.013490668109278,0.006384000000000056,1.0245727482678983
+509,frozenset({'kilometer_150000'}),"frozenset({'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",0.64,0.7394,0.4796,0.749375,1.013490668109278,0.006384000000000056,1.0398004987531175
+510,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'gearbox_manuell'})",frozenset({'fuelType_benzin'}),0.5286,0.5964,0.3458,0.6541808550889141,1.0968827214770525,0.030542960000000008,1.1670840262582056
+511,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell', 'fuelType_benzin'})",frozenset({'seller_privat'}),0.3458,1.0,0.3458,1.0,1.0,0.0,inf
+512,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'fuelType_benzin'})",frozenset({'gearbox_manuell'}),0.4306,0.7394,0.3458,0.803065490013934,1.086104260229827,0.027414360000000026,1.3232825471698113
+513,"frozenset({'seller_privat', 'gearbox_manuell', 'fuelType_benzin'})",frozenset({'notRepairedDamage_nein'}),0.4756,0.707,0.3458,0.7270815811606391,1.028403933749136,0.009550800000000026,1.0735808936825886
+514,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell'})","frozenset({'seller_privat', 'fuelType_benzin'})",0.5286,0.5964,0.3458,0.6541808550889141,1.0968827214770525,0.030542960000000008,1.1670840262582056
+515,"frozenset({'notRepairedDamage_nein', 'fuelType_benzin'})","frozenset({'seller_privat', 'gearbox_manuell'})",0.4306,0.7394,0.3458,0.803065490013934,1.086104260229827,0.027414360000000026,1.3232825471698113
+516,"frozenset({'gearbox_manuell', 'fuelType_benzin'})","frozenset({'notRepairedDamage_nein', 'seller_privat'})",0.4756,0.707,0.3458,0.7270815811606391,1.028403933749136,0.009550800000000026,1.0735808936825886
+517,"frozenset({'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",frozenset({'fuelType_benzin'}),0.7394,0.5964,0.4756,0.6432242358669192,1.0785114618828289,0.034621840000000015,1.1312427596664143
+518,"frozenset({'nrOfPictures_0', 'gearbox_manuell', 'fuelType_benzin'})",frozenset({'seller_privat'}),0.4756,1.0,0.4756,1.0,1.0,0.0,inf
+519,"frozenset({'seller_privat', 'gearbox_manuell', 'fuelType_benzin'})",frozenset({'nrOfPictures_0'}),0.4756,1.0,0.4756,1.0,1.0,0.0,inf
+520,"frozenset({'nrOfPictures_0', 'seller_privat', 'fuelType_benzin'})",frozenset({'gearbox_manuell'}),0.5964,0.7394,0.4756,0.7974513749161636,1.0785114618828289,0.034621840000000015,1.2866046357615892
+521,"frozenset({'nrOfPictures_0', 'gearbox_manuell'})","frozenset({'seller_privat', 'fuelType_benzin'})",0.7394,0.5964,0.4756,0.6432242358669192,1.0785114618828289,0.034621840000000015,1.1312427596664143
+522,"frozenset({'seller_privat', 'gearbox_manuell'})","frozenset({'nrOfPictures_0', 'fuelType_benzin'})",0.7394,0.5964,0.4756,0.6432242358669192,1.0785114618828289,0.034621840000000015,1.1312427596664143
+523,"frozenset({'gearbox_manuell', 'fuelType_benzin'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.4756,1.0,0.4756,1.0,1.0,0.0,inf
+524,"frozenset({'nrOfPictures_0', 'fuelType_benzin'})","frozenset({'seller_privat', 'gearbox_manuell'})",0.5964,0.7394,0.4756,0.7974513749161636,1.0785114618828289,0.034621840000000015,1.2866046357615892
+525,"frozenset({'seller_privat', 'fuelType_benzin'})","frozenset({'nrOfPictures_0', 'gearbox_manuell'})",0.5964,0.7394,0.4756,0.7974513749161636,1.0785114618828289,0.034621840000000015,1.2866046357615892
+526,frozenset({'gearbox_manuell'}),"frozenset({'nrOfPictures_0', 'seller_privat', 'fuelType_benzin'})",0.7394,0.5964,0.4756,0.6432242358669192,1.0785114618828289,0.034621840000000015,1.1312427596664143
+527,frozenset({'fuelType_benzin'}),"frozenset({'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",0.5964,0.7394,0.4756,0.7974513749161636,1.0785114618828289,0.034621840000000015,1.2866046357615892
+528,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'gearbox_manuell'})",frozenset({'seller_privat'}),0.5286,1.0,0.5286,1.0,1.0,0.0,inf
+529,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'gearbox_manuell'})",frozenset({'nrOfPictures_0'}),0.5286,1.0,0.5286,1.0,1.0,0.0,inf
+530,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'seller_privat'})",frozenset({'gearbox_manuell'}),0.707,0.7394,0.5286,0.7476661951909477,1.0111795985812115,0.005844200000000077,1.0327589686098657
+531,"frozenset({'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",frozenset({'notRepairedDamage_nein'}),0.7394,0.707,0.5286,0.7149039761969164,1.0111795985812113,0.005844200000000077,1.027723908918406
+532,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.5286,1.0,0.5286,1.0,1.0,0.0,inf
+533,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})","frozenset({'seller_privat', 'gearbox_manuell'})",0.707,0.7394,0.5286,0.7476661951909477,1.0111795985812115,0.005844200000000077,1.0327589686098657
+534,"frozenset({'notRepairedDamage_nein', 'seller_privat'})","frozenset({'nrOfPictures_0', 'gearbox_manuell'})",0.707,0.7394,0.5286,0.7476661951909477,1.0111795985812115,0.005844200000000077,1.0327589686098657
+535,"frozenset({'nrOfPictures_0', 'gearbox_manuell'})","frozenset({'notRepairedDamage_nein', 'seller_privat'})",0.7394,0.707,0.5286,0.7149039761969164,1.0111795985812113,0.005844200000000077,1.027723908918406
+536,"frozenset({'seller_privat', 'gearbox_manuell'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",0.7394,0.707,0.5286,0.7149039761969164,1.0111795985812113,0.005844200000000077,1.027723908918406
+537,frozenset({'notRepairedDamage_nein'}),"frozenset({'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",0.707,0.7394,0.5286,0.7476661951909477,1.0111795985812115,0.005844200000000077,1.0327589686098657
+538,frozenset({'gearbox_manuell'}),"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'seller_privat'})",0.7394,0.707,0.5286,0.7149039761969164,1.0111795985812113,0.005844200000000077,1.027723908918406
+539,"frozenset({'fuelType_benzin', 'nrOfPictures_0', 'kilometer_150000'})",frozenset({'seller_privat'}),0.3514,1.0,0.3514,1.0,1.0,0.0,inf
+540,"frozenset({'fuelType_benzin', 'seller_privat', 'kilometer_150000'})",frozenset({'nrOfPictures_0'}),0.3514,1.0,0.3514,1.0,1.0,0.0,inf
+541,"frozenset({'fuelType_benzin', 'kilometer_150000'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.3514,1.0,0.3514,1.0,1.0,0.0,inf
+542,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'kilometer_150000'})",frozenset({'seller_privat'}),0.4216,1.0,0.4216,1.0,1.0,0.0,inf
+543,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'kilometer_150000'})",frozenset({'nrOfPictures_0'}),0.4216,1.0,0.4216,1.0,1.0,0.0,inf
+544,"frozenset({'nrOfPictures_0', 'seller_privat', 'kilometer_150000'})",frozenset({'notRepairedDamage_nein'}),0.64,0.707,0.4216,0.65875,0.9317538896746818,-0.03088000000000002,0.8586080586080586
+545,"frozenset({'notRepairedDamage_nein', 'kilometer_150000'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.4216,1.0,0.4216,1.0,1.0,0.0,inf
+546,"frozenset({'nrOfPictures_0', 'kilometer_150000'})","frozenset({'notRepairedDamage_nein', 'seller_privat'})",0.64,0.707,0.4216,0.65875,0.9317538896746818,-0.03088000000000002,0.8586080586080586
+547,"frozenset({'seller_privat', 'kilometer_150000'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",0.64,0.707,0.4216,0.65875,0.9317538896746818,-0.03088000000000002,0.8586080586080586
+548,frozenset({'kilometer_150000'}),"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'seller_privat'})",0.64,0.707,0.4216,0.65875,0.9317538896746818,-0.03088000000000002,0.8586080586080586
+549,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'seller_privat'})",frozenset({'fuelType_benzin'}),0.707,0.5964,0.4306,0.609052333804809,1.0212145100684256,0.008945199999999986,1.0323632416787263
+550,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'fuelType_benzin'})",frozenset({'seller_privat'}),0.4306,1.0,0.4306,1.0,1.0,0.0,inf
+551,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'fuelType_benzin'})",frozenset({'nrOfPictures_0'}),0.4306,1.0,0.4306,1.0,1.0,0.0,inf
+552,"frozenset({'nrOfPictures_0', 'seller_privat', 'fuelType_benzin'})",frozenset({'notRepairedDamage_nein'}),0.5964,0.707,0.4306,0.7219986586183769,1.0212145100684256,0.008945199999999986,1.0539517490952954
+553,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})","frozenset({'seller_privat', 'fuelType_benzin'})",0.707,0.5964,0.4306,0.609052333804809,1.0212145100684256,0.008945199999999986,1.0323632416787263
+554,"frozenset({'notRepairedDamage_nein', 'seller_privat'})","frozenset({'nrOfPictures_0', 'fuelType_benzin'})",0.707,0.5964,0.4306,0.609052333804809,1.0212145100684256,0.008945199999999986,1.0323632416787263
+555,"frozenset({'notRepairedDamage_nein', 'fuelType_benzin'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.4306,1.0,0.4306,1.0,1.0,0.0,inf
+556,"frozenset({'nrOfPictures_0', 'fuelType_benzin'})","frozenset({'notRepairedDamage_nein', 'seller_privat'})",0.5964,0.707,0.4306,0.7219986586183769,1.0212145100684256,0.008945199999999986,1.0539517490952954
+557,"frozenset({'seller_privat', 'fuelType_benzin'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",0.5964,0.707,0.4306,0.7219986586183769,1.0212145100684256,0.008945199999999986,1.0539517490952954
+558,frozenset({'notRepairedDamage_nein'}),"frozenset({'nrOfPictures_0', 'seller_privat', 'fuelType_benzin'})",0.707,0.5964,0.4306,0.609052333804809,1.0212145100684256,0.008945199999999986,1.0323632416787263
+559,frozenset({'fuelType_benzin'}),"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'seller_privat'})",0.5964,0.707,0.4306,0.7219986586183769,1.0212145100684256,0.008945199999999986,1.0539517490952954
+560,"frozenset({'offerType_Angebot', 'abtest_control', 'nrOfPictures_0'})",frozenset({'gearbox_manuell'}),0.4856,0.7394,0.3598,0.7409390444810544,1.0020814775237414,0.0007473600000000302,1.0059408585055647
+561,"frozenset({'offerType_Angebot', 'abtest_control', 'gearbox_manuell'})",frozenset({'nrOfPictures_0'}),0.3598,1.0,0.3598,1.0,1.0,0.0,inf
+562,"frozenset({'abtest_control', 'nrOfPictures_0', 'gearbox_manuell'})",frozenset({'offerType_Angebot'}),0.3598,1.0,0.3598,1.0,1.0,0.0,inf
+563,"frozenset({'offerType_Angebot', 'abtest_control'})","frozenset({'nrOfPictures_0', 'gearbox_manuell'})",0.4856,0.7394,0.3598,0.7409390444810544,1.0020814775237414,0.0007473600000000302,1.0059408585055647
+564,"frozenset({'abtest_control', 'nrOfPictures_0'})","frozenset({'offerType_Angebot', 'gearbox_manuell'})",0.4856,0.7394,0.3598,0.7409390444810544,1.0020814775237414,0.0007473600000000302,1.0059408585055647
+565,"frozenset({'abtest_control', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.3598,1.0,0.3598,1.0,1.0,0.0,inf
+566,frozenset({'abtest_control'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'gearbox_manuell'})",0.4856,0.7394,0.3598,0.7409390444810544,1.0020814775237414,0.0007473600000000302,1.0059408585055647
+567,"frozenset({'offerType_Angebot', 'abtest_control', 'nrOfPictures_0'})",frozenset({'kilometer_150000'}),0.4856,0.64,0.3098,0.6379736408566722,0.9968338138385503,-0.0009839999999999849,0.9944027303754267
+568,"frozenset({'offerType_Angebot', 'abtest_control', 'kilometer_150000'})",frozenset({'nrOfPictures_0'}),0.3098,1.0,0.3098,1.0,1.0,0.0,inf
+569,"frozenset({'abtest_control', 'nrOfPictures_0', 'kilometer_150000'})",frozenset({'offerType_Angebot'}),0.3098,1.0,0.3098,1.0,1.0,0.0,inf
+570,"frozenset({'offerType_Angebot', 'abtest_control'})","frozenset({'nrOfPictures_0', 'kilometer_150000'})",0.4856,0.64,0.3098,0.6379736408566722,0.9968338138385503,-0.0009839999999999849,0.9944027303754267
+571,"frozenset({'abtest_control', 'nrOfPictures_0'})","frozenset({'offerType_Angebot', 'kilometer_150000'})",0.4856,0.64,0.3098,0.6379736408566722,0.9968338138385503,-0.0009839999999999849,0.9944027303754267
+572,"frozenset({'abtest_control', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.3098,1.0,0.3098,1.0,1.0,0.0,inf
+573,frozenset({'abtest_control'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'kilometer_150000'})",0.4856,0.64,0.3098,0.6379736408566722,0.9968338138385503,-0.0009839999999999849,0.9944027303754267
+574,"frozenset({'offerType_Angebot', 'abtest_control', 'nrOfPictures_0'})",frozenset({'notRepairedDamage_nein'}),0.4856,0.707,0.3438,0.7079901153212521,1.0014004459989423,0.00048080000000000345,1.0033906911142458
+575,"frozenset({'offerType_Angebot', 'abtest_control', 'notRepairedDamage_nein'})",frozenset({'nrOfPictures_0'}),0.3438,1.0,0.3438,1.0,1.0,0.0,inf
+576,"frozenset({'notRepairedDamage_nein', 'abtest_control', 'nrOfPictures_0'})",frozenset({'offerType_Angebot'}),0.3438,1.0,0.3438,1.0,1.0,0.0,inf
+577,"frozenset({'offerType_Angebot', 'abtest_control'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",0.4856,0.707,0.3438,0.7079901153212521,1.0014004459989423,0.00048080000000000345,1.0033906911142458
+578,"frozenset({'abtest_control', 'nrOfPictures_0'})","frozenset({'offerType_Angebot', 'notRepairedDamage_nein'})",0.4856,0.707,0.3438,0.7079901153212521,1.0014004459989423,0.00048080000000000345,1.0033906911142458
+579,"frozenset({'notRepairedDamage_nein', 'abtest_control'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.3438,1.0,0.3438,1.0,1.0,0.0,inf
+580,frozenset({'abtest_control'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'notRepairedDamage_nein'})",0.4856,0.707,0.3438,0.7079901153212521,1.0014004459989423,0.00048080000000000345,1.0033906911142458
+581,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'abtest_test'})",frozenset({'gearbox_manuell'}),0.5144,0.7394,0.3796,0.7379471228615864,0.9980350593205118,-0.0007473599999999747,0.9944557863501488
+582,"frozenset({'offerType_Angebot', 'abtest_test', 'gearbox_manuell'})",frozenset({'nrOfPictures_0'}),0.3796,1.0,0.3796,1.0,1.0,0.0,inf
+583,"frozenset({'nrOfPictures_0', 'abtest_test', 'gearbox_manuell'})",frozenset({'offerType_Angebot'}),0.3796,1.0,0.3796,1.0,1.0,0.0,inf
+584,"frozenset({'offerType_Angebot', 'abtest_test'})","frozenset({'nrOfPictures_0', 'gearbox_manuell'})",0.5144,0.7394,0.3796,0.7379471228615864,0.9980350593205118,-0.0007473599999999747,0.9944557863501488
+585,"frozenset({'nrOfPictures_0', 'abtest_test'})","frozenset({'offerType_Angebot', 'gearbox_manuell'})",0.5144,0.7394,0.3796,0.7379471228615864,0.9980350593205118,-0.0007473599999999747,0.9944557863501488
+586,"frozenset({'abtest_test', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.3796,1.0,0.3796,1.0,1.0,0.0,inf
+587,frozenset({'abtest_test'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'gearbox_manuell'})",0.5144,0.7394,0.3796,0.7379471228615864,0.9980350593205118,-0.0007473599999999747,0.9944557863501488
+588,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'abtest_test'})",frozenset({'kilometer_150000'}),0.5144,0.64,0.3302,0.6419129082426128,1.0029889191290826,0.0009839999999999849,1.0053420195439742
+589,"frozenset({'offerType_Angebot', 'abtest_test', 'kilometer_150000'})",frozenset({'nrOfPictures_0'}),0.3302,1.0,0.3302,1.0,1.0,0.0,inf
+590,"frozenset({'nrOfPictures_0', 'abtest_test', 'kilometer_150000'})",frozenset({'offerType_Angebot'}),0.3302,1.0,0.3302,1.0,1.0,0.0,inf
+591,"frozenset({'offerType_Angebot', 'abtest_test'})","frozenset({'nrOfPictures_0', 'kilometer_150000'})",0.5144,0.64,0.3302,0.6419129082426128,1.0029889191290826,0.0009839999999999849,1.0053420195439742
+592,"frozenset({'nrOfPictures_0', 'abtest_test'})","frozenset({'offerType_Angebot', 'kilometer_150000'})",0.5144,0.64,0.3302,0.6419129082426128,1.0029889191290826,0.0009839999999999849,1.0053420195439742
+593,"frozenset({'abtest_test', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.3302,1.0,0.3302,1.0,1.0,0.0,inf
+594,frozenset({'abtest_test'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'kilometer_150000'})",0.5144,0.64,0.3302,0.6419129082426128,1.0029889191290826,0.0009839999999999849,1.0053420195439742
+595,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'abtest_test'})",frozenset({'fuelType_benzin'}),0.5144,0.5964,0.3096,0.6018662519440124,1.0091654123809732,0.00281184000000001,1.0137296875
+596,"frozenset({'offerType_Angebot', 'abtest_test', 'fuelType_benzin'})",frozenset({'nrOfPictures_0'}),0.3096,1.0,0.3096,1.0,1.0,0.0,inf
+597,"frozenset({'nrOfPictures_0', 'abtest_test', 'fuelType_benzin'})",frozenset({'offerType_Angebot'}),0.3096,1.0,0.3096,1.0,1.0,0.0,inf
+598,"frozenset({'offerType_Angebot', 'abtest_test'})","frozenset({'nrOfPictures_0', 'fuelType_benzin'})",0.5144,0.5964,0.3096,0.6018662519440124,1.0091654123809732,0.00281184000000001,1.0137296875
+599,"frozenset({'nrOfPictures_0', 'abtest_test'})","frozenset({'offerType_Angebot', 'fuelType_benzin'})",0.5144,0.5964,0.3096,0.6018662519440124,1.0091654123809732,0.00281184000000001,1.0137296875
+600,"frozenset({'abtest_test', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.3096,1.0,0.3096,1.0,1.0,0.0,inf
+601,frozenset({'abtest_test'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'fuelType_benzin'})",0.5144,0.5964,0.3096,0.6018662519440124,1.0091654123809732,0.00281184000000001,1.0137296875
+602,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'abtest_test'})",frozenset({'notRepairedDamage_nein'}),0.5144,0.707,0.3632,0.7060653188180406,0.9986779615530985,-0.00048079999999994794,0.9968201058201064
+603,"frozenset({'offerType_Angebot', 'abtest_test', 'notRepairedDamage_nein'})",frozenset({'nrOfPictures_0'}),0.3632,1.0,0.3632,1.0,1.0,0.0,inf
+604,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'abtest_test'})",frozenset({'offerType_Angebot'}),0.3632,1.0,0.3632,1.0,1.0,0.0,inf
+605,"frozenset({'offerType_Angebot', 'abtest_test'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",0.5144,0.707,0.3632,0.7060653188180406,0.9986779615530985,-0.00048079999999994794,0.9968201058201064
+606,"frozenset({'nrOfPictures_0', 'abtest_test'})","frozenset({'offerType_Angebot', 'notRepairedDamage_nein'})",0.5144,0.707,0.3632,0.7060653188180406,0.9986779615530985,-0.00048079999999994794,0.9968201058201064
+607,"frozenset({'notRepairedDamage_nein', 'abtest_test'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.3632,1.0,0.3632,1.0,1.0,0.0,inf
+608,frozenset({'abtest_test'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'notRepairedDamage_nein'})",0.5144,0.707,0.3632,0.7060653188180406,0.9986779615530985,-0.00048079999999994794,0.9968201058201064
+609,"frozenset({'offerType_Angebot', 'gearbox_manuell', 'notRepairedDamage_nein'})",frozenset({'kilometer_150000'}),0.5286,0.64,0.3172,0.6000756715853197,0.937618236852062,-0.02110400000000001,0.900170293282876
+610,"frozenset({'offerType_Angebot', 'kilometer_150000', 'notRepairedDamage_nein'})",frozenset({'gearbox_manuell'}),0.4216,0.7394,0.3172,0.7523719165085389,1.0175438416398956,0.005468960000000023,1.052384674329502
+611,"frozenset({'offerType_Angebot', 'gearbox_manuell', 'kilometer_150000'})",frozenset({'notRepairedDamage_nein'}),0.4796,0.707,0.3172,0.6613844870725604,0.9354801797348803,-0.02187720000000004,0.8652881773399014
+612,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell', 'kilometer_150000'})",frozenset({'offerType_Angebot'}),0.3172,1.0,0.3172,1.0,1.0,0.0,inf
+613,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'kilometer_150000'})",0.5286,0.64,0.3172,0.6000756715853197,0.937618236852062,-0.02110400000000001,0.900170293282876
+614,"frozenset({'notRepairedDamage_nein', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'gearbox_manuell'})",0.4216,0.7394,0.3172,0.7523719165085389,1.0175438416398956,0.005468960000000023,1.052384674329502
+615,"frozenset({'gearbox_manuell', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'notRepairedDamage_nein'})",0.4796,0.707,0.3172,0.6613844870725604,0.9354801797348803,-0.02187720000000004,0.8652881773399014
+616,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'gearbox_manuell'})",frozenset({'kilometer_150000'}),0.7394,0.64,0.4796,0.6486340275899378,1.013490668109278,0.006384000000000056,1.0245727482678983
+617,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'kilometer_150000'})",frozenset({'gearbox_manuell'}),0.64,0.7394,0.4796,0.749375,1.013490668109278,0.006384000000000056,1.0398004987531175
+618,"frozenset({'offerType_Angebot', 'gearbox_manuell', 'kilometer_150000'})",frozenset({'nrOfPictures_0'}),0.4796,1.0,0.4796,1.0,1.0,0.0,inf
+619,"frozenset({'nrOfPictures_0', 'gearbox_manuell', 'kilometer_150000'})",frozenset({'offerType_Angebot'}),0.4796,1.0,0.4796,1.0,1.0,0.0,inf
+620,"frozenset({'offerType_Angebot', 'gearbox_manuell'})","frozenset({'nrOfPictures_0', 'kilometer_150000'})",0.7394,0.64,0.4796,0.6486340275899378,1.013490668109278,0.006384000000000056,1.0245727482678983
+621,"frozenset({'offerType_Angebot', 'kilometer_150000'})","frozenset({'nrOfPictures_0', 'gearbox_manuell'})",0.64,0.7394,0.4796,0.749375,1.013490668109278,0.006384000000000056,1.0398004987531175
+622,"frozenset({'nrOfPictures_0', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'kilometer_150000'})",0.7394,0.64,0.4796,0.6486340275899378,1.013490668109278,0.006384000000000056,1.0245727482678983
+623,"frozenset({'nrOfPictures_0', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'gearbox_manuell'})",0.64,0.7394,0.4796,0.749375,1.013490668109278,0.006384000000000056,1.0398004987531175
+624,"frozenset({'gearbox_manuell', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.4796,1.0,0.4796,1.0,1.0,0.0,inf
+625,frozenset({'gearbox_manuell'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'kilometer_150000'})",0.7394,0.64,0.4796,0.6486340275899378,1.013490668109278,0.006384000000000056,1.0245727482678983
+626,frozenset({'kilometer_150000'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'gearbox_manuell'})",0.64,0.7394,0.4796,0.749375,1.013490668109278,0.006384000000000056,1.0398004987531175
+627,"frozenset({'offerType_Angebot', 'gearbox_manuell', 'notRepairedDamage_nein'})",frozenset({'fuelType_benzin'}),0.5286,0.5964,0.3458,0.6541808550889141,1.0968827214770525,0.030542960000000008,1.1670840262582056
+628,"frozenset({'offerType_Angebot', 'fuelType_benzin', 'notRepairedDamage_nein'})",frozenset({'gearbox_manuell'}),0.4306,0.7394,0.3458,0.803065490013934,1.086104260229827,0.027414360000000026,1.3232825471698113
+629,"frozenset({'offerType_Angebot', 'gearbox_manuell', 'fuelType_benzin'})",frozenset({'notRepairedDamage_nein'}),0.4756,0.707,0.3458,0.7270815811606391,1.028403933749136,0.009550800000000026,1.0735808936825886
+630,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell', 'fuelType_benzin'})",frozenset({'offerType_Angebot'}),0.3458,1.0,0.3458,1.0,1.0,0.0,inf
+631,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'fuelType_benzin'})",0.5286,0.5964,0.3458,0.6541808550889141,1.0968827214770525,0.030542960000000008,1.1670840262582056
+632,"frozenset({'notRepairedDamage_nein', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'gearbox_manuell'})",0.4306,0.7394,0.3458,0.803065490013934,1.086104260229827,0.027414360000000026,1.3232825471698113
+633,"frozenset({'gearbox_manuell', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'notRepairedDamage_nein'})",0.4756,0.707,0.3458,0.7270815811606391,1.028403933749136,0.009550800000000026,1.0735808936825886
+634,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'gearbox_manuell'})",frozenset({'fuelType_benzin'}),0.7394,0.5964,0.4756,0.6432242358669192,1.0785114618828289,0.034621840000000015,1.1312427596664143
+635,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'fuelType_benzin'})",frozenset({'gearbox_manuell'}),0.5964,0.7394,0.4756,0.7974513749161636,1.0785114618828289,0.034621840000000015,1.2866046357615892
+636,"frozenset({'offerType_Angebot', 'gearbox_manuell', 'fuelType_benzin'})",frozenset({'nrOfPictures_0'}),0.4756,1.0,0.4756,1.0,1.0,0.0,inf
+637,"frozenset({'nrOfPictures_0', 'gearbox_manuell', 'fuelType_benzin'})",frozenset({'offerType_Angebot'}),0.4756,1.0,0.4756,1.0,1.0,0.0,inf
+638,"frozenset({'offerType_Angebot', 'gearbox_manuell'})","frozenset({'nrOfPictures_0', 'fuelType_benzin'})",0.7394,0.5964,0.4756,0.6432242358669192,1.0785114618828289,0.034621840000000015,1.1312427596664143
+639,"frozenset({'offerType_Angebot', 'fuelType_benzin'})","frozenset({'nrOfPictures_0', 'gearbox_manuell'})",0.5964,0.7394,0.4756,0.7974513749161636,1.0785114618828289,0.034621840000000015,1.2866046357615892
+640,"frozenset({'nrOfPictures_0', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'fuelType_benzin'})",0.7394,0.5964,0.4756,0.6432242358669192,1.0785114618828289,0.034621840000000015,1.1312427596664143
+641,"frozenset({'nrOfPictures_0', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'gearbox_manuell'})",0.5964,0.7394,0.4756,0.7974513749161636,1.0785114618828289,0.034621840000000015,1.2866046357615892
+642,"frozenset({'gearbox_manuell', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.4756,1.0,0.4756,1.0,1.0,0.0,inf
+643,frozenset({'gearbox_manuell'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'fuelType_benzin'})",0.7394,0.5964,0.4756,0.6432242358669192,1.0785114618828289,0.034621840000000015,1.1312427596664143
+644,frozenset({'fuelType_benzin'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'gearbox_manuell'})",0.5964,0.7394,0.4756,0.7974513749161636,1.0785114618828289,0.034621840000000015,1.2866046357615892
+645,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'gearbox_manuell'})",frozenset({'notRepairedDamage_nein'}),0.7394,0.707,0.5286,0.7149039761969164,1.0111795985812113,0.005844200000000077,1.027723908918406
+646,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'notRepairedDamage_nein'})",frozenset({'gearbox_manuell'}),0.707,0.7394,0.5286,0.7476661951909477,1.0111795985812115,0.005844200000000077,1.0327589686098657
+647,"frozenset({'offerType_Angebot', 'gearbox_manuell', 'notRepairedDamage_nein'})",frozenset({'nrOfPictures_0'}),0.5286,1.0,0.5286,1.0,1.0,0.0,inf
+648,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'gearbox_manuell'})",frozenset({'offerType_Angebot'}),0.5286,1.0,0.5286,1.0,1.0,0.0,inf
+649,"frozenset({'offerType_Angebot', 'gearbox_manuell'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",0.7394,0.707,0.5286,0.7149039761969164,1.0111795985812113,0.005844200000000077,1.027723908918406
+650,"frozenset({'offerType_Angebot', 'notRepairedDamage_nein'})","frozenset({'nrOfPictures_0', 'gearbox_manuell'})",0.707,0.7394,0.5286,0.7476661951909477,1.0111795985812115,0.005844200000000077,1.0327589686098657
+651,"frozenset({'nrOfPictures_0', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'notRepairedDamage_nein'})",0.7394,0.707,0.5286,0.7149039761969164,1.0111795985812113,0.005844200000000077,1.027723908918406
+652,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})","frozenset({'offerType_Angebot', 'gearbox_manuell'})",0.707,0.7394,0.5286,0.7476661951909477,1.0111795985812115,0.005844200000000077,1.0327589686098657
+653,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.5286,1.0,0.5286,1.0,1.0,0.0,inf
+654,frozenset({'gearbox_manuell'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'notRepairedDamage_nein'})",0.7394,0.707,0.5286,0.7149039761969164,1.0111795985812113,0.005844200000000077,1.027723908918406
+655,frozenset({'notRepairedDamage_nein'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'gearbox_manuell'})",0.707,0.7394,0.5286,0.7476661951909477,1.0111795985812115,0.005844200000000077,1.0327589686098657
+656,"frozenset({'offerType_Angebot', 'kilometer_150000', 'fuelType_benzin'})",frozenset({'nrOfPictures_0'}),0.3514,1.0,0.3514,1.0,1.0,0.0,inf
+657,"frozenset({'nrOfPictures_0', 'kilometer_150000', 'fuelType_benzin'})",frozenset({'offerType_Angebot'}),0.3514,1.0,0.3514,1.0,1.0,0.0,inf
+658,"frozenset({'kilometer_150000', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.3514,1.0,0.3514,1.0,1.0,0.0,inf
+659,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'kilometer_150000'})",frozenset({'notRepairedDamage_nein'}),0.64,0.707,0.4216,0.65875,0.9317538896746818,-0.03088000000000002,0.8586080586080586
+660,"frozenset({'offerType_Angebot', 'kilometer_150000', 'notRepairedDamage_nein'})",frozenset({'nrOfPictures_0'}),0.4216,1.0,0.4216,1.0,1.0,0.0,inf
+661,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'kilometer_150000'})",frozenset({'offerType_Angebot'}),0.4216,1.0,0.4216,1.0,1.0,0.0,inf
+662,"frozenset({'offerType_Angebot', 'kilometer_150000'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",0.64,0.707,0.4216,0.65875,0.9317538896746818,-0.03088000000000002,0.8586080586080586
+663,"frozenset({'nrOfPictures_0', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'notRepairedDamage_nein'})",0.64,0.707,0.4216,0.65875,0.9317538896746818,-0.03088000000000002,0.8586080586080586
+664,"frozenset({'notRepairedDamage_nein', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.4216,1.0,0.4216,1.0,1.0,0.0,inf
+665,frozenset({'kilometer_150000'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'notRepairedDamage_nein'})",0.64,0.707,0.4216,0.65875,0.9317538896746818,-0.03088000000000002,0.8586080586080586
+666,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'notRepairedDamage_nein'})",frozenset({'fuelType_benzin'}),0.707,0.5964,0.4306,0.609052333804809,1.0212145100684256,0.008945199999999986,1.0323632416787263
+667,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'fuelType_benzin'})",frozenset({'notRepairedDamage_nein'}),0.5964,0.707,0.4306,0.7219986586183769,1.0212145100684256,0.008945199999999986,1.0539517490952954
+668,"frozenset({'offerType_Angebot', 'fuelType_benzin', 'notRepairedDamage_nein'})",frozenset({'nrOfPictures_0'}),0.4306,1.0,0.4306,1.0,1.0,0.0,inf
+669,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'fuelType_benzin'})",frozenset({'offerType_Angebot'}),0.4306,1.0,0.4306,1.0,1.0,0.0,inf
+670,"frozenset({'offerType_Angebot', 'notRepairedDamage_nein'})","frozenset({'nrOfPictures_0', 'fuelType_benzin'})",0.707,0.5964,0.4306,0.609052333804809,1.0212145100684256,0.008945199999999986,1.0323632416787263
+671,"frozenset({'offerType_Angebot', 'fuelType_benzin'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",0.5964,0.707,0.4306,0.7219986586183769,1.0212145100684256,0.008945199999999986,1.0539517490952954
+672,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})","frozenset({'offerType_Angebot', 'fuelType_benzin'})",0.707,0.5964,0.4306,0.609052333804809,1.0212145100684256,0.008945199999999986,1.0323632416787263
+673,"frozenset({'nrOfPictures_0', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'notRepairedDamage_nein'})",0.5964,0.707,0.4306,0.7219986586183769,1.0212145100684256,0.008945199999999986,1.0539517490952954
+674,"frozenset({'notRepairedDamage_nein', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.4306,1.0,0.4306,1.0,1.0,0.0,inf
+675,frozenset({'notRepairedDamage_nein'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'fuelType_benzin'})",0.707,0.5964,0.4306,0.609052333804809,1.0212145100684256,0.008945199999999986,1.0323632416787263
+676,frozenset({'fuelType_benzin'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'notRepairedDamage_nein'})",0.5964,0.707,0.4306,0.7219986586183769,1.0212145100684256,0.008945199999999986,1.0539517490952954
+677,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'gearbox_manuell'})",frozenset({'kilometer_150000'}),0.5286,0.64,0.3172,0.6000756715853197,0.937618236852062,-0.02110400000000001,0.900170293282876
+678,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'kilometer_150000'})",frozenset({'gearbox_manuell'}),0.4216,0.7394,0.3172,0.7523719165085389,1.0175438416398956,0.005468960000000023,1.052384674329502
+679,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell', 'kilometer_150000'})",frozenset({'nrOfPictures_0'}),0.3172,1.0,0.3172,1.0,1.0,0.0,inf
+680,"frozenset({'nrOfPictures_0', 'gearbox_manuell', 'kilometer_150000'})",frozenset({'notRepairedDamage_nein'}),0.4796,0.707,0.3172,0.6613844870725604,0.9354801797348803,-0.02187720000000004,0.8652881773399014
+681,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell'})","frozenset({'nrOfPictures_0', 'kilometer_150000'})",0.5286,0.64,0.3172,0.6000756715853197,0.937618236852062,-0.02110400000000001,0.900170293282876
+682,"frozenset({'notRepairedDamage_nein', 'kilometer_150000'})","frozenset({'nrOfPictures_0', 'gearbox_manuell'})",0.4216,0.7394,0.3172,0.7523719165085389,1.0175438416398956,0.005468960000000023,1.052384674329502
+683,"frozenset({'gearbox_manuell', 'kilometer_150000'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",0.4796,0.707,0.3172,0.6613844870725604,0.9354801797348803,-0.02187720000000004,0.8652881773399014
+684,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'gearbox_manuell'})",frozenset({'fuelType_benzin'}),0.5286,0.5964,0.3458,0.6541808550889141,1.0968827214770525,0.030542960000000008,1.1670840262582056
+685,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'fuelType_benzin'})",frozenset({'gearbox_manuell'}),0.4306,0.7394,0.3458,0.803065490013934,1.086104260229827,0.027414360000000026,1.3232825471698113
+686,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell', 'fuelType_benzin'})",frozenset({'nrOfPictures_0'}),0.3458,1.0,0.3458,1.0,1.0,0.0,inf
+687,"frozenset({'nrOfPictures_0', 'gearbox_manuell', 'fuelType_benzin'})",frozenset({'notRepairedDamage_nein'}),0.4756,0.707,0.3458,0.7270815811606391,1.028403933749136,0.009550800000000026,1.0735808936825886
+688,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell'})","frozenset({'nrOfPictures_0', 'fuelType_benzin'})",0.5286,0.5964,0.3458,0.6541808550889141,1.0968827214770525,0.030542960000000008,1.1670840262582056
+689,"frozenset({'notRepairedDamage_nein', 'fuelType_benzin'})","frozenset({'nrOfPictures_0', 'gearbox_manuell'})",0.4306,0.7394,0.3458,0.803065490013934,1.086104260229827,0.027414360000000026,1.3232825471698113
+690,"frozenset({'gearbox_manuell', 'fuelType_benzin'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",0.4756,0.707,0.3458,0.7270815811606391,1.028403933749136,0.009550800000000026,1.0735808936825886
+691,"frozenset({'seller_privat', 'abtest_control', 'nrOfPictures_0', 'gearbox_manuell'})",frozenset({'offerType_Angebot'}),0.3598,1.0,0.3598,1.0,1.0,0.0,inf
+692,"frozenset({'offerType_Angebot', 'abtest_control', 'nrOfPictures_0', 'gearbox_manuell'})",frozenset({'seller_privat'}),0.3598,1.0,0.3598,1.0,1.0,0.0,inf
+693,"frozenset({'offerType_Angebot', 'abtest_control', 'nrOfPictures_0', 'seller_privat'})",frozenset({'gearbox_manuell'}),0.4856,0.7394,0.3598,0.7409390444810544,1.0020814775237414,0.0007473600000000302,1.0059408585055647
+694,"frozenset({'offerType_Angebot', 'seller_privat', 'abtest_control', 'gearbox_manuell'})",frozenset({'nrOfPictures_0'}),0.3598,1.0,0.3598,1.0,1.0,0.0,inf
+695,"frozenset({'abtest_control', 'nrOfPictures_0', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.3598,1.0,0.3598,1.0,1.0,0.0,inf
+696,"frozenset({'abtest_control', 'nrOfPictures_0', 'seller_privat'})","frozenset({'offerType_Angebot', 'gearbox_manuell'})",0.4856,0.7394,0.3598,0.7409390444810544,1.0020814775237414,0.0007473600000000302,1.0059408585055647
+697,"frozenset({'offerType_Angebot', 'abtest_control', 'nrOfPictures_0'})","frozenset({'seller_privat', 'gearbox_manuell'})",0.4856,0.7394,0.3598,0.7409390444810544,1.0020814775237414,0.0007473600000000302,1.0059408585055647
+698,"frozenset({'seller_privat', 'abtest_control', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.3598,1.0,0.3598,1.0,1.0,0.0,inf
+699,"frozenset({'offerType_Angebot', 'abtest_control', 'gearbox_manuell'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.3598,1.0,0.3598,1.0,1.0,0.0,inf
+700,"frozenset({'offerType_Angebot', 'abtest_control', 'seller_privat'})","frozenset({'nrOfPictures_0', 'gearbox_manuell'})",0.4856,0.7394,0.3598,0.7409390444810544,1.0020814775237414,0.0007473600000000302,1.0059408585055647
+701,"frozenset({'abtest_control', 'nrOfPictures_0'})","frozenset({'offerType_Angebot', 'seller_privat', 'gearbox_manuell'})",0.4856,0.7394,0.3598,0.7409390444810544,1.0020814775237414,0.0007473600000000302,1.0059408585055647
+702,"frozenset({'abtest_control', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat'})",0.3598,1.0,0.3598,1.0,1.0,0.0,inf
+703,"frozenset({'abtest_control', 'seller_privat'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'gearbox_manuell'})",0.4856,0.7394,0.3598,0.7409390444810544,1.0020814775237414,0.0007473600000000302,1.0059408585055647
+704,"frozenset({'offerType_Angebot', 'abtest_control'})","frozenset({'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",0.4856,0.7394,0.3598,0.7409390444810544,1.0020814775237414,0.0007473600000000302,1.0059408585055647
+705,frozenset({'abtest_control'}),"frozenset({'offerType_Angebot', 'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",0.4856,0.7394,0.3598,0.7409390444810544,1.0020814775237414,0.0007473600000000302,1.0059408585055647
+706,"frozenset({'abtest_control', 'nrOfPictures_0', 'seller_privat', 'kilometer_150000'})",frozenset({'offerType_Angebot'}),0.3098,1.0,0.3098,1.0,1.0,0.0,inf
+707,"frozenset({'offerType_Angebot', 'abtest_control', 'nrOfPictures_0', 'seller_privat'})",frozenset({'kilometer_150000'}),0.4856,0.64,0.3098,0.6379736408566722,0.9968338138385503,-0.0009839999999999849,0.9944027303754267
+708,"frozenset({'offerType_Angebot', 'abtest_control', 'nrOfPictures_0', 'kilometer_150000'})",frozenset({'seller_privat'}),0.3098,1.0,0.3098,1.0,1.0,0.0,inf
+709,"frozenset({'offerType_Angebot', 'abtest_control', 'seller_privat', 'kilometer_150000'})",frozenset({'nrOfPictures_0'}),0.3098,1.0,0.3098,1.0,1.0,0.0,inf
+710,"frozenset({'abtest_control', 'nrOfPictures_0', 'seller_privat'})","frozenset({'offerType_Angebot', 'kilometer_150000'})",0.4856,0.64,0.3098,0.6379736408566722,0.9968338138385503,-0.0009839999999999849,0.9944027303754267
+711,"frozenset({'abtest_control', 'nrOfPictures_0', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.3098,1.0,0.3098,1.0,1.0,0.0,inf
+712,"frozenset({'offerType_Angebot', 'abtest_control', 'nrOfPictures_0'})","frozenset({'seller_privat', 'kilometer_150000'})",0.4856,0.64,0.3098,0.6379736408566722,0.9968338138385503,-0.0009839999999999849,0.9944027303754267
+713,"frozenset({'abtest_control', 'seller_privat', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.3098,1.0,0.3098,1.0,1.0,0.0,inf
+714,"frozenset({'offerType_Angebot', 'abtest_control', 'seller_privat'})","frozenset({'nrOfPictures_0', 'kilometer_150000'})",0.4856,0.64,0.3098,0.6379736408566722,0.9968338138385503,-0.0009839999999999849,0.9944027303754267
+715,"frozenset({'offerType_Angebot', 'abtest_control', 'kilometer_150000'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.3098,1.0,0.3098,1.0,1.0,0.0,inf
+716,"frozenset({'abtest_control', 'nrOfPictures_0'})","frozenset({'offerType_Angebot', 'seller_privat', 'kilometer_150000'})",0.4856,0.64,0.3098,0.6379736408566722,0.9968338138385503,-0.0009839999999999849,0.9944027303754267
+717,"frozenset({'abtest_control', 'seller_privat'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'kilometer_150000'})",0.4856,0.64,0.3098,0.6379736408566722,0.9968338138385503,-0.0009839999999999849,0.9944027303754267
+718,"frozenset({'abtest_control', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat'})",0.3098,1.0,0.3098,1.0,1.0,0.0,inf
+719,"frozenset({'offerType_Angebot', 'abtest_control'})","frozenset({'nrOfPictures_0', 'seller_privat', 'kilometer_150000'})",0.4856,0.64,0.3098,0.6379736408566722,0.9968338138385503,-0.0009839999999999849,0.9944027303754267
+720,frozenset({'abtest_control'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat', 'kilometer_150000'})",0.4856,0.64,0.3098,0.6379736408566722,0.9968338138385503,-0.0009839999999999849,0.9944027303754267
+721,"frozenset({'notRepairedDamage_nein', 'abtest_control', 'nrOfPictures_0', 'seller_privat'})",frozenset({'offerType_Angebot'}),0.3438,1.0,0.3438,1.0,1.0,0.0,inf
+722,"frozenset({'notRepairedDamage_nein', 'abtest_control', 'nrOfPictures_0', 'offerType_Angebot'})",frozenset({'seller_privat'}),0.3438,1.0,0.3438,1.0,1.0,0.0,inf
+723,"frozenset({'notRepairedDamage_nein', 'abtest_control', 'offerType_Angebot', 'seller_privat'})",frozenset({'nrOfPictures_0'}),0.3438,1.0,0.3438,1.0,1.0,0.0,inf
+724,"frozenset({'offerType_Angebot', 'abtest_control', 'nrOfPictures_0', 'seller_privat'})",frozenset({'notRepairedDamage_nein'}),0.4856,0.707,0.3438,0.7079901153212521,1.0014004459989423,0.00048080000000000345,1.0033906911142458
+725,"frozenset({'notRepairedDamage_nein', 'abtest_control', 'nrOfPictures_0'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.3438,1.0,0.3438,1.0,1.0,0.0,inf
+726,"frozenset({'notRepairedDamage_nein', 'abtest_control', 'seller_privat'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.3438,1.0,0.3438,1.0,1.0,0.0,inf
+727,"frozenset({'notRepairedDamage_nein', 'abtest_control', 'offerType_Angebot'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.3438,1.0,0.3438,1.0,1.0,0.0,inf
+728,"frozenset({'abtest_control', 'nrOfPictures_0', 'seller_privat'})","frozenset({'notRepairedDamage_nein', 'offerType_Angebot'})",0.4856,0.707,0.3438,0.7079901153212521,1.0014004459989423,0.00048080000000000345,1.0033906911142458
+729,"frozenset({'offerType_Angebot', 'abtest_control', 'nrOfPictures_0'})","frozenset({'notRepairedDamage_nein', 'seller_privat'})",0.4856,0.707,0.3438,0.7079901153212521,1.0014004459989423,0.00048080000000000345,1.0033906911142458
+730,"frozenset({'offerType_Angebot', 'abtest_control', 'seller_privat'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",0.4856,0.707,0.3438,0.7079901153212521,1.0014004459989423,0.00048080000000000345,1.0033906911142458
+731,"frozenset({'notRepairedDamage_nein', 'abtest_control'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat'})",0.3438,1.0,0.3438,1.0,1.0,0.0,inf
+732,"frozenset({'abtest_control', 'nrOfPictures_0'})","frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'seller_privat'})",0.4856,0.707,0.3438,0.7079901153212521,1.0014004459989423,0.00048080000000000345,1.0033906911142458
+733,"frozenset({'abtest_control', 'seller_privat'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot'})",0.4856,0.707,0.3438,0.7079901153212521,1.0014004459989423,0.00048080000000000345,1.0033906911142458
+734,"frozenset({'offerType_Angebot', 'abtest_control'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'seller_privat'})",0.4856,0.707,0.3438,0.7079901153212521,1.0014004459989423,0.00048080000000000345,1.0033906911142458
+735,frozenset({'abtest_control'}),"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot', 'seller_privat'})",0.4856,0.707,0.3438,0.7079901153212521,1.0014004459989423,0.00048080000000000345,1.0033906911142458
+736,"frozenset({'seller_privat', 'nrOfPictures_0', 'abtest_test', 'gearbox_manuell'})",frozenset({'offerType_Angebot'}),0.3796,1.0,0.3796,1.0,1.0,0.0,inf
+737,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'abtest_test', 'gearbox_manuell'})",frozenset({'seller_privat'}),0.3796,1.0,0.3796,1.0,1.0,0.0,inf
+738,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'abtest_test', 'seller_privat'})",frozenset({'gearbox_manuell'}),0.5144,0.7394,0.3796,0.7379471228615864,0.9980350593205118,-0.0007473599999999747,0.9944557863501488
+739,"frozenset({'offerType_Angebot', 'seller_privat', 'abtest_test', 'gearbox_manuell'})",frozenset({'nrOfPictures_0'}),0.3796,1.0,0.3796,1.0,1.0,0.0,inf
+740,"frozenset({'nrOfPictures_0', 'abtest_test', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.3796,1.0,0.3796,1.0,1.0,0.0,inf
+741,"frozenset({'nrOfPictures_0', 'abtest_test', 'seller_privat'})","frozenset({'offerType_Angebot', 'gearbox_manuell'})",0.5144,0.7394,0.3796,0.7379471228615864,0.9980350593205118,-0.0007473599999999747,0.9944557863501488
+742,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'abtest_test'})","frozenset({'seller_privat', 'gearbox_manuell'})",0.5144,0.7394,0.3796,0.7379471228615864,0.9980350593205118,-0.0007473599999999747,0.9944557863501488
+743,"frozenset({'seller_privat', 'abtest_test', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.3796,1.0,0.3796,1.0,1.0,0.0,inf
+744,"frozenset({'offerType_Angebot', 'abtest_test', 'gearbox_manuell'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.3796,1.0,0.3796,1.0,1.0,0.0,inf
+745,"frozenset({'offerType_Angebot', 'abtest_test', 'seller_privat'})","frozenset({'nrOfPictures_0', 'gearbox_manuell'})",0.5144,0.7394,0.3796,0.7379471228615864,0.9980350593205118,-0.0007473599999999747,0.9944557863501488
+746,"frozenset({'nrOfPictures_0', 'abtest_test'})","frozenset({'offerType_Angebot', 'seller_privat', 'gearbox_manuell'})",0.5144,0.7394,0.3796,0.7379471228615864,0.9980350593205118,-0.0007473599999999747,0.9944557863501488
+747,"frozenset({'abtest_test', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat'})",0.3796,1.0,0.3796,1.0,1.0,0.0,inf
+748,"frozenset({'abtest_test', 'seller_privat'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'gearbox_manuell'})",0.5144,0.7394,0.3796,0.7379471228615864,0.9980350593205118,-0.0007473599999999747,0.9944557863501488
+749,"frozenset({'offerType_Angebot', 'abtest_test'})","frozenset({'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",0.5144,0.7394,0.3796,0.7379471228615864,0.9980350593205118,-0.0007473599999999747,0.9944557863501488
+750,frozenset({'abtest_test'}),"frozenset({'offerType_Angebot', 'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",0.5144,0.7394,0.3796,0.7379471228615864,0.9980350593205118,-0.0007473599999999747,0.9944557863501488
+751,"frozenset({'nrOfPictures_0', 'abtest_test', 'seller_privat', 'kilometer_150000'})",frozenset({'offerType_Angebot'}),0.3302,1.0,0.3302,1.0,1.0,0.0,inf
+752,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'abtest_test', 'seller_privat'})",frozenset({'kilometer_150000'}),0.5144,0.64,0.3302,0.6419129082426128,1.0029889191290826,0.0009839999999999849,1.0053420195439742
+753,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'abtest_test', 'kilometer_150000'})",frozenset({'seller_privat'}),0.3302,1.0,0.3302,1.0,1.0,0.0,inf
+754,"frozenset({'offerType_Angebot', 'abtest_test', 'seller_privat', 'kilometer_150000'})",frozenset({'nrOfPictures_0'}),0.3302,1.0,0.3302,1.0,1.0,0.0,inf
+755,"frozenset({'nrOfPictures_0', 'abtest_test', 'seller_privat'})","frozenset({'offerType_Angebot', 'kilometer_150000'})",0.5144,0.64,0.3302,0.6419129082426128,1.0029889191290826,0.0009839999999999849,1.0053420195439742
+756,"frozenset({'nrOfPictures_0', 'abtest_test', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.3302,1.0,0.3302,1.0,1.0,0.0,inf
+757,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'abtest_test'})","frozenset({'seller_privat', 'kilometer_150000'})",0.5144,0.64,0.3302,0.6419129082426128,1.0029889191290826,0.0009839999999999849,1.0053420195439742
+758,"frozenset({'abtest_test', 'seller_privat', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.3302,1.0,0.3302,1.0,1.0,0.0,inf
+759,"frozenset({'offerType_Angebot', 'abtest_test', 'seller_privat'})","frozenset({'nrOfPictures_0', 'kilometer_150000'})",0.5144,0.64,0.3302,0.6419129082426128,1.0029889191290826,0.0009839999999999849,1.0053420195439742
+760,"frozenset({'offerType_Angebot', 'abtest_test', 'kilometer_150000'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.3302,1.0,0.3302,1.0,1.0,0.0,inf
+761,"frozenset({'nrOfPictures_0', 'abtest_test'})","frozenset({'offerType_Angebot', 'seller_privat', 'kilometer_150000'})",0.5144,0.64,0.3302,0.6419129082426128,1.0029889191290826,0.0009839999999999849,1.0053420195439742
+762,"frozenset({'abtest_test', 'seller_privat'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'kilometer_150000'})",0.5144,0.64,0.3302,0.6419129082426128,1.0029889191290826,0.0009839999999999849,1.0053420195439742
+763,"frozenset({'abtest_test', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat'})",0.3302,1.0,0.3302,1.0,1.0,0.0,inf
+764,"frozenset({'offerType_Angebot', 'abtest_test'})","frozenset({'nrOfPictures_0', 'seller_privat', 'kilometer_150000'})",0.5144,0.64,0.3302,0.6419129082426128,1.0029889191290826,0.0009839999999999849,1.0053420195439742
+765,frozenset({'abtest_test'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat', 'kilometer_150000'})",0.5144,0.64,0.3302,0.6419129082426128,1.0029889191290826,0.0009839999999999849,1.0053420195439742
+766,"frozenset({'nrOfPictures_0', 'abtest_test', 'seller_privat', 'fuelType_benzin'})",frozenset({'offerType_Angebot'}),0.3096,1.0,0.3096,1.0,1.0,0.0,inf
+767,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'abtest_test', 'fuelType_benzin'})",frozenset({'seller_privat'}),0.3096,1.0,0.3096,1.0,1.0,0.0,inf
+768,"frozenset({'offerType_Angebot', 'abtest_test', 'seller_privat', 'fuelType_benzin'})",frozenset({'nrOfPictures_0'}),0.3096,1.0,0.3096,1.0,1.0,0.0,inf
+769,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'abtest_test', 'seller_privat'})",frozenset({'fuelType_benzin'}),0.5144,0.5964,0.3096,0.6018662519440124,1.0091654123809732,0.00281184000000001,1.0137296875
+770,"frozenset({'nrOfPictures_0', 'abtest_test', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.3096,1.0,0.3096,1.0,1.0,0.0,inf
+771,"frozenset({'abtest_test', 'seller_privat', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.3096,1.0,0.3096,1.0,1.0,0.0,inf
+772,"frozenset({'offerType_Angebot', 'abtest_test', 'fuelType_benzin'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.3096,1.0,0.3096,1.0,1.0,0.0,inf
+773,"frozenset({'nrOfPictures_0', 'abtest_test', 'seller_privat'})","frozenset({'offerType_Angebot', 'fuelType_benzin'})",0.5144,0.5964,0.3096,0.6018662519440124,1.0091654123809732,0.00281184000000001,1.0137296875
+774,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'abtest_test'})","frozenset({'seller_privat', 'fuelType_benzin'})",0.5144,0.5964,0.3096,0.6018662519440124,1.0091654123809732,0.00281184000000001,1.0137296875
+775,"frozenset({'offerType_Angebot', 'abtest_test', 'seller_privat'})","frozenset({'nrOfPictures_0', 'fuelType_benzin'})",0.5144,0.5964,0.3096,0.6018662519440124,1.0091654123809732,0.00281184000000001,1.0137296875
+776,"frozenset({'abtest_test', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat'})",0.3096,1.0,0.3096,1.0,1.0,0.0,inf
+777,"frozenset({'nrOfPictures_0', 'abtest_test'})","frozenset({'offerType_Angebot', 'seller_privat', 'fuelType_benzin'})",0.5144,0.5964,0.3096,0.6018662519440124,1.0091654123809732,0.00281184000000001,1.0137296875
+778,"frozenset({'abtest_test', 'seller_privat'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'fuelType_benzin'})",0.5144,0.5964,0.3096,0.6018662519440124,1.0091654123809732,0.00281184000000001,1.0137296875
+779,"frozenset({'offerType_Angebot', 'abtest_test'})","frozenset({'nrOfPictures_0', 'seller_privat', 'fuelType_benzin'})",0.5144,0.5964,0.3096,0.6018662519440124,1.0091654123809732,0.00281184000000001,1.0137296875
+780,frozenset({'abtest_test'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat', 'fuelType_benzin'})",0.5144,0.5964,0.3096,0.6018662519440124,1.0091654123809732,0.00281184000000001,1.0137296875
+781,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'abtest_test', 'seller_privat'})",frozenset({'offerType_Angebot'}),0.3632,1.0,0.3632,1.0,1.0,0.0,inf
+782,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'abtest_test', 'offerType_Angebot'})",frozenset({'seller_privat'}),0.3632,1.0,0.3632,1.0,1.0,0.0,inf
+783,"frozenset({'notRepairedDamage_nein', 'abtest_test', 'offerType_Angebot', 'seller_privat'})",frozenset({'nrOfPictures_0'}),0.3632,1.0,0.3632,1.0,1.0,0.0,inf
+784,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'abtest_test', 'seller_privat'})",frozenset({'notRepairedDamage_nein'}),0.5144,0.707,0.3632,0.7060653188180406,0.9986779615530985,-0.00048079999999994794,0.9968201058201064
+785,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'abtest_test'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.3632,1.0,0.3632,1.0,1.0,0.0,inf
+786,"frozenset({'notRepairedDamage_nein', 'abtest_test', 'seller_privat'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.3632,1.0,0.3632,1.0,1.0,0.0,inf
+787,"frozenset({'notRepairedDamage_nein', 'abtest_test', 'offerType_Angebot'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.3632,1.0,0.3632,1.0,1.0,0.0,inf
+788,"frozenset({'nrOfPictures_0', 'abtest_test', 'seller_privat'})","frozenset({'notRepairedDamage_nein', 'offerType_Angebot'})",0.5144,0.707,0.3632,0.7060653188180406,0.9986779615530985,-0.00048079999999994794,0.9968201058201064
+789,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'abtest_test'})","frozenset({'notRepairedDamage_nein', 'seller_privat'})",0.5144,0.707,0.3632,0.7060653188180406,0.9986779615530985,-0.00048079999999994794,0.9968201058201064
+790,"frozenset({'offerType_Angebot', 'abtest_test', 'seller_privat'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",0.5144,0.707,0.3632,0.7060653188180406,0.9986779615530985,-0.00048079999999994794,0.9968201058201064
+791,"frozenset({'notRepairedDamage_nein', 'abtest_test'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat'})",0.3632,1.0,0.3632,1.0,1.0,0.0,inf
+792,"frozenset({'nrOfPictures_0', 'abtest_test'})","frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'seller_privat'})",0.5144,0.707,0.3632,0.7060653188180406,0.9986779615530985,-0.00048079999999994794,0.9968201058201064
+793,"frozenset({'abtest_test', 'seller_privat'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot'})",0.5144,0.707,0.3632,0.7060653188180406,0.9986779615530985,-0.00048079999999994794,0.9968201058201064
+794,"frozenset({'offerType_Angebot', 'abtest_test'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'seller_privat'})",0.5144,0.707,0.3632,0.7060653188180406,0.9986779615530985,-0.00048079999999994794,0.9968201058201064
+795,frozenset({'abtest_test'}),"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot', 'seller_privat'})",0.5144,0.707,0.3632,0.7060653188180406,0.9986779615530985,-0.00048079999999994794,0.9968201058201064
+796,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'gearbox_manuell', 'kilometer_150000'})",frozenset({'offerType_Angebot'}),0.3172,1.0,0.3172,1.0,1.0,0.0,inf
+797,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'offerType_Angebot', 'gearbox_manuell'})",frozenset({'kilometer_150000'}),0.5286,0.64,0.3172,0.6000756715853197,0.937618236852062,-0.02110400000000001,0.900170293282876
+798,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'gearbox_manuell', 'kilometer_150000'})",frozenset({'seller_privat'}),0.3172,1.0,0.3172,1.0,1.0,0.0,inf
+799,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'seller_privat', 'kilometer_150000'})",frozenset({'gearbox_manuell'}),0.4216,0.7394,0.3172,0.7523719165085389,1.0175438416398956,0.005468960000000023,1.052384674329502
+800,"frozenset({'offerType_Angebot', 'seller_privat', 'gearbox_manuell', 'kilometer_150000'})",frozenset({'notRepairedDamage_nein'}),0.4796,0.707,0.3172,0.6613844870725604,0.9354801797348803,-0.02187720000000004,0.8652881773399014
+801,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'kilometer_150000'})",0.5286,0.64,0.3172,0.6000756715853197,0.937618236852062,-0.02110400000000001,0.900170293282876
+802,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.3172,1.0,0.3172,1.0,1.0,0.0,inf
+803,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'gearbox_manuell'})","frozenset({'seller_privat', 'kilometer_150000'})",0.5286,0.64,0.3172,0.6000756715853197,0.937618236852062,-0.02110400000000001,0.900170293282876
+804,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'gearbox_manuell'})",0.4216,0.7394,0.3172,0.7523719165085389,1.0175438416398956,0.005468960000000023,1.052384674329502
+805,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'kilometer_150000'})","frozenset({'seller_privat', 'gearbox_manuell'})",0.4216,0.7394,0.3172,0.7523719165085389,1.0175438416398956,0.005468960000000023,1.052384674329502
+806,"frozenset({'seller_privat', 'gearbox_manuell', 'kilometer_150000'})","frozenset({'notRepairedDamage_nein', 'offerType_Angebot'})",0.4796,0.707,0.3172,0.6613844870725604,0.9354801797348803,-0.02187720000000004,0.8652881773399014
+807,"frozenset({'offerType_Angebot', 'gearbox_manuell', 'kilometer_150000'})","frozenset({'notRepairedDamage_nein', 'seller_privat'})",0.4796,0.707,0.3172,0.6613844870725604,0.9354801797348803,-0.02187720000000004,0.8652881773399014
+808,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'seller_privat', 'kilometer_150000'})",0.5286,0.64,0.3172,0.6000756715853197,0.937618236852062,-0.02110400000000001,0.900170293282876
+809,"frozenset({'notRepairedDamage_nein', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'seller_privat', 'gearbox_manuell'})",0.4216,0.7394,0.3172,0.7523719165085389,1.0175438416398956,0.005468960000000023,1.052384674329502
+810,"frozenset({'gearbox_manuell', 'kilometer_150000'})","frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'seller_privat'})",0.4796,0.707,0.3172,0.6613844870725604,0.9354801797348803,-0.02187720000000004,0.8652881773399014
+811,"frozenset({'seller_privat', 'nrOfPictures_0', 'gearbox_manuell', 'kilometer_150000'})",frozenset({'offerType_Angebot'}),0.4796,1.0,0.4796,1.0,1.0,0.0,inf
+812,"frozenset({'offerType_Angebot', 'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",frozenset({'kilometer_150000'}),0.7394,0.64,0.4796,0.6486340275899378,1.013490668109278,0.006384000000000056,1.0245727482678983
+813,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'gearbox_manuell', 'kilometer_150000'})",frozenset({'seller_privat'}),0.4796,1.0,0.4796,1.0,1.0,0.0,inf
+814,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat', 'kilometer_150000'})",frozenset({'gearbox_manuell'}),0.64,0.7394,0.4796,0.749375,1.013490668109278,0.006384000000000056,1.0398004987531175
+815,"frozenset({'offerType_Angebot', 'seller_privat', 'gearbox_manuell', 'kilometer_150000'})",frozenset({'nrOfPictures_0'}),0.4796,1.0,0.4796,1.0,1.0,0.0,inf
+816,"frozenset({'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'kilometer_150000'})",0.7394,0.64,0.4796,0.6486340275899378,1.013490668109278,0.006384000000000056,1.0245727482678983
+817,"frozenset({'nrOfPictures_0', 'gearbox_manuell', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.4796,1.0,0.4796,1.0,1.0,0.0,inf
+818,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'gearbox_manuell'})","frozenset({'seller_privat', 'kilometer_150000'})",0.7394,0.64,0.4796,0.6486340275899378,1.013490668109278,0.006384000000000056,1.0245727482678983
+819,"frozenset({'nrOfPictures_0', 'seller_privat', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'gearbox_manuell'})",0.64,0.7394,0.4796,0.749375,1.013490668109278,0.006384000000000056,1.0398004987531175
+820,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'kilometer_150000'})","frozenset({'seller_privat', 'gearbox_manuell'})",0.64,0.7394,0.4796,0.749375,1.013490668109278,0.006384000000000056,1.0398004987531175
+821,"frozenset({'seller_privat', 'gearbox_manuell', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.4796,1.0,0.4796,1.0,1.0,0.0,inf
+822,"frozenset({'offerType_Angebot', 'seller_privat', 'gearbox_manuell'})","frozenset({'nrOfPictures_0', 'kilometer_150000'})",0.7394,0.64,0.4796,0.6486340275899378,1.013490668109278,0.006384000000000056,1.0245727482678983
+823,"frozenset({'offerType_Angebot', 'gearbox_manuell', 'kilometer_150000'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.4796,1.0,0.4796,1.0,1.0,0.0,inf
+824,"frozenset({'offerType_Angebot', 'seller_privat', 'kilometer_150000'})","frozenset({'nrOfPictures_0', 'gearbox_manuell'})",0.64,0.7394,0.4796,0.749375,1.013490668109278,0.006384000000000056,1.0398004987531175
+825,"frozenset({'nrOfPictures_0', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'seller_privat', 'kilometer_150000'})",0.7394,0.64,0.4796,0.6486340275899378,1.013490668109278,0.006384000000000056,1.0245727482678983
+826,"frozenset({'nrOfPictures_0', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'seller_privat', 'gearbox_manuell'})",0.64,0.7394,0.4796,0.749375,1.013490668109278,0.006384000000000056,1.0398004987531175
+827,"frozenset({'seller_privat', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'kilometer_150000'})",0.7394,0.64,0.4796,0.6486340275899378,1.013490668109278,0.006384000000000056,1.0245727482678983
+828,"frozenset({'gearbox_manuell', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat'})",0.4796,1.0,0.4796,1.0,1.0,0.0,inf
+829,"frozenset({'offerType_Angebot', 'gearbox_manuell'})","frozenset({'nrOfPictures_0', 'seller_privat', 'kilometer_150000'})",0.7394,0.64,0.4796,0.6486340275899378,1.013490668109278,0.006384000000000056,1.0245727482678983
+830,"frozenset({'seller_privat', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'gearbox_manuell'})",0.64,0.7394,0.4796,0.749375,1.013490668109278,0.006384000000000056,1.0398004987531175
+831,"frozenset({'offerType_Angebot', 'kilometer_150000'})","frozenset({'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",0.64,0.7394,0.4796,0.749375,1.013490668109278,0.006384000000000056,1.0398004987531175
+832,frozenset({'gearbox_manuell'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat', 'kilometer_150000'})",0.7394,0.64,0.4796,0.6486340275899378,1.013490668109278,0.006384000000000056,1.0245727482678983
+833,frozenset({'kilometer_150000'}),"frozenset({'offerType_Angebot', 'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",0.64,0.7394,0.4796,0.749375,1.013490668109278,0.006384000000000056,1.0398004987531175
+834,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'gearbox_manuell', 'fuelType_benzin'})",frozenset({'offerType_Angebot'}),0.3458,1.0,0.3458,1.0,1.0,0.0,inf
+835,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'gearbox_manuell', 'fuelType_benzin'})",frozenset({'seller_privat'}),0.3458,1.0,0.3458,1.0,1.0,0.0,inf
+836,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'seller_privat', 'fuelType_benzin'})",frozenset({'gearbox_manuell'}),0.4306,0.7394,0.3458,0.803065490013934,1.086104260229827,0.027414360000000026,1.3232825471698113
+837,"frozenset({'offerType_Angebot', 'seller_privat', 'gearbox_manuell', 'fuelType_benzin'})",frozenset({'notRepairedDamage_nein'}),0.4756,0.707,0.3458,0.7270815811606391,1.028403933749136,0.009550800000000026,1.0735808936825886
+838,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'offerType_Angebot', 'gearbox_manuell'})",frozenset({'fuelType_benzin'}),0.5286,0.5964,0.3458,0.6541808550889141,1.0968827214770525,0.030542960000000008,1.1670840262582056
+839,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.3458,1.0,0.3458,1.0,1.0,0.0,inf
+840,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'gearbox_manuell'})",0.4306,0.7394,0.3458,0.803065490013934,1.086104260229827,0.027414360000000026,1.3232825471698113
+841,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'fuelType_benzin'})","frozenset({'seller_privat', 'gearbox_manuell'})",0.4306,0.7394,0.3458,0.803065490013934,1.086104260229827,0.027414360000000026,1.3232825471698113
+842,"frozenset({'seller_privat', 'gearbox_manuell', 'fuelType_benzin'})","frozenset({'notRepairedDamage_nein', 'offerType_Angebot'})",0.4756,0.707,0.3458,0.7270815811606391,1.028403933749136,0.009550800000000026,1.0735808936825886
+843,"frozenset({'offerType_Angebot', 'gearbox_manuell', 'fuelType_benzin'})","frozenset({'notRepairedDamage_nein', 'seller_privat'})",0.4756,0.707,0.3458,0.7270815811606391,1.028403933749136,0.009550800000000026,1.0735808936825886
+844,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'fuelType_benzin'})",0.5286,0.5964,0.3458,0.6541808550889141,1.0968827214770525,0.030542960000000008,1.1670840262582056
+845,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'gearbox_manuell'})","frozenset({'seller_privat', 'fuelType_benzin'})",0.5286,0.5964,0.3458,0.6541808550889141,1.0968827214770525,0.030542960000000008,1.1670840262582056
+846,"frozenset({'notRepairedDamage_nein', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'seller_privat', 'gearbox_manuell'})",0.4306,0.7394,0.3458,0.803065490013934,1.086104260229827,0.027414360000000026,1.3232825471698113
+847,"frozenset({'gearbox_manuell', 'fuelType_benzin'})","frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'seller_privat'})",0.4756,0.707,0.3458,0.7270815811606391,1.028403933749136,0.009550800000000026,1.0735808936825886
+848,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'seller_privat', 'fuelType_benzin'})",0.5286,0.5964,0.3458,0.6541808550889141,1.0968827214770525,0.030542960000000008,1.1670840262582056
+849,"frozenset({'seller_privat', 'nrOfPictures_0', 'gearbox_manuell', 'fuelType_benzin'})",frozenset({'offerType_Angebot'}),0.4756,1.0,0.4756,1.0,1.0,0.0,inf
+850,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'gearbox_manuell', 'fuelType_benzin'})",frozenset({'seller_privat'}),0.4756,1.0,0.4756,1.0,1.0,0.0,inf
+851,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat', 'fuelType_benzin'})",frozenset({'gearbox_manuell'}),0.5964,0.7394,0.4756,0.7974513749161636,1.0785114618828289,0.034621840000000015,1.2866046357615892
+852,"frozenset({'offerType_Angebot', 'seller_privat', 'gearbox_manuell', 'fuelType_benzin'})",frozenset({'nrOfPictures_0'}),0.4756,1.0,0.4756,1.0,1.0,0.0,inf
+853,"frozenset({'offerType_Angebot', 'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",frozenset({'fuelType_benzin'}),0.7394,0.5964,0.4756,0.6432242358669192,1.0785114618828289,0.034621840000000015,1.1312427596664143
+854,"frozenset({'nrOfPictures_0', 'gearbox_manuell', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.4756,1.0,0.4756,1.0,1.0,0.0,inf
+855,"frozenset({'nrOfPictures_0', 'seller_privat', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'gearbox_manuell'})",0.5964,0.7394,0.4756,0.7974513749161636,1.0785114618828289,0.034621840000000015,1.2866046357615892
+856,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'fuelType_benzin'})","frozenset({'seller_privat', 'gearbox_manuell'})",0.5964,0.7394,0.4756,0.7974513749161636,1.0785114618828289,0.034621840000000015,1.2866046357615892
+857,"frozenset({'seller_privat', 'gearbox_manuell', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.4756,1.0,0.4756,1.0,1.0,0.0,inf
+858,"frozenset({'offerType_Angebot', 'gearbox_manuell', 'fuelType_benzin'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.4756,1.0,0.4756,1.0,1.0,0.0,inf
+859,"frozenset({'offerType_Angebot', 'seller_privat', 'fuelType_benzin'})","frozenset({'nrOfPictures_0', 'gearbox_manuell'})",0.5964,0.7394,0.4756,0.7974513749161636,1.0785114618828289,0.034621840000000015,1.2866046357615892
+860,"frozenset({'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'fuelType_benzin'})",0.7394,0.5964,0.4756,0.6432242358669192,1.0785114618828289,0.034621840000000015,1.1312427596664143
+861,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'gearbox_manuell'})","frozenset({'seller_privat', 'fuelType_benzin'})",0.7394,0.5964,0.4756,0.6432242358669192,1.0785114618828289,0.034621840000000015,1.1312427596664143
+862,"frozenset({'offerType_Angebot', 'seller_privat', 'gearbox_manuell'})","frozenset({'nrOfPictures_0', 'fuelType_benzin'})",0.7394,0.5964,0.4756,0.6432242358669192,1.0785114618828289,0.034621840000000015,1.1312427596664143
+863,"frozenset({'nrOfPictures_0', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'seller_privat', 'gearbox_manuell'})",0.5964,0.7394,0.4756,0.7974513749161636,1.0785114618828289,0.034621840000000015,1.2866046357615892
+864,"frozenset({'gearbox_manuell', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat'})",0.4756,1.0,0.4756,1.0,1.0,0.0,inf
+865,"frozenset({'seller_privat', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'gearbox_manuell'})",0.5964,0.7394,0.4756,0.7974513749161636,1.0785114618828289,0.034621840000000015,1.2866046357615892
+866,"frozenset({'offerType_Angebot', 'fuelType_benzin'})","frozenset({'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",0.5964,0.7394,0.4756,0.7974513749161636,1.0785114618828289,0.034621840000000015,1.2866046357615892
+867,"frozenset({'nrOfPictures_0', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'seller_privat', 'fuelType_benzin'})",0.7394,0.5964,0.4756,0.6432242358669192,1.0785114618828289,0.034621840000000015,1.1312427596664143
+868,"frozenset({'seller_privat', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'fuelType_benzin'})",0.7394,0.5964,0.4756,0.6432242358669192,1.0785114618828289,0.034621840000000015,1.1312427596664143
+869,"frozenset({'offerType_Angebot', 'gearbox_manuell'})","frozenset({'nrOfPictures_0', 'seller_privat', 'fuelType_benzin'})",0.7394,0.5964,0.4756,0.6432242358669192,1.0785114618828289,0.034621840000000015,1.1312427596664143
+870,frozenset({'fuelType_benzin'}),"frozenset({'offerType_Angebot', 'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",0.5964,0.7394,0.4756,0.7974513749161636,1.0785114618828289,0.034621840000000015,1.2866046357615892
+871,frozenset({'gearbox_manuell'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat', 'fuelType_benzin'})",0.7394,0.5964,0.4756,0.6432242358669192,1.0785114618828289,0.034621840000000015,1.1312427596664143
+872,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",frozenset({'offerType_Angebot'}),0.5286,1.0,0.5286,1.0,1.0,0.0,inf
+873,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot', 'gearbox_manuell'})",frozenset({'seller_privat'}),0.5286,1.0,0.5286,1.0,1.0,0.0,inf
+874,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot', 'seller_privat'})",frozenset({'gearbox_manuell'}),0.707,0.7394,0.5286,0.7476661951909477,1.0111795985812115,0.005844200000000077,1.0327589686098657
+875,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'offerType_Angebot', 'gearbox_manuell'})",frozenset({'nrOfPictures_0'}),0.5286,1.0,0.5286,1.0,1.0,0.0,inf
+876,"frozenset({'offerType_Angebot', 'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",frozenset({'notRepairedDamage_nein'}),0.7394,0.707,0.5286,0.7149039761969164,1.0111795985812113,0.005844200000000077,1.027723908918406
+877,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.5286,1.0,0.5286,1.0,1.0,0.0,inf
+878,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'seller_privat'})","frozenset({'offerType_Angebot', 'gearbox_manuell'})",0.707,0.7394,0.5286,0.7476661951909477,1.0111795985812115,0.005844200000000077,1.0327589686098657
+879,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot'})","frozenset({'seller_privat', 'gearbox_manuell'})",0.707,0.7394,0.5286,0.7476661951909477,1.0111795985812115,0.005844200000000077,1.0327589686098657
+880,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.5286,1.0,0.5286,1.0,1.0,0.0,inf
+881,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'gearbox_manuell'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.5286,1.0,0.5286,1.0,1.0,0.0,inf
+882,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'seller_privat'})","frozenset({'nrOfPictures_0', 'gearbox_manuell'})",0.707,0.7394,0.5286,0.7476661951909477,1.0111795985812115,0.005844200000000077,1.0327589686098657
+883,"frozenset({'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})","frozenset({'notRepairedDamage_nein', 'offerType_Angebot'})",0.7394,0.707,0.5286,0.7149039761969164,1.0111795985812113,0.005844200000000077,1.027723908918406
+884,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'gearbox_manuell'})","frozenset({'notRepairedDamage_nein', 'seller_privat'})",0.7394,0.707,0.5286,0.7149039761969164,1.0111795985812113,0.005844200000000077,1.027723908918406
+885,"frozenset({'offerType_Angebot', 'seller_privat', 'gearbox_manuell'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",0.7394,0.707,0.5286,0.7149039761969164,1.0111795985812113,0.005844200000000077,1.027723908918406
+886,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})","frozenset({'offerType_Angebot', 'seller_privat', 'gearbox_manuell'})",0.707,0.7394,0.5286,0.7476661951909477,1.0111795985812115,0.005844200000000077,1.0327589686098657
+887,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat'})",0.5286,1.0,0.5286,1.0,1.0,0.0,inf
+888,"frozenset({'notRepairedDamage_nein', 'seller_privat'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'gearbox_manuell'})",0.707,0.7394,0.5286,0.7476661951909477,1.0111795985812115,0.005844200000000077,1.0327589686098657
+889,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot'})","frozenset({'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",0.707,0.7394,0.5286,0.7476661951909477,1.0111795985812115,0.005844200000000077,1.0327589686098657
+890,"frozenset({'nrOfPictures_0', 'gearbox_manuell'})","frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'seller_privat'})",0.7394,0.707,0.5286,0.7149039761969164,1.0111795985812113,0.005844200000000077,1.027723908918406
+891,"frozenset({'seller_privat', 'gearbox_manuell'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot'})",0.7394,0.707,0.5286,0.7149039761969164,1.0111795985812113,0.005844200000000077,1.027723908918406
+892,"frozenset({'offerType_Angebot', 'gearbox_manuell'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'seller_privat'})",0.7394,0.707,0.5286,0.7149039761969164,1.0111795985812113,0.005844200000000077,1.027723908918406
+893,frozenset({'notRepairedDamage_nein'}),"frozenset({'offerType_Angebot', 'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",0.707,0.7394,0.5286,0.7476661951909477,1.0111795985812115,0.005844200000000077,1.0327589686098657
+894,frozenset({'gearbox_manuell'}),"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot', 'seller_privat'})",0.7394,0.707,0.5286,0.7149039761969164,1.0111795985812113,0.005844200000000077,1.027723908918406
+895,"frozenset({'nrOfPictures_0', 'kilometer_150000', 'seller_privat', 'fuelType_benzin'})",frozenset({'offerType_Angebot'}),0.3514,1.0,0.3514,1.0,1.0,0.0,inf
+896,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'kilometer_150000', 'fuelType_benzin'})",frozenset({'seller_privat'}),0.3514,1.0,0.3514,1.0,1.0,0.0,inf
+897,"frozenset({'offerType_Angebot', 'kilometer_150000', 'seller_privat', 'fuelType_benzin'})",frozenset({'nrOfPictures_0'}),0.3514,1.0,0.3514,1.0,1.0,0.0,inf
+898,"frozenset({'nrOfPictures_0', 'kilometer_150000', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.3514,1.0,0.3514,1.0,1.0,0.0,inf
+899,"frozenset({'kilometer_150000', 'seller_privat', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.3514,1.0,0.3514,1.0,1.0,0.0,inf
+900,"frozenset({'offerType_Angebot', 'kilometer_150000', 'fuelType_benzin'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.3514,1.0,0.3514,1.0,1.0,0.0,inf
+901,"frozenset({'kilometer_150000', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat'})",0.3514,1.0,0.3514,1.0,1.0,0.0,inf
+902,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'seller_privat', 'kilometer_150000'})",frozenset({'offerType_Angebot'}),0.4216,1.0,0.4216,1.0,1.0,0.0,inf
+903,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot', 'kilometer_150000'})",frozenset({'seller_privat'}),0.4216,1.0,0.4216,1.0,1.0,0.0,inf
+904,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'seller_privat', 'kilometer_150000'})",frozenset({'nrOfPictures_0'}),0.4216,1.0,0.4216,1.0,1.0,0.0,inf
+905,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat', 'kilometer_150000'})",frozenset({'notRepairedDamage_nein'}),0.64,0.707,0.4216,0.65875,0.9317538896746818,-0.03088000000000002,0.8586080586080586
+906,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.4216,1.0,0.4216,1.0,1.0,0.0,inf
+907,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.4216,1.0,0.4216,1.0,1.0,0.0,inf
+908,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'kilometer_150000'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.4216,1.0,0.4216,1.0,1.0,0.0,inf
+909,"frozenset({'nrOfPictures_0', 'seller_privat', 'kilometer_150000'})","frozenset({'notRepairedDamage_nein', 'offerType_Angebot'})",0.64,0.707,0.4216,0.65875,0.9317538896746818,-0.03088000000000002,0.8586080586080586
+910,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'kilometer_150000'})","frozenset({'notRepairedDamage_nein', 'seller_privat'})",0.64,0.707,0.4216,0.65875,0.9317538896746818,-0.03088000000000002,0.8586080586080586
+911,"frozenset({'offerType_Angebot', 'seller_privat', 'kilometer_150000'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",0.64,0.707,0.4216,0.65875,0.9317538896746818,-0.03088000000000002,0.8586080586080586
+912,"frozenset({'notRepairedDamage_nein', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat'})",0.4216,1.0,0.4216,1.0,1.0,0.0,inf
+913,"frozenset({'nrOfPictures_0', 'kilometer_150000'})","frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'seller_privat'})",0.64,0.707,0.4216,0.65875,0.9317538896746818,-0.03088000000000002,0.8586080586080586
+914,"frozenset({'seller_privat', 'kilometer_150000'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot'})",0.64,0.707,0.4216,0.65875,0.9317538896746818,-0.03088000000000002,0.8586080586080586
+915,"frozenset({'offerType_Angebot', 'kilometer_150000'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'seller_privat'})",0.64,0.707,0.4216,0.65875,0.9317538896746818,-0.03088000000000002,0.8586080586080586
+916,frozenset({'kilometer_150000'}),"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot', 'seller_privat'})",0.64,0.707,0.4216,0.65875,0.9317538896746818,-0.03088000000000002,0.8586080586080586
+917,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'seller_privat', 'fuelType_benzin'})",frozenset({'offerType_Angebot'}),0.4306,1.0,0.4306,1.0,1.0,0.0,inf
+918,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot', 'fuelType_benzin'})",frozenset({'seller_privat'}),0.4306,1.0,0.4306,1.0,1.0,0.0,inf
+919,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'seller_privat', 'fuelType_benzin'})",frozenset({'nrOfPictures_0'}),0.4306,1.0,0.4306,1.0,1.0,0.0,inf
+920,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat', 'fuelType_benzin'})",frozenset({'notRepairedDamage_nein'}),0.5964,0.707,0.4306,0.7219986586183769,1.0212145100684256,0.008945199999999986,1.0539517490952954
+921,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot', 'seller_privat'})",frozenset({'fuelType_benzin'}),0.707,0.5964,0.4306,0.609052333804809,1.0212145100684256,0.008945199999999986,1.0323632416787263
+922,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.4306,1.0,0.4306,1.0,1.0,0.0,inf
+923,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.4306,1.0,0.4306,1.0,1.0,0.0,inf
+924,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'fuelType_benzin'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.4306,1.0,0.4306,1.0,1.0,0.0,inf
+925,"frozenset({'nrOfPictures_0', 'seller_privat', 'fuelType_benzin'})","frozenset({'notRepairedDamage_nein', 'offerType_Angebot'})",0.5964,0.707,0.4306,0.7219986586183769,1.0212145100684256,0.008945199999999986,1.0539517490952954
+926,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'fuelType_benzin'})","frozenset({'notRepairedDamage_nein', 'seller_privat'})",0.5964,0.707,0.4306,0.7219986586183769,1.0212145100684256,0.008945199999999986,1.0539517490952954
+927,"frozenset({'offerType_Angebot', 'seller_privat', 'fuelType_benzin'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",0.5964,0.707,0.4306,0.7219986586183769,1.0212145100684256,0.008945199999999986,1.0539517490952954
+928,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'seller_privat'})","frozenset({'offerType_Angebot', 'fuelType_benzin'})",0.707,0.5964,0.4306,0.609052333804809,1.0212145100684256,0.008945199999999986,1.0323632416787263
+929,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot'})","frozenset({'seller_privat', 'fuelType_benzin'})",0.707,0.5964,0.4306,0.609052333804809,1.0212145100684256,0.008945199999999986,1.0323632416787263
+930,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'seller_privat'})","frozenset({'nrOfPictures_0', 'fuelType_benzin'})",0.707,0.5964,0.4306,0.609052333804809,1.0212145100684256,0.008945199999999986,1.0323632416787263
+931,"frozenset({'notRepairedDamage_nein', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat'})",0.4306,1.0,0.4306,1.0,1.0,0.0,inf
+932,"frozenset({'nrOfPictures_0', 'fuelType_benzin'})","frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'seller_privat'})",0.5964,0.707,0.4306,0.7219986586183769,1.0212145100684256,0.008945199999999986,1.0539517490952954
+933,"frozenset({'seller_privat', 'fuelType_benzin'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot'})",0.5964,0.707,0.4306,0.7219986586183769,1.0212145100684256,0.008945199999999986,1.0539517490952954
+934,"frozenset({'offerType_Angebot', 'fuelType_benzin'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'seller_privat'})",0.5964,0.707,0.4306,0.7219986586183769,1.0212145100684256,0.008945199999999986,1.0539517490952954
+935,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})","frozenset({'offerType_Angebot', 'seller_privat', 'fuelType_benzin'})",0.707,0.5964,0.4306,0.609052333804809,1.0212145100684256,0.008945199999999986,1.0323632416787263
+936,"frozenset({'notRepairedDamage_nein', 'seller_privat'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'fuelType_benzin'})",0.707,0.5964,0.4306,0.609052333804809,1.0212145100684256,0.008945199999999986,1.0323632416787263
+937,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot'})","frozenset({'nrOfPictures_0', 'seller_privat', 'fuelType_benzin'})",0.707,0.5964,0.4306,0.609052333804809,1.0212145100684256,0.008945199999999986,1.0323632416787263
+938,frozenset({'fuelType_benzin'}),"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot', 'seller_privat'})",0.5964,0.707,0.4306,0.7219986586183769,1.0212145100684256,0.008945199999999986,1.0539517490952954
+939,frozenset({'notRepairedDamage_nein'}),"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat', 'fuelType_benzin'})",0.707,0.5964,0.4306,0.609052333804809,1.0212145100684256,0.008945199999999986,1.0323632416787263
+940,"frozenset({'seller_privat', 'nrOfPictures_0', 'gearbox_manuell', 'kilometer_150000'})",frozenset({'notRepairedDamage_nein'}),0.4796,0.707,0.3172,0.6613844870725604,0.9354801797348803,-0.02187720000000004,0.8652881773399014
+941,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",frozenset({'kilometer_150000'}),0.5286,0.64,0.3172,0.6000756715853197,0.937618236852062,-0.02110400000000001,0.900170293282876
+942,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'gearbox_manuell', 'kilometer_150000'})",frozenset({'seller_privat'}),0.3172,1.0,0.3172,1.0,1.0,0.0,inf
+943,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'seller_privat', 'kilometer_150000'})",frozenset({'gearbox_manuell'}),0.4216,0.7394,0.3172,0.7523719165085389,1.0175438416398956,0.005468960000000023,1.052384674329502
+944,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'gearbox_manuell', 'kilometer_150000'})",frozenset({'nrOfPictures_0'}),0.3172,1.0,0.3172,1.0,1.0,0.0,inf
+945,"frozenset({'nrOfPictures_0', 'gearbox_manuell', 'kilometer_150000'})","frozenset({'notRepairedDamage_nein', 'seller_privat'})",0.4796,0.707,0.3172,0.6613844870725604,0.9354801797348803,-0.02187720000000004,0.8652881773399014
+946,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'gearbox_manuell'})","frozenset({'seller_privat', 'kilometer_150000'})",0.5286,0.64,0.3172,0.6000756715853197,0.937618236852062,-0.02110400000000001,0.900170293282876
+947,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'kilometer_150000'})","frozenset({'seller_privat', 'gearbox_manuell'})",0.4216,0.7394,0.3172,0.7523719165085389,1.0175438416398956,0.005468960000000023,1.052384674329502
+948,"frozenset({'seller_privat', 'gearbox_manuell', 'kilometer_150000'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",0.4796,0.707,0.3172,0.6613844870725604,0.9354801797348803,-0.02187720000000004,0.8652881773399014
+949,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'gearbox_manuell'})","frozenset({'nrOfPictures_0', 'kilometer_150000'})",0.5286,0.64,0.3172,0.6000756715853197,0.937618236852062,-0.02110400000000001,0.900170293282876
+950,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell', 'kilometer_150000'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.3172,1.0,0.3172,1.0,1.0,0.0,inf
+951,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'kilometer_150000'})","frozenset({'nrOfPictures_0', 'gearbox_manuell'})",0.4216,0.7394,0.3172,0.7523719165085389,1.0175438416398956,0.005468960000000023,1.052384674329502
+952,"frozenset({'gearbox_manuell', 'kilometer_150000'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'seller_privat'})",0.4796,0.707,0.3172,0.6613844870725604,0.9354801797348803,-0.02187720000000004,0.8652881773399014
+953,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell'})","frozenset({'nrOfPictures_0', 'seller_privat', 'kilometer_150000'})",0.5286,0.64,0.3172,0.6000756715853197,0.937618236852062,-0.02110400000000001,0.900170293282876
+954,"frozenset({'notRepairedDamage_nein', 'kilometer_150000'})","frozenset({'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",0.4216,0.7394,0.3172,0.7523719165085389,1.0175438416398956,0.005468960000000023,1.052384674329502
+955,"frozenset({'seller_privat', 'nrOfPictures_0', 'gearbox_manuell', 'fuelType_benzin'})",frozenset({'notRepairedDamage_nein'}),0.4756,0.707,0.3458,0.7270815811606391,1.028403933749136,0.009550800000000026,1.0735808936825886
+956,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'gearbox_manuell', 'fuelType_benzin'})",frozenset({'seller_privat'}),0.3458,1.0,0.3458,1.0,1.0,0.0,inf
+957,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'seller_privat', 'fuelType_benzin'})",frozenset({'gearbox_manuell'}),0.4306,0.7394,0.3458,0.803065490013934,1.086104260229827,0.027414360000000026,1.3232825471698113
+958,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'gearbox_manuell', 'fuelType_benzin'})",frozenset({'nrOfPictures_0'}),0.3458,1.0,0.3458,1.0,1.0,0.0,inf
+959,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",frozenset({'fuelType_benzin'}),0.5286,0.5964,0.3458,0.6541808550889141,1.0968827214770525,0.030542960000000008,1.1670840262582056
+960,"frozenset({'nrOfPictures_0', 'gearbox_manuell', 'fuelType_benzin'})","frozenset({'notRepairedDamage_nein', 'seller_privat'})",0.4756,0.707,0.3458,0.7270815811606391,1.028403933749136,0.009550800000000026,1.0735808936825886
+961,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'fuelType_benzin'})","frozenset({'seller_privat', 'gearbox_manuell'})",0.4306,0.7394,0.3458,0.803065490013934,1.086104260229827,0.027414360000000026,1.3232825471698113
+962,"frozenset({'seller_privat', 'gearbox_manuell', 'fuelType_benzin'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",0.4756,0.707,0.3458,0.7270815811606391,1.028403933749136,0.009550800000000026,1.0735808936825886
+963,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell', 'fuelType_benzin'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.3458,1.0,0.3458,1.0,1.0,0.0,inf
+964,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'fuelType_benzin'})","frozenset({'nrOfPictures_0', 'gearbox_manuell'})",0.4306,0.7394,0.3458,0.803065490013934,1.086104260229827,0.027414360000000026,1.3232825471698113
+965,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'gearbox_manuell'})","frozenset({'seller_privat', 'fuelType_benzin'})",0.5286,0.5964,0.3458,0.6541808550889141,1.0968827214770525,0.030542960000000008,1.1670840262582056
+966,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'gearbox_manuell'})","frozenset({'nrOfPictures_0', 'fuelType_benzin'})",0.5286,0.5964,0.3458,0.6541808550889141,1.0968827214770525,0.030542960000000008,1.1670840262582056
+967,"frozenset({'gearbox_manuell', 'fuelType_benzin'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'seller_privat'})",0.4756,0.707,0.3458,0.7270815811606391,1.028403933749136,0.009550800000000026,1.0735808936825886
+968,"frozenset({'notRepairedDamage_nein', 'fuelType_benzin'})","frozenset({'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",0.4306,0.7394,0.3458,0.803065490013934,1.086104260229827,0.027414360000000026,1.3232825471698113
+969,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell'})","frozenset({'nrOfPictures_0', 'seller_privat', 'fuelType_benzin'})",0.5286,0.5964,0.3458,0.6541808550889141,1.0968827214770525,0.030542960000000008,1.1670840262582056
+970,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'gearbox_manuell', 'kilometer_150000'})",frozenset({'offerType_Angebot'}),0.3172,1.0,0.3172,1.0,1.0,0.0,inf
+971,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot', 'gearbox_manuell'})",frozenset({'kilometer_150000'}),0.5286,0.64,0.3172,0.6000756715853197,0.937618236852062,-0.02110400000000001,0.900170293282876
+972,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot', 'kilometer_150000'})",frozenset({'gearbox_manuell'}),0.4216,0.7394,0.3172,0.7523719165085389,1.0175438416398956,0.005468960000000023,1.052384674329502
+973,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'gearbox_manuell', 'kilometer_150000'})",frozenset({'nrOfPictures_0'}),0.3172,1.0,0.3172,1.0,1.0,0.0,inf
+974,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'gearbox_manuell', 'kilometer_150000'})",frozenset({'notRepairedDamage_nein'}),0.4796,0.707,0.3172,0.6613844870725604,0.9354801797348803,-0.02187720000000004,0.8652881773399014
+975,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'kilometer_150000'})",0.5286,0.64,0.3172,0.6000756715853197,0.937618236852062,-0.02110400000000001,0.900170293282876
+976,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'gearbox_manuell'})",0.4216,0.7394,0.3172,0.7523719165085389,1.0175438416398956,0.005468960000000023,1.052384674329502
+977,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.3172,1.0,0.3172,1.0,1.0,0.0,inf
+978,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'gearbox_manuell'})","frozenset({'nrOfPictures_0', 'kilometer_150000'})",0.5286,0.64,0.3172,0.6000756715853197,0.937618236852062,-0.02110400000000001,0.900170293282876
+979,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'kilometer_150000'})","frozenset({'nrOfPictures_0', 'gearbox_manuell'})",0.4216,0.7394,0.3172,0.7523719165085389,1.0175438416398956,0.005468960000000023,1.052384674329502
+980,"frozenset({'nrOfPictures_0', 'gearbox_manuell', 'kilometer_150000'})","frozenset({'notRepairedDamage_nein', 'offerType_Angebot'})",0.4796,0.707,0.3172,0.6613844870725604,0.9354801797348803,-0.02187720000000004,0.8652881773399014
+981,"frozenset({'offerType_Angebot', 'gearbox_manuell', 'kilometer_150000'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",0.4796,0.707,0.3172,0.6613844870725604,0.9354801797348803,-0.02187720000000004,0.8652881773399014
+982,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'kilometer_150000'})",0.5286,0.64,0.3172,0.6000756715853197,0.937618236852062,-0.02110400000000001,0.900170293282876
+983,"frozenset({'notRepairedDamage_nein', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'gearbox_manuell'})",0.4216,0.7394,0.3172,0.7523719165085389,1.0175438416398956,0.005468960000000023,1.052384674329502
+984,"frozenset({'gearbox_manuell', 'kilometer_150000'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot'})",0.4796,0.707,0.3172,0.6613844870725604,0.9354801797348803,-0.02187720000000004,0.8652881773399014
+985,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'gearbox_manuell', 'fuelType_benzin'})",frozenset({'offerType_Angebot'}),0.3458,1.0,0.3458,1.0,1.0,0.0,inf
+986,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot', 'fuelType_benzin'})",frozenset({'gearbox_manuell'}),0.4306,0.7394,0.3458,0.803065490013934,1.086104260229827,0.027414360000000026,1.3232825471698113
+987,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'gearbox_manuell', 'fuelType_benzin'})",frozenset({'nrOfPictures_0'}),0.3458,1.0,0.3458,1.0,1.0,0.0,inf
+988,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'gearbox_manuell', 'fuelType_benzin'})",frozenset({'notRepairedDamage_nein'}),0.4756,0.707,0.3458,0.7270815811606391,1.028403933749136,0.009550800000000026,1.0735808936825886
+989,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot', 'gearbox_manuell'})",frozenset({'fuelType_benzin'}),0.5286,0.5964,0.3458,0.6541808550889141,1.0968827214770525,0.030542960000000008,1.1670840262582056
+990,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'gearbox_manuell'})",0.4306,0.7394,0.3458,0.803065490013934,1.086104260229827,0.027414360000000026,1.3232825471698113
+991,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.3458,1.0,0.3458,1.0,1.0,0.0,inf
+992,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'fuelType_benzin'})","frozenset({'nrOfPictures_0', 'gearbox_manuell'})",0.4306,0.7394,0.3458,0.803065490013934,1.086104260229827,0.027414360000000026,1.3232825471698113
+993,"frozenset({'nrOfPictures_0', 'gearbox_manuell', 'fuelType_benzin'})","frozenset({'notRepairedDamage_nein', 'offerType_Angebot'})",0.4756,0.707,0.3458,0.7270815811606391,1.028403933749136,0.009550800000000026,1.0735808936825886
+994,"frozenset({'offerType_Angebot', 'gearbox_manuell', 'fuelType_benzin'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",0.4756,0.707,0.3458,0.7270815811606391,1.028403933749136,0.009550800000000026,1.0735808936825886
+995,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'fuelType_benzin'})",0.5286,0.5964,0.3458,0.6541808550889141,1.0968827214770525,0.030542960000000008,1.1670840262582056
+996,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'gearbox_manuell'})","frozenset({'nrOfPictures_0', 'fuelType_benzin'})",0.5286,0.5964,0.3458,0.6541808550889141,1.0968827214770525,0.030542960000000008,1.1670840262582056
+997,"frozenset({'notRepairedDamage_nein', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'gearbox_manuell'})",0.4306,0.7394,0.3458,0.803065490013934,1.086104260229827,0.027414360000000026,1.3232825471698113
+998,"frozenset({'gearbox_manuell', 'fuelType_benzin'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot'})",0.4756,0.707,0.3458,0.7270815811606391,1.028403933749136,0.009550800000000026,1.0735808936825886
+999,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'fuelType_benzin'})",0.5286,0.5964,0.3458,0.6541808550889141,1.0968827214770525,0.030542960000000008,1.1670840262582056
+1000,"frozenset({'nrOfPictures_0', 'seller_privat', 'gearbox_manuell', 'kilometer_150000', 'notRepairedDamage_nein'})",frozenset({'offerType_Angebot'}),0.3172,1.0,0.3172,1.0,1.0,0.0,inf
+1001,"frozenset({'nrOfPictures_0', 'offerType_Angebot', 'seller_privat', 'gearbox_manuell', 'notRepairedDamage_nein'})",frozenset({'kilometer_150000'}),0.5286,0.64,0.3172,0.6000756715853197,0.937618236852062,-0.02110400000000001,0.900170293282876
+1002,"frozenset({'nrOfPictures_0', 'offerType_Angebot', 'gearbox_manuell', 'kilometer_150000', 'notRepairedDamage_nein'})",frozenset({'seller_privat'}),0.3172,1.0,0.3172,1.0,1.0,0.0,inf
+1003,"frozenset({'nrOfPictures_0', 'offerType_Angebot', 'seller_privat', 'kilometer_150000', 'notRepairedDamage_nein'})",frozenset({'gearbox_manuell'}),0.4216,0.7394,0.3172,0.7523719165085389,1.0175438416398956,0.005468960000000023,1.052384674329502
+1004,"frozenset({'offerType_Angebot', 'seller_privat', 'gearbox_manuell', 'kilometer_150000', 'notRepairedDamage_nein'})",frozenset({'nrOfPictures_0'}),0.3172,1.0,0.3172,1.0,1.0,0.0,inf
+1005,"frozenset({'nrOfPictures_0', 'seller_privat', 'gearbox_manuell', 'kilometer_150000', 'offerType_Angebot'})",frozenset({'notRepairedDamage_nein'}),0.4796,0.707,0.3172,0.6613844870725604,0.9354801797348803,-0.02187720000000004,0.8652881773399014
+1006,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'kilometer_150000'})",0.5286,0.64,0.3172,0.6000756715853197,0.937618236852062,-0.02110400000000001,0.900170293282876
+1007,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'gearbox_manuell', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.3172,1.0,0.3172,1.0,1.0,0.0,inf
+1008,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot', 'gearbox_manuell'})","frozenset({'seller_privat', 'kilometer_150000'})",0.5286,0.64,0.3172,0.6000756715853197,0.937618236852062,-0.02110400000000001,0.900170293282876
+1009,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'seller_privat', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'gearbox_manuell'})",0.4216,0.7394,0.3172,0.7523719165085389,1.0175438416398956,0.005468960000000023,1.052384674329502
+1010,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot', 'kilometer_150000'})","frozenset({'seller_privat', 'gearbox_manuell'})",0.4216,0.7394,0.3172,0.7523719165085389,1.0175438416398956,0.005468960000000023,1.052384674329502
+1011,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'gearbox_manuell', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.3172,1.0,0.3172,1.0,1.0,0.0,inf
+1012,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'offerType_Angebot', 'gearbox_manuell'})","frozenset({'nrOfPictures_0', 'kilometer_150000'})",0.5286,0.64,0.3172,0.6000756715853197,0.937618236852062,-0.02110400000000001,0.900170293282876
+1013,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'gearbox_manuell', 'kilometer_150000'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.3172,1.0,0.3172,1.0,1.0,0.0,inf
+1014,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'seller_privat', 'kilometer_150000'})","frozenset({'nrOfPictures_0', 'gearbox_manuell'})",0.4216,0.7394,0.3172,0.7523719165085389,1.0175438416398956,0.005468960000000023,1.052384674329502
+1015,"frozenset({'seller_privat', 'nrOfPictures_0', 'gearbox_manuell', 'kilometer_150000'})","frozenset({'notRepairedDamage_nein', 'offerType_Angebot'})",0.4796,0.707,0.3172,0.6613844870725604,0.9354801797348803,-0.02187720000000004,0.8652881773399014
+1016,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'gearbox_manuell', 'kilometer_150000'})","frozenset({'notRepairedDamage_nein', 'seller_privat'})",0.4796,0.707,0.3172,0.6613844870725604,0.9354801797348803,-0.02187720000000004,0.8652881773399014
+1017,"frozenset({'offerType_Angebot', 'seller_privat', 'gearbox_manuell', 'kilometer_150000'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",0.4796,0.707,0.3172,0.6613844870725604,0.9354801797348803,-0.02187720000000004,0.8652881773399014
+1018,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'seller_privat', 'kilometer_150000'})",0.5286,0.64,0.3172,0.6000756715853197,0.937618236852062,-0.02110400000000001,0.900170293282876
+1019,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'seller_privat', 'gearbox_manuell'})",0.4216,0.7394,0.3172,0.7523719165085389,1.0175438416398956,0.005468960000000023,1.052384674329502
+1020,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'kilometer_150000'})",0.5286,0.64,0.3172,0.6000756715853197,0.937618236852062,-0.02110400000000001,0.900170293282876
+1021,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat'})",0.3172,1.0,0.3172,1.0,1.0,0.0,inf
+1022,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'gearbox_manuell'})","frozenset({'nrOfPictures_0', 'seller_privat', 'kilometer_150000'})",0.5286,0.64,0.3172,0.6000756715853197,0.937618236852062,-0.02110400000000001,0.900170293282876
+1023,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'gearbox_manuell'})",0.4216,0.7394,0.3172,0.7523719165085389,1.0175438416398956,0.005468960000000023,1.052384674329502
+1024,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'kilometer_150000'})","frozenset({'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",0.4216,0.7394,0.3172,0.7523719165085389,1.0175438416398956,0.005468960000000023,1.052384674329502
+1025,"frozenset({'nrOfPictures_0', 'gearbox_manuell', 'kilometer_150000'})","frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'seller_privat'})",0.4796,0.707,0.3172,0.6613844870725604,0.9354801797348803,-0.02187720000000004,0.8652881773399014
+1026,"frozenset({'seller_privat', 'gearbox_manuell', 'kilometer_150000'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot'})",0.4796,0.707,0.3172,0.6613844870725604,0.9354801797348803,-0.02187720000000004,0.8652881773399014
+1027,"frozenset({'offerType_Angebot', 'gearbox_manuell', 'kilometer_150000'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'seller_privat'})",0.4796,0.707,0.3172,0.6613844870725604,0.9354801797348803,-0.02187720000000004,0.8652881773399014
+1028,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat', 'kilometer_150000'})",0.5286,0.64,0.3172,0.6000756715853197,0.937618236852062,-0.02110400000000001,0.900170293282876
+1029,"frozenset({'notRepairedDamage_nein', 'kilometer_150000'})","frozenset({'offerType_Angebot', 'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",0.4216,0.7394,0.3172,0.7523719165085389,1.0175438416398956,0.005468960000000023,1.052384674329502
+1030,"frozenset({'gearbox_manuell', 'kilometer_150000'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot', 'seller_privat'})",0.4796,0.707,0.3172,0.6613844870725604,0.9354801797348803,-0.02187720000000004,0.8652881773399014
+1031,"frozenset({'fuelType_benzin', 'nrOfPictures_0', 'seller_privat', 'gearbox_manuell', 'notRepairedDamage_nein'})",frozenset({'offerType_Angebot'}),0.3458,1.0,0.3458,1.0,1.0,0.0,inf
+1032,"frozenset({'fuelType_benzin', 'nrOfPictures_0', 'offerType_Angebot', 'gearbox_manuell', 'notRepairedDamage_nein'})",frozenset({'seller_privat'}),0.3458,1.0,0.3458,1.0,1.0,0.0,inf
+1033,"frozenset({'fuelType_benzin', 'nrOfPictures_0', 'offerType_Angebot', 'seller_privat', 'notRepairedDamage_nein'})",frozenset({'gearbox_manuell'}),0.4306,0.7394,0.3458,0.803065490013934,1.086104260229827,0.027414360000000026,1.3232825471698113
+1034,"frozenset({'fuelType_benzin', 'offerType_Angebot', 'seller_privat', 'gearbox_manuell', 'notRepairedDamage_nein'})",frozenset({'nrOfPictures_0'}),0.3458,1.0,0.3458,1.0,1.0,0.0,inf
+1035,"frozenset({'nrOfPictures_0', 'offerType_Angebot', 'seller_privat', 'gearbox_manuell', 'notRepairedDamage_nein'})",frozenset({'fuelType_benzin'}),0.5286,0.5964,0.3458,0.6541808550889141,1.0968827214770525,0.030542960000000008,1.1670840262582056
+1036,"frozenset({'fuelType_benzin', 'nrOfPictures_0', 'seller_privat', 'gearbox_manuell', 'offerType_Angebot'})",frozenset({'notRepairedDamage_nein'}),0.4756,0.707,0.3458,0.7270815811606391,1.028403933749136,0.009550800000000026,1.0735808936825886
+1037,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'gearbox_manuell', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'seller_privat'})",0.3458,1.0,0.3458,1.0,1.0,0.0,inf
+1038,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'seller_privat', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'gearbox_manuell'})",0.4306,0.7394,0.3458,0.803065490013934,1.086104260229827,0.027414360000000026,1.3232825471698113
+1039,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot', 'fuelType_benzin'})","frozenset({'seller_privat', 'gearbox_manuell'})",0.4306,0.7394,0.3458,0.803065490013934,1.086104260229827,0.027414360000000026,1.3232825471698113
+1040,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'gearbox_manuell', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'nrOfPictures_0'})",0.3458,1.0,0.3458,1.0,1.0,0.0,inf
+1041,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'gearbox_manuell', 'fuelType_benzin'})","frozenset({'nrOfPictures_0', 'seller_privat'})",0.3458,1.0,0.3458,1.0,1.0,0.0,inf
+1042,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'seller_privat', 'fuelType_benzin'})","frozenset({'nrOfPictures_0', 'gearbox_manuell'})",0.4306,0.7394,0.3458,0.803065490013934,1.086104260229827,0.027414360000000026,1.3232825471698113
+1043,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'fuelType_benzin'})",0.5286,0.5964,0.3458,0.6541808550889141,1.0968827214770525,0.030542960000000008,1.1670840262582056
+1044,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot', 'gearbox_manuell'})","frozenset({'seller_privat', 'fuelType_benzin'})",0.5286,0.5964,0.3458,0.6541808550889141,1.0968827214770525,0.030542960000000008,1.1670840262582056
+1045,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'offerType_Angebot', 'gearbox_manuell'})","frozenset({'nrOfPictures_0', 'fuelType_benzin'})",0.5286,0.5964,0.3458,0.6541808550889141,1.0968827214770525,0.030542960000000008,1.1670840262582056
+1046,"frozenset({'seller_privat', 'nrOfPictures_0', 'gearbox_manuell', 'fuelType_benzin'})","frozenset({'notRepairedDamage_nein', 'offerType_Angebot'})",0.4756,0.707,0.3458,0.7270815811606391,1.028403933749136,0.009550800000000026,1.0735808936825886
+1047,"frozenset({'offerType_Angebot', 'nrOfPictures_0', 'gearbox_manuell', 'fuelType_benzin'})","frozenset({'notRepairedDamage_nein', 'seller_privat'})",0.4756,0.707,0.3458,0.7270815811606391,1.028403933749136,0.009550800000000026,1.0735808936825886
+1048,"frozenset({'offerType_Angebot', 'seller_privat', 'gearbox_manuell', 'fuelType_benzin'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0'})",0.4756,0.707,0.3458,0.7270815811606391,1.028403933749136,0.009550800000000026,1.0735808936825886
+1049,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'seller_privat', 'gearbox_manuell'})",0.4306,0.7394,0.3458,0.803065490013934,1.086104260229827,0.027414360000000026,1.3232825471698113
+1050,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat'})",0.3458,1.0,0.3458,1.0,1.0,0.0,inf
+1051,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'gearbox_manuell'})",0.4306,0.7394,0.3458,0.803065490013934,1.086104260229827,0.027414360000000026,1.3232825471698113
+1052,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'fuelType_benzin'})","frozenset({'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",0.4306,0.7394,0.3458,0.803065490013934,1.086104260229827,0.027414360000000026,1.3232825471698113
+1053,"frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'seller_privat', 'fuelType_benzin'})",0.5286,0.5964,0.3458,0.6541808550889141,1.0968827214770525,0.030542960000000008,1.1670840262582056
+1054,"frozenset({'notRepairedDamage_nein', 'seller_privat', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'fuelType_benzin'})",0.5286,0.5964,0.3458,0.6541808550889141,1.0968827214770525,0.030542960000000008,1.1670840262582056
+1055,"frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'gearbox_manuell'})","frozenset({'nrOfPictures_0', 'seller_privat', 'fuelType_benzin'})",0.5286,0.5964,0.3458,0.6541808550889141,1.0968827214770525,0.030542960000000008,1.1670840262582056
+1056,"frozenset({'nrOfPictures_0', 'gearbox_manuell', 'fuelType_benzin'})","frozenset({'notRepairedDamage_nein', 'offerType_Angebot', 'seller_privat'})",0.4756,0.707,0.3458,0.7270815811606391,1.028403933749136,0.009550800000000026,1.0735808936825886
+1057,"frozenset({'seller_privat', 'gearbox_manuell', 'fuelType_benzin'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot'})",0.4756,0.707,0.3458,0.7270815811606391,1.028403933749136,0.009550800000000026,1.0735808936825886
+1058,"frozenset({'offerType_Angebot', 'gearbox_manuell', 'fuelType_benzin'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'seller_privat'})",0.4756,0.707,0.3458,0.7270815811606391,1.028403933749136,0.009550800000000026,1.0735808936825886
+1059,"frozenset({'notRepairedDamage_nein', 'fuelType_benzin'})","frozenset({'offerType_Angebot', 'seller_privat', 'nrOfPictures_0', 'gearbox_manuell'})",0.4306,0.7394,0.3458,0.803065490013934,1.086104260229827,0.027414360000000026,1.3232825471698113
+1060,"frozenset({'notRepairedDamage_nein', 'gearbox_manuell'})","frozenset({'offerType_Angebot', 'nrOfPictures_0', 'seller_privat', 'fuelType_benzin'})",0.5286,0.5964,0.3458,0.6541808550889141,1.0968827214770525,0.030542960000000008,1.1670840262582056
+1061,"frozenset({'gearbox_manuell', 'fuelType_benzin'})","frozenset({'notRepairedDamage_nein', 'nrOfPictures_0', 'offerType_Angebot', 'seller_privat'})",0.4756,0.707,0.3458,0.7270815811606391,1.028403933749136,0.009550800000000026,1.0735808936825886
