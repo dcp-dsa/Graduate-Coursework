@@ -1,0 +1,16 @@
+Dataset: theoph.dat
+
+Source: K. Bachmann, T.J. Sullivan, J.H. Reese, et al. (1995).
+"Controlled Study of the Putative Interaction Between Famotidine
+and Theophylline in Patients with Chronic Obstructive Pulmonary
+Disorder," Journal of Clinical Pharmacology, 35:529-535.
+
+Description: Randomized Block design in 14 patients with chronic
+obstructive pulmonary disease. Each subject received theophylline
+along with (famotidine(pepcid), cimetidine(tagamet), placebo)
+and theophylline clearance (liters/hour) was measured.
+
+Variables/Columns
+    subject  - subject identifier
+    agent - the drug given in conjunction with theophylline  /*  1=Placebo, 2=Pepcid, 3=Tagamet   */
+    clearance - the measured Theophylline clearance in ltr/hr
